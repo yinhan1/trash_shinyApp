@@ -1,0 +1,59 @@
+
+#----------    FEATURES    ----------
+
+ Features needed
+- station id
+- stratum
+- longitude 
+- latitude
+- area weight
+- trash counts 
+- distance to road. (River only)
+- start/end time (only for QA check of 2018)
+
+
+
+#----------    DATA 2013    ----------
+
+### Ocean 2013 
+- station id
+- stratum.   (x)
+- longitude  (x)
+- latitude   (x)
+- area weight  (x)
+- trash counts: less than 5 trash categories
+
+### River 2013 
+- station id
+- stratum      
+- longitude    (x)
+- latitude    (x)
+- area weight
+- trash counts 
+- distance to road. (√)
+
+
+
+#----------    DATA 2018    ----------
+
+### Ocean 2018  
+- station id
+- stratum
+- longitude 
+- latitude
+- area weight.    (incomplete)
+- trash counts
+- start/end time  (x)
+
+### River 2018
+- station id
+- stratum
+- sample date
+- longitude 
+- latitude
+- area weight.   (x)
+- trash counts 
+- distance to road. (x)
+- start/end time.   (√)
+
+
