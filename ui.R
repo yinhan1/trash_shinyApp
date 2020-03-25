@@ -11,6 +11,7 @@ library(shiny)
 library(shinyjs)
 library(shinythemes)
 library(shinyWidgets)
+library(shinycssloaders)
 
 
 
@@ -18,7 +19,7 @@ library(shinyWidgets)
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
   
-  #### logo & header ------------- ####
+  # #### logo & header ------------- ####
   tags$a(
     href = "https://www.sccwrp.org",
     tags$img(
@@ -32,18 +33,15 @@ shinyUI(fluidPage(
   #### navigator ----------------- ####
   navbarPage(
     theme = shinytheme("cosmo"),
-    #cerulean, cosmo**, flatly, journal, lumen**, paper, readable, sandstone, simplex, spacelab*,yeti**
     collapsible = TRUE,
     "Trash and Marine Debris",
     id = "nav",
     
-    
-    
     #### tab 1: background ####
     tabPanel("Background",
-             
              sidebarLayout(
                sidebarPanel(
+                 width = 2,
                  sliderInput(
                    "bins",
                    "Number of observations:",
@@ -58,32 +56,24 @@ shinyUI(fluidPage(
     
     #### tab 2: station mapper ####
     tabPanel("Station mapper",
-             sidebarLayout(
-               sidebarPanel(
-                 pickerInput(
-                   inputId = "Type",
-                   label = "Type",
-                   choices = c("Ocean", "River"),
-                   options = list(
-                     `actions-box` = TRUE,
-                     size = 10,
-                     `selected-text-format` = "count > 3"
-                   ),
-                   multiple = TRUE
-                 ),
-                 pickerInput(
-                   inputId = "Year",
-                   label = "Year",
-                   choices = c(2018, 2013, 2008, 2003, 1998),
-                   options = list(
-                     `actions-box` = TRUE,
-                     size = 10,
-                     `selected-text-format` = "count > 4"
-                   ),
-                   multiple = TRUE
+             div(class="outer",
+                 tags$head(includeCSS("www/style_map.css")),
+                 leafletOutput("tab2", width="100%", height="100%"),
+                 
+                 absolutePanel(id = "controls", 
+                               class = "panel panel-default",
+                               top = 80, left = 20, width = 250, fixed=TRUE,
+                               draggable = TRUE, height = "auto",
+                               h4(textOutput("tab2_ocean_site_count"), align = "right"),
+                               h4(textOutput("tab2_river_site_count"), align = "right"),
+                               h5(textOutput("tab2_site_count_year"), align = "right"),
+                               plotOutput("tab2_mean_count_bar", height="180px", width="100%"),
+                               
+                               selectInput(
+                                 inputId = "tab2_Year",
+                                 label = "Year",
+                                 choices = c(2018,2013,2008,2003,1998))
                  )
-               ),
-               mainPanel(plotOutput("StationMapper_site"))
              )),
     
     
@@ -99,18 +89,19 @@ shinyUI(fluidPage(
     tabPanel("Data",
              sidebarLayout(
                sidebarPanel(
+                 width = 2,
                  radioButtons(
-                   inputId = "Type",
+                   inputId = "tab5_Type",
                    label = "Type",
                    choices = c("Ocean", "River")
                  ),
                  selectInput(
-                   inputId = "Year",
+                   inputId = "tab5_Year",
                    label = "Year",
                    choices = c(2013, 2018)
                  )
                ),
-               mainPanel(dataTableOutput("tb_displayed"))
+               mainPanel(dataTableOutput("tab5"))
              )),
     
     

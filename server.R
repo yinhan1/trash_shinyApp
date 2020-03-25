@@ -26,16 +26,27 @@ shinyServer(function(input, output) {
     
     
     #### tab 2 output: station mapper ####
+    output$tab2 <- renderLeaflet(
+        tab2_call_map(input$tab2_Type, input$tab2_Year)
+    )
+    output$tab2_ocean_site_count <- renderText(paste("200", "ocean sites"))
+    output$tab2_river_site_count <- renderText(paste("250", "river sites"))
+    output$tab2_site_count_year <- renderText(paste("sampled in", input$tab2_Year))
     
-    
-    
-    
-    
+    output$tab2_mean_count_bar <- renderPlot(
+        data.frame(year = c(1998,2003,2008,2013,2018),
+                   trash_density = c(10,20,30,40,50) + rnorm(5,10,10)) %>% 
+            ggplot(aes(x = year, y = trash_density)) +
+            geom_line(color = "brown4", size = 1, alpha = 0.7) +
+            geom_bar(stat = "identity", fill = "brown4", size = 2) +
+            labs(x = "Year", y = "Area weighted mean count") +
+            theme_minimal()
+    )
     
     
     #### tab 3 output: area weight mean count ####
     output$trash_count <- renderPlot({
-        call_river_2013() %>%
+        tab3_call_river_2013() %>%
             group_by(county, stratum) %>%
             summarise(`Total Area` = sum(areaweight),
                       `Total Count` = sum(totalcount)) %>%
@@ -67,24 +78,9 @@ shinyServer(function(input, output) {
     
     
     #### tab 5 output: data ####
-    get_current <- reactive({
-        if (input$Year == 2013 & input$Type == "River") {
-            d = read.csv("./data/2013/River/trash_areaweighted_count_by_county.csv")
-        }
-        else if (input$Year == 2013 & input$Type == "Ocean") {
-            d = readxl::read_excel("./data/2013/Ocean/Debris Ocean 2013.xlsx")
-        }
-        else if (input$Year == 2018 & input$Type == "River") {
-            d = read.csv("./data/2018/River/river_2018.csv")
-        }
-        else if (input$Year == 2018 & input$Type == "Ocean") {
-            d = read.csv("./data/2018/Ocean/ocean_2018.csv")
-        }
-        else{
-            d = NULL
-        }
-    })
-    output$tb_displayed <- renderDataTable(get_current())
+    output$tab5 <- renderDataTable(
+        tab5_call_tb(input$tab5_Type, input$tab5_Year)
+    )
     
     
     
