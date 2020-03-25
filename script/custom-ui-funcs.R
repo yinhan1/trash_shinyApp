@@ -12,6 +12,7 @@ pretty_action_button <- function(id, label = '',
   shiny::HTML(html_text)
 }
 
+
 pretty_download_button <- function(id, label = '', 
                                    class = 'btn btn-info', icon_class='fa fa-download',
                                    width = '100%',
@@ -28,16 +29,5 @@ pretty_download_button <- function(id, label = '',
   shiny::HTML(html_text)
 }
 
-custom_text_input <- function(id, label = '', value = '',
-                              style = '', disabled = '') {
-  html_text <- glue::glue(
-    '<div class="form-group shiny-input-container">
-       <label for="{id}">{label}</label>
-       <input id="{id}" type="text" class="form-control" 
-              value="{value}" {disabled}
-       />
-     </div>'
-  )
-  shiny::HTML(html_text)
-}
+
 
