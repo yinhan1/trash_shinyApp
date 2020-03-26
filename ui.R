@@ -64,10 +64,10 @@ shinyUI(fluidPage(
                                class = "panel panel-default",
                                top = 80, left = 20, width = 250, fixed=TRUE,
                                draggable = TRUE, height = "auto",
-                               h4(textOutput("tab2_ocean_site_count"), align = "right"),
-                               h4(textOutput("tab2_river_site_count"), align = "right"),
+                               span(h4(textOutput("tab2_ocean_site_count"), align = "right"), style = "color:#cc4c02"),
+                               span(h4(textOutput("tab2_river_site_count"), align = "right"), style = "color:#662506"),
                                h5(textOutput("tab2_site_count_year"), align = "right"),
-                               plotOutput("tab2_mean_count_bar", height="180px", width="100%"),
+                               plotOutput("tab2_mean_count_bar", height="250px", width="100%"),
                                
                                selectInput(
                                  inputId = "tab2_Year",

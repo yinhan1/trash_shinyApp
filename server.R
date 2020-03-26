@@ -33,14 +33,7 @@ shinyServer(function(input, output) {
     output$tab2_river_site_count <- renderText(paste("250", "river sites"))
     output$tab2_site_count_year <- renderText(paste("sampled in", input$tab2_Year))
     
-    output$tab2_mean_count_bar <- renderPlot(
-        data.frame(year = c(1998,2003,2008,2013,2018),
-                   trash_density = c(10,20,30,40,50) + rnorm(5,10,10)) %>% 
-            ggplot(aes(x = year, y = trash_density)) +
-            geom_line(color = "brown4", size = 1, alpha = 0.7) +
-            geom_bar(stat = "identity", fill = "brown4", size = 2) +
-            labs(x = "Year", y = "Area weighted mean count") +
-            theme_minimal()
+    output$tab2_mean_count_bar <- renderPlot(tab2_mean_count_plotter()
     )
     
     
