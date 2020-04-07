@@ -1,62 +1,52 @@
 
-
-
-
 library(shiny)
 
 source("./script/functions.R")
 
-
-
 #### server ----------------- ####
 shinyServer(function(input, output) {
+    
     #### tab 1 output ####
-    output$distPlot <- renderPlot({
-        # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
-        bins <- seq(min(x), max(x), length.out = input$bins + 1)
-        
-        # draw the histogram with the specified number of bins
-        hist(x,
-             breaks = bins,
-             col = 'darkgray',
-             border = 'white')
-        
-    })
+    # markdown output 
     
-    
+
     #### tab 2 output: station mapper ####
-    output$tab2 <- renderLeaflet(
-        tab2_call_map(input$tab2_Type, input$tab2_Year)
-    )
-    output$tab2_ocean_site_count <- renderText(paste("200", "ocean sites"))
-    output$tab2_river_site_count <- renderText(paste("250", "river sites"))
-    output$tab2_site_count_year <- renderText(paste("sampled in", input$tab2_Year))
     
-    output$tab2_mean_count_bar <- renderPlot(tab2_mean_count_plotter()
-    )
+    output$tab2 <- renderLeaflet(tab2_call_map(input$tab2_Type, input$tab2_Year))
+    output$tab2_ocean_site_count <- renderText(paste("40", "Ocean Sites"))
+    output$tab2_river_site_count <- renderText(paste("118", "River Sites"))
+    output$tab2_site_count_year <- renderText(paste("sampled in", input$tab2_Year))
+    output$tab2_site_count_bar <- renderPlot(tab2_site_count_plotter())
     
     
     #### tab 3 output: area weight mean count ####
-    output$trash_count <- renderPlot({
-        tab3_call_river_2013() %>%
-            group_by(county, stratum) %>%
-            summarise(`Total Area` = sum(areaweight),
-                      `Total Count` = sum(totalcount)) %>%
-            pivot_longer(cols = c(`Total Count`, `Total Area`)) %>%
-            mutate_at('name', factor, levels = c('Total Count', 'Total Area')) %>%
-            ggplot() +
-            geom_col(aes(
-                x = stratum,
-                y = value,
-                group = county,
-                fill = stratum
-            )) +
-            facet_grid(name ~ county, scales = 'free_y') +
-            theme_bw() +
-            theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-            labs(x = '',
-                 y = '')
+    pt1 <- reactive({
+        if (!input$donum1) return(NULL)
+        area_w_stratum
+    })
+    pt2 <- reactive({
+        if (!input$donum2) return(NULL)
+        total_count_area
+        
+    })
+    pt3 <- reactive({
+        if (!input$donum3) return(NULL)
+        trash_w_stratum
+    })
+    pt4 <- reactive({
+        if (!input$donum4) return(NULL)
+        trash_w_county
+    })
+    output$plotgraph = renderPlot({
+        ptlist <- list(pt1(),pt2(),pt3(),pt4())
+        # wtlist <- c(input$wt1,input$wt2,input$wt3)
+        # remove the null plots from ptlist and wtlist
+        to_delete <- !sapply(ptlist,is.null)
+        ptlist <- ptlist[to_delete] 
+        # wtlist <- wtlist[to_delete]
+        if (length(ptlist)==0) return(NULL)
+        
+        grid.arrange(grobs=ptlist,nrow=length(ptlist))
     })
     
     
@@ -78,12 +68,6 @@ shinyServer(function(input, output) {
     
     
     #### tab 6 output: summary ####
-    
-    
-    
-    
-    
-    
-    
+    # markdown output 
     
 })

@@ -1,0 +1,44 @@
+---
+title: "Tab 1 Background"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: 
+      collapsed: true
+      smooth_scroll: true 
+---
+
+
+## Background
+
+The accumulation of discarded objects (a.k.a. trash and debris) in the environment has become an issue of significant, global concern. On land and in freshwater habitats, these objects are typically referred to as trash, and in the marine environment, these objects are referred to as marine debris. Trash and marine debris affect aesthetics and/or aquatic life across every habitat they touch. Marine debris in southern California significantly influences the decision of the public to go to beaches, costing Orange County residents alone an estimated $148 million per year just to travel to cleaner beaches. Debris presents entanglement and ingestion dangers for marine organisms. And plastics in the environment can transport other contaminants, creating a bioaccumulation pathway by which aquatic organisms take up contaminants as they inadvertently consume plastic.
+
+
+
+## Goals of This Study
+
+This study aimed to create southern California’s first regionalized assessment of trash and marine debris, with a goal to assess the extent and magnitude of trash and marine debris in southern California waterways. Three key questions were asked:
+
+- Does the extent and magnitude of trash and marine debris vary among freshwater and marine habitats?
+
+- Does the extent and magnitude of trash and marine debris vary over time?
+
+
+
+## Study Approach 
+
+The Bight’13 debris survey examined trash and marine debris in three main habitat types across the land- ocean interface: (1) trash in streams, (2) marine macro-debris on the seafloor, and (3) marine micro- plastic debris in seafloor sediment. Data were collected in all three habitats utilizing a probability-based stratified-random design (Stevens 1997) that allows unbiased estimates of extent (i.e., % of stream-miles or % of seafloor with debris) and magnitude (i.e., average abundance of debris).
+
+
+
+
+
+
+
+
+
+
+
+

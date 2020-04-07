@@ -1,22 +1,12 @@
-#
-# This is the user-interface definition of a Shiny web application. You can
-# run the application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
 
 library(shiny)
 library(shinyjs)
 library(shinythemes)
 library(shinyWidgets)
 library(shinycssloaders)
+library(gridExtra)
 
 
-
-
-# Define UI for application that draws a histogram
 shinyUI(fluidPage(
   
   # #### logo & header ------------- ####
@@ -38,22 +28,13 @@ shinyUI(fluidPage(
     id = "nav",
     
     #### tab 1: background ####
-    tabPanel("Background",
-             sidebarLayout(
-               sidebarPanel(
-                 width = 2,
-                 sliderInput(
-                   "bins",
-                   "Number of observations:",
-                   min = 1,
-                   max = 50,
-                   value = 5
-                 )
-               ),
-               mainPanel(plotOutput("distPlot"))
-             )),
-    
-    
+    tabPanel(
+      "Background",
+      column(1, br()),
+      column(10, includeMarkdown('./tab_1_background/background.rmd')),
+      column(1, br())
+    ),
+
     #### tab 2: station mapper ####
     tabPanel("Station mapper",
              div(class="outer",
@@ -62,12 +43,12 @@ shinyUI(fluidPage(
                  
                  absolutePanel(id = "controls", 
                                class = "panel panel-default",
-                               top = 80, left = 20, width = 250, fixed=TRUE,
+                               top = 100, left = 20, width = 250, fixed=TRUE,
                                draggable = TRUE, height = "auto",
-                               span(h4(textOutput("tab2_ocean_site_count"), align = "right"), style = "color:#cc4c02"),
-                               span(h4(textOutput("tab2_river_site_count"), align = "right"), style = "color:#662506"),
-                               h5(textOutput("tab2_site_count_year"), align = "right"),
-                               plotOutput("tab2_mean_count_bar", height="250px", width="100%"),
+                               span(h3(textOutput("tab2_ocean_site_count"), align = "right"), style = "color:#0000FF"),
+                               span(h3(textOutput("tab2_river_site_count"), align = "right"), style = "color:#EE2C2C"),
+                               h4(textOutput("tab2_site_count_year"), align = "right", style = "color:#1A1102"),
+                               plotOutput("tab2_site_count_bar", height="250px", width="100%"),
                                
                                selectInput(
                                  inputId = "tab2_Year",
@@ -76,11 +57,24 @@ shinyUI(fluidPage(
                  )
              )),
     
-    
-    
+
     #### tab 3: area weight mean count ####
     tabPanel("Area Weighted Mean Count",
-             mainPanel(plotOutput('trash_count'))),
+             sidebarLayout(position = "left",
+                           sidebarPanel("sidebar panel",
+                                        checkboxInput("donum1", "Area Weight by Stratum", value = T),
+                                        checkboxInput("donum2", "Total Count and Area", value = F),
+                                        checkboxInput("donum3", "Area Weight Mean Count by Stratum", value = F),
+                                        checkboxInput("donum4", "Area Weight Mean Count by County", value = F)
+                                        # sliderInput("wt1","Weight 1",min=1,max=10,value=1),
+                                        # sliderInput("wt2","Weight 2",min=1,max=10,value=1),
+                                        # sliderInput("wt3","Weight 3",min=1,max=10,value=1)
+                           ),
+             mainPanel("main panel",
+               column(1, plotOutput(outputId="plotgraph", width="500px",height="400px"))
+             )
+          )
+    ),
     
     #### tab 4: distance to nearest road ####
     tabPanel("Distance to nearest road"),
@@ -106,8 +100,15 @@ shinyUI(fluidPage(
     
     
     #### tab 6: summary ####
-    tabPanel("Summary")
+    tabPanel(
+      "Summary",
+      column(1, br()),
+      column(10, includeMarkdown('./tab_6_summary/summary.rmd')),
+      column(1, br())
+    )
     
     
   )
 ))
+
+
