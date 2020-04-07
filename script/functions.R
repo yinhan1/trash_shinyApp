@@ -87,29 +87,34 @@ pchIcons <- function(pch = 1, width = 30, height = 30, bg = "transparent", col =
   files
 }
 
-shapes = c(1, 2)
-iconFiles = pchIcons(shapes, 10, 10, col = c("blue", "red"), lwd = 4)
 
-tab2_call_map <- function(type, year){
-  cols_to_take_ocean <- c("stationid","latitude","longitude","stratum")
-  cols_to_take_river <- c("stationid","latitude"="new_lat","longitude"="new_long","stratum"="land_use")
-  bind_rows(
-    read.csv("./data/2018/Ocean/ocean_2018_map.csv") %>% select(cols_to_take_ocean) %>% mutate(water = "Ocean"),
-    read.csv("./data/2018/River/river_2018_map.csv") %>% select(cols_to_take_river) %>% mutate(water = "River")
-  ) %>% 
-    mutate(water = as.factor(water)) %>% 
-    tab2_mapper()
+tab2_call_map <- function(year){
+  cols_to_take <- c("stationid","latitude","longitude","stratum")
+  ## 2018
+  if(TRUE){
+      map_data = 
+        bind_rows(
+          read.csv("./data/2018/Ocean/ocean_2018_map.csv") %>% select(cols_to_take) %>% mutate(water = "Ocean"),
+          read.csv("./data/2018/River/river_2018_map.csv") %>% select(cols_to_take) %>% mutate(water = "River")
+        )
+  }
+  map_data %>% mutate(water = factor(water, levels = c("Ocean","River"))) %>% tab2_mapper()
 }
 
 tab2_mapper <- function(data){
+  shapes = c(16, 17)
+  iconFiles = pchIcons(shapes, 10, 10, col = c("blue", "red"), lwd = 2)
+  
   leaflet(data) %>% 
     addTiles() %>% 
-    addProviderTiles("Esri.WorldImagery") %>% 
+    # addMapPane(name = "OpenTopoMap", zIndex = 420) %>% 
+    addMapPane(name = "CartoDB_VoyagerNoLabels", zIndex = 420) %>% 
+    # addProviderTiles("Esri.WorldImagery") %>% 
     addMarkers(
       data = data,
       lng = ~ longitude, 
       lat = ~ latitude,
-      popup = ~ paste("Stratum", stratum),
+      popup = ~ paste("Stratum: ", water),
       icon = ~ icons(
         iconUrl = iconFiles[water],
         popupAnchorX = 20, popupAnchorY = 0
@@ -118,8 +123,8 @@ tab2_mapper <- function(data){
 
 tab2_site_count_plotter <- function(){
   data.frame(year = c(1998,2003,2008,2013,2018),
-             Ocean = c(10,20,30,25,40) + rnorm(5,10,10),
-             River = c(50,50,80,90,118) + rnorm(5,2,3)) %>%
+             Ocean = c(100,100,30,194,40) + rnorm(5,10,10),
+             River = c(50,50,80,85,118) + rnorm(5,2,3)) %>%
     melt(id.vars = "year") %>% 
     ggplot(aes(x = year, y = value, fill = variable, shape = variable)) +
     geom_bar(stat="identity", position ="dodge", alpha = 0.5, linetype = "dashed") +

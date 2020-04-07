@@ -12,7 +12,7 @@ shinyServer(function(input, output) {
 
     #### tab 2 output: station mapper ####
     
-    output$tab2 <- renderLeaflet(tab2_call_map(input$tab2_Type, input$tab2_Year))
+    output$tab2 <- renderLeaflet(tab2_call_map(input$tab2_Year))
     output$tab2_ocean_site_count <- renderText(paste("40", "Ocean Sites"))
     output$tab2_river_site_count <- renderText(paste("118", "River Sites"))
     output$tab2_site_count_year <- renderText(paste("sampled in", input$tab2_Year))

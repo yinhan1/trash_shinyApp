@@ -15,18 +15,18 @@ output:
 
 The integrated findings of the (Bight’13,...) trash and marine debris study are as follows:
 
-- **Result 1**
+- Result 1
 
-- **Result 2**
+- Result 2
 
 
 
 
 ## Recommendations 
 
-- **Recommendation 1**
+- Recommendation 1
 
-- **Recommendation 2**
+- Recommendation 2
 
 
 ## References
