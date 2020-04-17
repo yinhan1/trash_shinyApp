@@ -5,6 +5,7 @@ library(shinythemes)
 library(shinyWidgets)
 library(shinycssloaders)
 library(gridExtra)
+library(ggsci)
 
 
 shinyUI(fluidPage(
@@ -39,7 +40,7 @@ shinyUI(fluidPage(
     tabPanel("Station mapper",
              div(class="outer",
                  tags$head(includeCSS("www/style_map.css")),
-                 leafletOutput("tab2", width="100%", height="100%"),
+                 leafletOutput("tab2_map", width="100%", height="100%"),
                  
                  absolutePanel(id = "controls", 
                                class = "panel panel-default",
@@ -53,7 +54,7 @@ shinyUI(fluidPage(
                                selectInput(
                                  inputId = "tab2_Year",
                                  label = "Year",
-                                 choices = c(2018,2013,2008,2003,1998))
+                                 choices = c(2018,2013,2008,1998,1994))
                  )
              )),
     
@@ -62,10 +63,10 @@ shinyUI(fluidPage(
     tabPanel("Area Weighted Mean Count",
              sidebarLayout(position = "left",
                            sidebarPanel("sidebar panel",
-                                        checkboxInput("donum1", "Area Weight by Stratum", value = T),
-                                        checkboxInput("donum2", "Total Count and Area", value = F),
-                                        checkboxInput("donum3", "Area Weight Mean Count by Stratum", value = F),
-                                        checkboxInput("donum4", "Area Weight Mean Count by County", value = F)
+                                        checkboxInput("donum1", "Count by Stratum", value = T),
+                                        checkboxInput("donum2", "Count by Region", value = F),
+                                        checkboxInput("donum3", "Count by Land Use", value = F),
+                                        checkboxInput("donum4", "Relative Count by Watershed", value = F)
                                         # sliderInput("wt1","Weight 1",min=1,max=10,value=1),
                                         # sliderInput("wt2","Weight 2",min=1,max=10,value=1),
                                         # sliderInput("wt3","Weight 3",min=1,max=10,value=1)
@@ -77,7 +78,7 @@ shinyUI(fluidPage(
     ),
     
     #### tab 4: distance to nearest road ####
-    tabPanel("Distance to nearest road"),
+    # tabPanel("Distance to nearest road"),
     
     #### tab 5: data ####
     tabPanel("Data",
@@ -87,12 +88,12 @@ shinyUI(fluidPage(
                  radioButtons(
                    inputId = "tab5_Type",
                    label = "Type",
-                   choices = c("Ocean", "River")
+                   choices = c("Ocean","River")
                  ),
                  selectInput(
                    inputId = "tab5_Year",
                    label = "Year",
-                   choices = c(2013, 2018)
+                   choices = c(2018, 2013)
                  )
                ),
                mainPanel(dataTableOutput("tab5"))

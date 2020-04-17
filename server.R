@@ -12,9 +12,9 @@ shinyServer(function(input, output) {
 
     #### tab 2 output: station mapper ####
     
-    output$tab2 <- renderLeaflet(tab2_call_map(input$tab2_Year))
-    output$tab2_ocean_site_count <- renderText(paste("40", "Ocean Sites"))
-    output$tab2_river_site_count <- renderText(paste("118", "River Sites"))
+    output$tab2_map <- renderLeaflet(tab2_call_map(input$tab2_Year))
+    output$tab2_ocean_site_count <- renderText(tab2_ocean_sites(input$tab2_Year))
+    output$tab2_river_site_count <- renderText(tab2_river_sites(input$tab2_Year))
     output$tab2_site_count_year <- renderText(paste("sampled in", input$tab2_Year))
     output$tab2_site_count_bar <- renderPlot(tab2_site_count_plotter())
     
@@ -22,20 +22,20 @@ shinyServer(function(input, output) {
     #### tab 3 output: area weight mean count ####
     pt1 <- reactive({
         if (!input$donum1) return(NULL)
-        area_w_stratum
+      count_by_stratum
     })
     pt2 <- reactive({
         if (!input$donum2) return(NULL)
-        total_count_area
+      count_by_region
         
     })
     pt3 <- reactive({
         if (!input$donum3) return(NULL)
-        trash_w_stratum
+      count_by_land
     })
     pt4 <- reactive({
         if (!input$donum4) return(NULL)
-        trash_w_county
+      relative_count
     })
     output$plotgraph = renderPlot({
         ptlist <- list(pt1(),pt2(),pt3(),pt4())

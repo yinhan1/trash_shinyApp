@@ -1,41 +1,41 @@
-stationid,latitude,longitude,stratum,areaweight,trawlnumber,trashcategory,trashtype,trashcount,abundance
-B18-10226,33.64360046,-118.0789719,Inner Shelf,40.43039795,1,Plastic,Plastic Piece (unid.),1,0.024733865
-B18-10250,34.0528,-119.0490667,Mid Shelf,67.32610042,2,Plastic,Other Plastic (comment req.),1,0.014853081
-B18-10253,33.94395,-118.5197333,Mid Shelf,67.32610042,1,Plastic,Polypropylene Rope,1,0.014853081
-B18-10258,33.64812088,-118.1490936,Mid Shelf,67.32610042,1,Miscellaneous,Other Misc. (comment req.),1,0.014853081
-B18-10267,33.21766,-117.4805,Mid Shelf,67.32610042,1,Metal,Can - other,1,0.014853081
-B18-10269,33.08783,-117.3509,Mid Shelf,67.32610042,1,Metal,Other Metal (comment req.),1,0.014853081
-B18-10269,33.08783,-117.3509,Mid Shelf,67.32610042,1,Plastic,Other Plastic (comment req.),1,0.014853081
-B18-10283,34.27778,-119.71841,Outer Shelf,23.28776249,1,Plastic,Food Bag/Wrapper,1,0.042941008
-B18-10286,34.24393,-119.70575,Outer Shelf,23.28776249,1,Plastic,Plastic Piece (unid.),1,0.042941008
-B18-10286,34.24393,-119.70575,Outer Shelf,23.28776249,1,Plastic,Other Plastic (comment req.),1,0.042941008
-B18-10294,34.13289,-119.37902,Outer Shelf,23.28776249,1,Plastic,Other Plastic (comment req.),1,0.042941008
-B18-10297,34.12282,-119.3313,Outer Shelf,23.28776249,1,Metal,Fishing Gear,1,0.042941008
-B18-10297,34.12282,-119.3313,Outer Shelf,23.28776249,1,Plastic,Fishing Line/Net,1,0.042941008
-B18-10303,34.04463333,-119.05545,Outer Shelf,23.28776249,1,Plastic,Polypropylene Rope,1,0.042941008
-B18-10303,34.04463333,-119.05545,Outer Shelf,23.28776249,1,Plastic,Food Bag/Wrapper,3,0.128823025
-B18-10320,32.58576,-117.3406,Outer Shelf,23.28776249,1,Plastic,Plastic Piece (unid.),1,0.042941008
-B18-10325,34.26184,-119.80546,Upper Slope,125.2249344,1,Plastic,Food Bag/Wrapper,1,0.00798563
-B18-10328,34.2521,-119.83736,Upper Slope,125.2249344,1,Miscellaneous,Other Misc. (comment req.),1,0.00798563
-B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,1,Plastic,Cap/Lid,1,0.00798563
-B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,1,Plastic,Plastic Piece (unid.),1,0.00798563
-B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,1,Fabric,Clothing,1,0.00798563
-B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,1,Plastic,Other Plastic (comment req.),1,0.00798563
-B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,1,Fabric,Rag/Cloth,1,0.00798563
-B18-10343,33.69417,-118.34703,Upper Slope,125.2249344,1,Miscellaneous,Other Misc. (comment req.),1,0.00798563
-B18-10346,33.53673172,-117.847847,Upper Slope,125.2249344,1,Plastic,Other Plastic (comment req.),1,0.00798563
-B18-10346,33.53673172,-117.847847,Upper Slope,125.2249344,1,Lumber,Lumber,2,0.01597126
-B18-10348,33.09386,-117.417,Upper Slope,125.2249344,1,Plastic,Plastic Piece (unid.),1,0.00798563
-B18-10348,33.09386,-117.417,Upper Slope,125.2249344,1,Plastic,Food Bag/Wrapper,1,0.00798563
-B18-10350,32.70487,-117.3537,Upper Slope,125.2249344,1,Plastic,Plastic Piece (unid.),1,0.00798563
-B18-10351,32.69303,-117.3948,Upper Slope,125.2249344,1,Miscellaneous,Other Misc. (comment req.),1,0.00798563
-B18-10351,32.69303,-117.3948,Upper Slope,125.2249344,1,Fabric,Rag/Cloth,2,0.01597126
-B18-10351,32.69303,-117.3948,Upper Slope,125.2249344,1,Plastic,Food Bag/Wrapper,1,0.00798563
-B18-10879,32.66821,-117.206,Inner Shelf,40.43039795,1,Plastic,Food Bag/Wrapper,1,0.024733865
-B18-10989,32.74153,-117.36,Outer Shelf,23.28776249,1,Glass,Glass Bottle/Jar -other,1,0.042941008
-B18-10989,32.74153,-117.36,Outer Shelf,23.28776249,1,Plastic,Bag,1,0.042941008
-B18-10989,32.74153,-117.36,Outer Shelf,23.28776249,1,Biodegradable,Paper,2,0.085882016
-B18-10992,32.59962,-117.3434,Outer Shelf,23.28776249,1,Metal,Other Metal (comment req.),100,4.29410082
-B18-11000,34.22874,-119.81929,Upper Slope,125.2249344,1,Plastic,Food Bag/Wrapper,1,0.00798563
-B18-10327,34.25798,-120.2615,Upper Slope,125.2249344,2,Biohazard,Other Terrestrial (comment req.),1,0.00798563
-B18-10327,34.25798,-120.2615,Upper Slope,125.2249344,2,Biohazard,Other Terrestrial (comment req.),1,0.00798563
+stationid,latitude,longitude,stratum,areaweight,trashcategory,trashtype,trashcount
+B18-10226,33.64360046,-118.0789719,Inner Shelf,40.43039795,Plastic,Plastic Piece (unid.),1
+B18-10250,34.0528,-119.0490667,Mid Shelf,67.32610042,Plastic,Other Plastic (comment req.),1
+B18-10253,33.94395,-118.5197333,Mid Shelf,67.32610042,Plastic,Polypropylene Rope,1
+B18-10258,33.64812088,-118.1490936,Mid Shelf,67.32610042,Miscellaneous,Other Misc. (comment req.),1
+B18-10267,33.21766,-117.4805,Mid Shelf,67.32610042,Metal,Can - other,1
+B18-10269,33.08783,-117.3509,Mid Shelf,67.32610042,Metal,Other Metal (comment req.),1
+B18-10269,33.08783,-117.3509,Mid Shelf,67.32610042,Plastic,Other Plastic (comment req.),1
+B18-10283,34.27778,-119.71841,Outer Shelf,23.28776249,Plastic,Food Bag/Wrapper,1
+B18-10286,34.24393,-119.70575,Outer Shelf,23.28776249,Plastic,Plastic Piece (unid.),1
+B18-10286,34.24393,-119.70575,Outer Shelf,23.28776249,Plastic,Other Plastic (comment req.),1
+B18-10294,34.13289,-119.37902,Outer Shelf,23.28776249,Plastic,Other Plastic (comment req.),1
+B18-10297,34.12282,-119.3313,Outer Shelf,23.28776249,Metal,Fishing Gear,1
+B18-10297,34.12282,-119.3313,Outer Shelf,23.28776249,Plastic,Fishing Line/Net,1
+B18-10303,34.04463333,-119.05545,Outer Shelf,23.28776249,Plastic,Polypropylene Rope,1
+B18-10303,34.04463333,-119.05545,Outer Shelf,23.28776249,Plastic,Food Bag/Wrapper,3
+B18-10320,32.58576,-117.3406,Outer Shelf,23.28776249,Plastic,Plastic Piece (unid.),1
+B18-10325,34.26184,-119.80546,Upper Slope,125.2249344,Plastic,Food Bag/Wrapper,1
+B18-10328,34.2521,-119.83736,Upper Slope,125.2249344,Miscellaneous,Other Misc. (comment req.),1
+B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,Plastic,Cap/Lid,1
+B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,Plastic,Plastic Piece (unid.),1
+B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,Fabric,Clothing,1
+B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,Plastic,Other Plastic (comment req.),1
+B18-10338,34.11827,-119.62886,Upper Slope,125.2249344,Fabric,Rag/Cloth,1
+B18-10343,33.69417,-118.34703,Upper Slope,125.2249344,Miscellaneous,Other Misc. (comment req.),1
+B18-10346,33.53673172,-117.847847,Upper Slope,125.2249344,Plastic,Other Plastic (comment req.),1
+B18-10346,33.53673172,-117.847847,Upper Slope,125.2249344,Lumber,Lumber,2
+B18-10348,33.09386,-117.417,Upper Slope,125.2249344,Plastic,Plastic Piece (unid.),1
+B18-10348,33.09386,-117.417,Upper Slope,125.2249344,Plastic,Food Bag/Wrapper,1
+B18-10350,32.70487,-117.3537,Upper Slope,125.2249344,Plastic,Plastic Piece (unid.),1
+B18-10351,32.69303,-117.3948,Upper Slope,125.2249344,Miscellaneous,Other Misc. (comment req.),1
+B18-10351,32.69303,-117.3948,Upper Slope,125.2249344,Fabric,Rag/Cloth,2
+B18-10351,32.69303,-117.3948,Upper Slope,125.2249344,Plastic,Food Bag/Wrapper,1
+B18-10879,32.66821,-117.206,Inner Shelf,40.43039795,Plastic,Food Bag/Wrapper,1
+B18-10989,32.74153,-117.36,Outer Shelf,23.28776249,Glass,Glass Bottle/Jar -other,1
+B18-10989,32.74153,-117.36,Outer Shelf,23.28776249,Plastic,Bag,1
+B18-10989,32.74153,-117.36,Outer Shelf,23.28776249,Biodegradable,Paper,2
+B18-10992,32.59962,-117.3434,Outer Shelf,23.28776249,Metal,Other Metal (comment req.),100
+B18-11000,34.22874,-119.81929,Upper Slope,125.2249344,Plastic,Food Bag/Wrapper,1
+B18-10327,34.25798,-120.2615,Upper Slope,125.2249344,Biohazard,Other Terrestrial (comment req.),1
+B18-10327,34.25798,-120.2615,Upper Slope,125.2249344,Biohazard,Other Terrestrial (comment req.),1

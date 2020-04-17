@@ -1,452 +1,119 @@
-objectid,stationid,sampledate,latitude,longitude,watershed,river_sitedescription,debriscategory,debrisitem,resulttotal
-104,402M00114,6/14/18,34.41651,-119.37159,Ventura,Coyote Creek,Plastic,Plastic Other,1
-102,403M01565,6/13/18,34.37854,-119.06269,Santa Clara,Santa Paula Creek,None,No Trash Present,0
-103,403M01626,6/13/18,34.43706,-119.08643,Santa Clara,Santa Paula Creek,None,No Trash Present,0
-114,404M04624,6/19/18,34.17964,-118.78851,Santa Monica Bay,Lindero Creek,Plastic,Chip Bags,1
-119,404M04624,6/19/18,34.17964,-118.78851,Santa Monica Bay,Lindero Creek,Miscellaneous,Misc. Other,1
-112,404M04624,6/19/18,34.17964,-118.78851,Santa Monica Bay,Lindero Creek,Plastic,Bag - single use,3
-113,404M04624,6/19/18,34.17964,-118.78851,Santa Monica Bay,Lindero Creek,Plastic,Beverage Bottles,3
-118,404M04624,6/19/18,34.17964,-118.78851,Santa Monica Bay,Lindero Creek,Miscellaneous,Sports Balls,3
-115,404M04624,6/19/18,34.17964,-118.78851,Santa Monica Bay,Lindero Creek,Plastic,Soft Plastic Pieces,1
-116,404M04624,6/19/18,34.17964,-118.78851,Santa Monica Bay,Lindero Creek,Plastic,Wrapper/Wrapper Pieces,1
-117,404M04624,6/19/18,34.17964,-118.78851,Santa Monica Bay,Lindero Creek,Glass,Glass Pieces,1
-169,405CE0280,7/2/18,34.23186,-117.74841,San Gabriel,Cattle Canyon,Metal,Aluminum or Steel Cans,2
-168,405CE0280,7/2/18,34.23186,-117.74841,San Gabriel,Cattle Canyon,Plastic,Wrapper/Wrapper Pieces,1
-107,408M03115,6/19/18,34.26757,-118.94305,Calleguas,Arroyo Los Posas,Plastic,Bag Pieces,2
-108,408M03115,6/19/18,34.26757,-118.94305,Calleguas,Arroyo Los Posas,Plastic,Tarp,1
-109,408M03115,6/19/18,34.26757,-118.94305,Calleguas,Arroyo Los Posas,Plastic,Plastic Other,1
-111,408M03115,6/19/18,34.26757,-118.94305,Calleguas,Arroyo Los Posas,Metal,Aluminum Foil pieces,1
-106,408M03115,6/19/18,34.26757,-118.94305,Calleguas,Arroyo Los Posas,Plastic,Bag - single use,4
-110,408M03115,6/19/18,34.26757,-118.94305,Calleguas,Arroyo Los Posas,Large,Tires,2
-125,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Plastic,Foam Pieces/Pellets,3
-123,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Plastic,Container Cap/Pieces,1
-134,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Miscellaneous,Misc. Other,1
-133,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Metal,Metal Other,1
-122,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Plastic,Bag - single use,5
-127,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Plastic,Soft Plastic Pieces,2
-124,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Plastic,Foam Plate,1
-128,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Plastic,Wrapper/Wrapper Pieces,28
-126,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Plastic,Hard Plastic Pieces,2
-131,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Metal,Aluminum Foil pieces,1
-130,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Biodegradable,Paper/ cardboard,7
-132,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Metal,Spray Paint Cans,1
-129,410M01628,6/28/18,34.16241,-119.16633,Santa Clara,NA,Plastic,Plastic Other,1
-412,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Plastic,Foam Packing Peanuts,1
-415,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Plastic,Straw/Stirrer,1
-413,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Plastic,Foam Pieces/Pellets,1
-417,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Fabric_Cloth,Fabric Other,1
-414,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Plastic,Soft Plastic Pieces,1
-419,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Miscellaneous,E-waste,1
-416,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Plastic,Wrapper/Wrapper Pieces,2
-418,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Biodegradable,Paper/ cardboard,1
-420,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Miscellaneous,Waxed Paper Cups/Plates,1
-411,412CE0232,5/30/18,34.15823,-118.45476,Los Angeles,Los Angeles River,Plastic,Cigarette Butts,1
-461,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Biodegradable,Paper/ cardboard,1
-459,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Plastic,Wrapper/Wrapper Pieces,3
-456,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Plastic,Foam Pieces/Pellets,1
-464,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Miscellaneous,Mylar balloons,1
-463,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Metal,Metal Other,1
-460,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Fabric_Cloth,"Natural (Cotton, Wool)",1
-457,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Plastic,Hard Plastic Pieces,1
-458,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Plastic,Tarp,1
-462,412M08599,6/20/18,34.1071,-118.2454,Los Angeles,Los Angeles River,Metal,"Nails, Screws, Bolts, etc.",1
-439,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Pens/Markers,1
-450,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Metal,Aluminum or Steel Cans,1
-437,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Hard Plastic Pieces,38
-438,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Lighters,1
-452,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Metal,"Nails, Screws, Bolts, etc.",1
-440,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Plastic Bottles,1
-441,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Soft Plastic Pieces,1
-455,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Miscellaneous,Ceramic Pots/Shards,1
-442,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Wrapper/Wrapper Pieces,10
-453,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Metal,Metal Other,4
-454,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Miscellaneous,Misc. Other,1
-434,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Container Cap/Pieces,3
-433,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Cigarette Butts,7
-447,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Construction,Rebar,1
-435,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Foam Plate,1
-444,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Fabric_Cloth,"Natural (Cotton, Wool)",2
-445,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Fabric_Cloth,Fabric Other,1
-446,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Biodegradable,Paper/ cardboard,14
-443,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Plastic Other,3
-449,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Metal,Aluminum Foil pieces,3
-436,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Plastic,Hard Plastic Container,1
-451,412M08641,6/20/18,34.04861,-118.2298,Los Angeles,Los Angeles River,Metal,Metal Bottle Caps,5
-470,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Container Cap/Pieces,9
-468,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Beverage Bottles,18
-494,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,Metal Other,11
-469,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Cigarette Butts,3
-478,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Foam Food Containers,1
-471,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Cups,11
-472,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Lid,3
-473,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Lighters,2
-481,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Plastic Other,1
-482,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Biohazard,Human Waste/Diapers/TP,1
-483,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Biohazard,Biohazard Other,1
-467,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Bag - single use,36
-485,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Miscellaneous,Mylar balloons,1
-486,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,Aluminum Foil pieces,3
-487,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,Aluminum or Steel Cans,28
-484,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Construction,Construction Other,4
-475,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Soft Plastic Pieces,33
-477,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Foam Cups,6
-491,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,Small Batteries,4
-476,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Hard Plastic Pieces,41
-480,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Tarp,2
-493,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,"Wire (barb, chicken, etc.)",1
-495,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Biodegradable,Paper/ cardboard,5
-496,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Biodegradable,Food Waste,1
-497,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Fabric_Cloth,Synthetic Fabric,7
-498,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Fabric_Cloth,"Natural (Cotton, Wool)",3
-499,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Fabric_Cloth,Shoes,3
-500,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Fabric_Cloth,Fabric Other,1
-488,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,Metal Bottle Caps,2
-489,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,Metal Pipe/Bar Segments,9
-490,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,"Nails, Screws, Bolts, etc.",2
-504,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Miscellaneous,Misc. Other,8
-479,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Foam Pieces/Pellets,51
-506,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Glass,Glass Bottles,1
-507,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Glass,Glass Pieces,2
-503,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Miscellaneous,Waxed Paper Cups/Plates,1
-501,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Large,Furniture/Appliances,1
-502,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Large,Tires,1
-474,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Plastic,Wrapper/Wrapper Pieces,64
-492,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Metal,Spray Paint Cans,2
-505,412M08643,5/23/18,33.80969,-118.20509,Los Angeles,Los Angeles River,Biodegradable,Biodegradable Other,2
-375,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Soft Plastic Pieces,5
-379,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Fabric_Cloth,"Natural (Cotton, Wool)",1
-374,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Plastic Straw Wrapper,1
-383,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Glass,Glass Pieces,2
-376,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Straw/Stirrer,2
-377,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Wrapper/Wrapper Pieces,2
-378,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Plastic Other,1
-372,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Foam Pieces/Pellets,1
-382,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Biodegradable,Paper/ cardboard,2
-373,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Hard Plastic Pieces,9
-381,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Biodegradable,Food Waste,2
-371,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Cigarette Butts,8
-384,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Miscellaneous,Misc. Other,1
-370,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Plastic,Bag Pieces,1
-380,801M12672,4/26/18,33.79779,-117.948204,Anaheim Bay,Anaheim-Barber City Channel,Fabric_Cloth,Synthetic Fabric,1
-360,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Foam Cups,1
-364,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Soft Plastic Pieces,4
-367,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Fabric_Cloth,"Natural (Cotton, Wool)",1
-361,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Foam Other Containers,1
-362,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Foam Packing Peanuts,5
-359,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Foam Balls,1
-366,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Plastic Other,1
-358,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Beverage Bottles,1
-365,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Wrapper/Wrapper Pieces,5
-363,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Foam Pieces/Pellets,10
-357,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Bag Pieces,6
-356,801M12673,4/30/18,33.60491,-117.85297,Newport Bay,Buck Gully,Plastic,Bag - single use,1
-387,801M12674,4/26/18,33.7305,-117.79682,Newport Bay,El Modena Channel,Plastic,Foam Pieces/Pellets,4
-392,801M12674,4/26/18,33.7305,-117.79682,Newport Bay,El Modena Channel,Metal,Metal Other,1
-391,801M12674,4/26/18,33.7305,-117.79682,Newport Bay,El Modena Channel,Biodegradable,Paper/ cardboard,6
-389,801M12674,4/26/18,33.7305,-117.79682,Newport Bay,El Modena Channel,Plastic,Wrapper/Wrapper Pieces,2
-390,801M12674,4/26/18,33.7305,-117.79682,Newport Bay,El Modena Channel,Biodegradable,Food Waste,1
-386,801M12674,4/26/18,33.7305,-117.79682,Newport Bay,El Modena Channel,Plastic,Foam Packing Peanuts,1
-388,801M12674,4/26/18,33.7305,-117.79682,Newport Bay,El Modena Channel,Plastic,Soft Plastic Pieces,1
-385,801M12674,4/26/18,33.7305,-117.79682,Newport Bay,El Modena Channel,Plastic,Cigarette Butts,1
-73,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Metal,Spray Paint Cans,1
-65,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Plastic Bottles,5
-66,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Straw/Stirrer,4
-69,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Fabric_Cloth,Synthetic Fabric,2
-60,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Bag - single use,3
-71,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Construction,Fabricated Wood,1
-72,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Metal,Aluminum or Steel Cans,1
-64,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Foam Pieces/Pellets,4
-62,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Foam Cups,4
-63,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Foam Packing Peanuts,1
-68,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Wrapper/Wrapper Pieces,8
-67,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Tobacco Wrapper/Pieces,1
-70,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Biodegradable,Paper/ cardboard,1
-61,801M16973,6/6/18,33.93472,-117.34532,Santa Ana,Tequesquite Arroyo,Plastic,Cups,1
-38,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Bag - single use,14
-44,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Hard Plastic Pieces,4
-52,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Biodegradable,Paper/ cardboard,3
-41,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Container Cap/Pieces,6
-48,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Straw/Stirrer,4
-43,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Foam Food Containers,6
-47,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Soft Plastic Pieces,5
-51,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Biodegradable,Food Waste,4
-37,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Bag - reusable,1
-46,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Plastic Straw Wrapper,1
-50,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Fabric_Cloth,Synthetic Fabric,2
-55,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Metal,Metal Bottle Caps,4
-42,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Cups,3
-45,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Plastic Bottles,4
-54,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Metal,Aluminum or Steel Cans,2
-59,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Miscellaneous,Waxed Paper Cups/Plates,2
-40,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Cigarette Butts,6
-56,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Metal,Metal Other,1
-58,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Miscellaneous,Mylar balloons,1
-49,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Wrapper/Wrapper Pieces,15
-53,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Glass,Glass Bottles,3
-39,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Plastic,Bag Pieces,1
-57,801M16976,6/6/18,34.01584,-117.37031,Santa Ana,Santa Ana River,Miscellaneous,E-waste,2
-305,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Plastic,Foam Cups,1
-306,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Plastic,Foam Pieces/Pellets,2
-310,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Biodegradable,Paper/ cardboard,1
-312,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Construction,Concrete/Asphalt,1
-315,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Metal,Metal Other,1
-304,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Plastic,Bag Pieces,1
-314,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Metal,"Nails, Screws, Bolts, etc.",1
-307,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Plastic,Hard Plastic Pieces,1
-309,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Plastic,Wrapper/Wrapper Pieces,5
-308,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Plastic,Soft Plastic Pieces,1
-313,845PS0011,6/12/18,33.88054,-117.89743,San Gabriel,Fullerton Creek,Glass,Glass Pieces,6
-368,901M14141,4/30/18,33.52171,-117.62216,San Juan Creek,San Juan Creek,Plastic,Foam Cups,1
-369,901M14141,4/30/18,33.52171,-117.62216,San Juan Creek,San Juan Creek,Plastic,Single Use Container,1
-338,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Foam Pieces/Pellets,1
-335,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Chip Bags,2
-342,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Straw/Stirrer,1
-334,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Beverage Bottles,1
-347,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Fabric_Cloth,Synthetic Fabric,2
-337,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Foam Cups,2
-332,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Bag - single use,4
-349,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Biohazard,Human Waste/Diapers/TP,1
-350,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Metal,Aluminum Foil pieces,4
-339,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Hard Plastic Container,1
-348,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Biodegradable,Paper/ cardboard,4
-341,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Soft Plastic Pieces,2
-340,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Hard Plastic Pieces,1
-336,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Cups,1
-353,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Miscellaneous,Misc. Other,1
-345,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Plastic Other,2
-333,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Bag Pieces,5
-346,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Fabric_Cloth,"Natural (Cotton, Wool)",5
-344,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Wrapper/Wrapper Pieces,12
-352,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Miscellaneous,Sports Balls,5
-351,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Metal,Metal Other,1
-343,901M14142,5/31/18,33.62131,-117.68977,Aliso-San Onofre,Aliso Creek,Plastic,Tarp,4
-556,902M18901,5/1/18,33.49624,-117.20414,Santa Margarita,Unnamed Creek,Construction,Concrete/Asphalt,5
-555,902M18901,5/1/18,33.49624,-117.20414,Santa Margarita,Unnamed Creek,Miscellaneous,Rubber/Rubber Pieces,1
-554,902M18901,5/1/18,33.49624,-117.20414,Santa Margarita,Unnamed Creek,Plastic,Tarp,1
-1,902WE0888,5/17/18,33.45432,-117.30237,Santa Margarita,De Luz Creek,Plastic,Bag - single use,1
-2,902WE0888,5/17/18,33.45432,-117.30237,Santa Margarita,De Luz Creek,Plastic,Plastic Pipe,1
-3,902WE0888,5/17/18,33.45432,-117.30237,Santa Margarita,De Luz Creek,Plastic,Soft Plastic Pieces,1
-17,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Plastic Bottles,1
-22,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Wrapper/Wrapper Pieces,7
-18,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Plastic Pipe,1
-13,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Container Cap/Pieces,2
-11,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Bag Pieces,3
-20,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Single Use Container,2
-21,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Straw/Stirrer,2
-19,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Plastic Straw Wrapper,1
-12,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Cigarette Butts,2
-9,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Bag - single use,7
-15,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Foam Food Containers,2
-16,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Hard Plastic Container,1
-14,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Foam Cups,1
-10,903M20214,5/8/18,33.22036,-117.35819,San Luis Rey-Escondido,San Luis Rey River,Plastic,Bag - reusable,1
-5,903M20230,5/8/18,33.24064,-117.32132,San Luis Rey-Escondido,San Luis Rey River,Fabric_Cloth,"Natural (Cotton, Wool)",2
-7,903M20235,6/2/18,33.24759,-116.78551,San Luis Rey-Escondido,San Luis Rey River,Metal,Aluminum Foil pieces,1
-6,903M20235,6/2/18,33.24759,-116.78551,San Luis Rey-Escondido,San Luis Rey River,Plastic,Soft Plastic Pieces,1
-551,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Construction,Concrete/Asphalt,3
-553,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Miscellaneous,Sports Balls,1
-547,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Plastic,Wrapper/Wrapper Pieces,8
-546,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Plastic,Hard Plastic Container,1
-544,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Plastic,Beverage Bottles,4
-552,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Metal,Aluminum or Steel Cans,2
-548,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Plastic,Plastic Other,1
-549,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Fabric_Cloth,"Natural (Cotton, Wool)",1
-550,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Biodegradable,Paper/ cardboard,2
-545,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Plastic,Cups,3
-542,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Plastic,Bag - reusable,1
-543,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Plastic,Bag - single use,4
-525,904M21764,4/17/18,33.20750635,-117.2807286,Loma Alta Creek,Loma Alta Creek,Miscellaneous,Misc. Other,1
-536,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Single Use Container,2
-527,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Beverage Bottles,3
-537,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Soft Plastic Pieces,3
-528,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Container Cap/Pieces,2
-530,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Foam Balls,1
-531,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Foam Cups,3
-535,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Hard Plastic Pieces,5
-540,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Construction,Construction Other,1
-538,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Wrapper/Wrapper Pieces,7
-539,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Plastic Other,6
-529,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Cups,3
-526,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Bag - single use,4
-532,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Foam Plate,5
-533,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Plastic,Foam Packing Peanuts,1
-541,904WE1125,5/29/18,33.09873,-117.129063,Escondido Creek,Escondido Creek,Metal,Aluminum Foil pieces,1
-242,905PS0026,4/10/18,33.10685,-116.86797,San Dieguito,Santa Ysabel Creek @ Pamo,None,No Trash Present,0
-260,906M21754,4/10/18,32.95499135,-117.1726379,Los Penasquitos,Deer Canyon Creek,Metal,Aluminum or Steel Cans,1
-259,906M21754,4/10/18,32.95499135,-117.1726379,Los Penasquitos,Deer Canyon Creek,Plastic,Cups,2
-257,906M21754,4/10/18,32.95499135,-117.1726379,Los Penasquitos,Deer Canyon Creek,Plastic,Bag Pieces,1
-258,906M21754,4/10/18,32.95499135,-117.1726379,Los Penasquitos,Deer Canyon Creek,Plastic,Beverage Bottles,1
-252,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Plastic Other,6
-254,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Glass,Glass Bottles,1
-251,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Wrapper/Wrapper Pieces,7
-245,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Foam Cups,1
-253,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Biodegradable,Paper/ cardboard,1
-250,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Soft Plastic Pieces,2
-249,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Single Use Container,1
-248,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Plastic Bottles,3
-244,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Bag - single use,5
-246,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Foam Pieces/Pellets,3
-243,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Bag - reusable,1
-255,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Metal,Aluminum or Steel Cans,5
-247,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Plastic,Hard Plastic Pieces,1
-256,906M21770,5/29/18,32.90377,-117.22665,Los Penasquitos,Carroll Canyon Creek,Metal,Metal Other,1
-8,907M23349,5/9/18,32.82549,-117.09223,San Diego,W. Fortuna Canyon,Plastic,Hard Plastic Pieces,1
-4,907M23367,5/29/18,32.96366,-116.66383,San Diego,Boulder Creek,None,No Trash Present,0
-262,907M23373,5/17/18,32.83791639,-117.0176397,San Diego,Sycamore Creek,Plastic,Foam Cups,1
-263,907M23373,5/17/18,32.83791639,-117.0176397,San Diego,Sycamore Creek,Plastic,Plastic Pipe,2
-264,907M23373,5/17/18,32.83791639,-117.0176397,San Diego,Sycamore Creek,Plastic,Wrapper/Wrapper Pieces,1
-265,907M23373,5/17/18,32.83791639,-117.0176397,San Diego,Sycamore Creek,Construction,Fabricated Wood,1
-261,907M23373,5/17/18,32.83791639,-117.0176397,San Diego,Sycamore Creek,Plastic,Beverage Bottles,1
-23,907M23379,5/30/18,33.80333,-116.92432,San Diego,Forester Creek,Plastic,Bag - single use,1
-25,907M23379,5/30/18,33.80333,-116.92432,San Diego,Forester Creek,Fabric_Cloth,Shoes,1
-27,907M23379,5/30/18,33.80333,-116.92432,San Diego,Forester Creek,Biodegradable,Paper/ cardboard,1
-24,907M23379,5/30/18,33.80333,-116.92432,San Diego,Forester Creek,Plastic,Wrapper/Wrapper Pieces,1
-26,907M23379,5/30/18,33.80333,-116.92432,San Diego,Forester Creek,Fabric_Cloth,Synthetic Fabric,1
-240,909M24955,4/11/18,32.66652822,-116.9954779,Sweetwater River,Proctor Valley Creek,Fabric_Cloth,Fabric Other,1
-241,909M24955,4/11/18,32.66652822,-116.9954779,Sweetwater River,Proctor Valley Creek,Metal,Aluminum or Steel Cans,2
-239,909M24955,4/11/18,32.66652822,-116.9954779,Sweetwater River,Proctor Valley Creek,Plastic,Wrapper/Wrapper Pieces,1
-238,909M24955,4/11/18,32.66652822,-116.9954779,Sweetwater River,Proctor Valley Creek,Plastic,Foam Cups,1
-237,909M24955,4/11/18,32.66652822,-116.9954779,Sweetwater River,Proctor Valley Creek,Plastic,Bag - single use,3
-235,909WE0662,6/14/18,32.89949,-116.58847,Sweetwater River,Sweetwater River,Plastic,Plastic Other,1
-236,909WE0662,6/14/18,32.89949,-116.58847,Sweetwater River,Sweetwater River,Metal,Metal Pipe/Bar Segments,1
-140,911M24949,4/11/18,32.80946293,-116.4397949,Tijuana River,Long Canyon Creek,Miscellaneous,Mylar balloons,1
-141,911M24957,5/17/18,32.67449,-116.5657,Tijuana River,Cottonwood Creek,None,No Trash Present,0
-105,ME-VR2,6/14/18,34.34116,-119.29826,Ventura,Ventura River,Plastic,Wrapper/Wrapper Pieces,2
-121,SMC00027,6/26/18,34.66369,-119.05206,Santa Clara,Piru Creek,None,No Trash Present,0
-94,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Lid,1
-87,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Bag - single use,2
-88,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Bag Pieces,2
-91,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Cups,1
-100,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Metal,Aluminum Foil pieces,1
-93,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Hard Plastic Pieces,1
-99,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Glass,Glass Pieces,3
-98,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Plastic Other,2
-92,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Foam Pieces/Pellets,3
-90,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Chip Bags,1
-95,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Lighters,1
-101,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Metal,Aluminum or Steel Cans,2
-89,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Beverage Bottles,6
-97,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Wrapper/Wrapper Pieces,11
-96,SMC00036,6/11/18,34.21501,-118.8806,Calleguas,N Fork Arroyo Conejo,Plastic,Soft Plastic Pieces,5
-410,SMC00105,4/17/18,33.74651,-117.58423,Santa Ana,Silverado Creek,Plastic,Wrapper/Wrapper Pieces,1
-409,SMC00105,4/17/18,33.74651,-117.58423,Santa Ana,Silverado Creek,Plastic,Soft Plastic Pieces,1
-354,SMC00206,5/31/18,33.54359,-117.65964,San Juan Creek,Trabuco Creek,Plastic,Beverage Bottles,1
-355,SMC00206,5/31/18,33.54359,-117.65964,San Juan Creek,Trabuco Creek,Plastic,Plastic Other,1
-120,SMC00271,6/25/18,34.54961,-119.16591,Santa Clara,Middle Lions,None,No Trash Present,0
-165,SMC00544,6/27/18,34.14702,-117.74136,San Gabriel,Marshall Canyon,Plastic,Wrapper/Wrapper Pieces,2
-166,SMC00544,6/27/18,34.14702,-117.74136,San Gabriel,Marshall Canyon,Biodegradable,Paper/ cardboard,1
-163,SMC00544,6/27/18,34.14702,-117.74136,San Gabriel,Marshall Canyon,Plastic,Hard Plastic Pieces,2
-164,SMC00544,6/27/18,34.14702,-117.74136,San Gabriel,Marshall Canyon,Plastic,Soft Plastic Pieces,1
-162,SMC00544,6/27/18,34.14702,-117.74136,San Gabriel,Marshall Canyon,Plastic,Foam Cups,1
-296,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Biodegradable,Paper/ cardboard,4
-301,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Metal,"Nails, Screws, Bolts, etc.",1
-286,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Cigarette Butts,3
-297,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Construction,Fabricated Wood,1
-295,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Biodegradable,Food Waste,2
-287,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Foam Pieces/Pellets,16
-299,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Metal,Aluminum or Steel Cans,2
-300,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Metal,Metal Bottle Caps,1
-285,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Bag - single use,1
-292,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Wrapper/Wrapper Pieces,9
-302,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Metal,Metal Other,1
-303,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Miscellaneous,Sports Balls,1
-288,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Hard Plastic Container,1
-293,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Plastic Other,2
-294,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Fabric_Cloth,Synthetic Fabric,1
-290,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Plastic Straw Wrapper,1
-298,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Construction,Construction Other,1
-291,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Soft Plastic Pieces,7
-289,SMC00670,6/12/18,33.86926,-117.90916,San Gabriel,Fullerton Creek,Plastic,Hard Plastic Pieces,10
-394,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Beverage Bottles,1
-407,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Miscellaneous,Sports Balls,10
-399,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Hard Plastic Pieces,3
-406,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Miscellaneous,Rubber/Rubber Pieces,1
-393,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Bag Pieces,4
-397,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Foam Packing Peanuts,1
-396,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Container Cap/Pieces,1
-398,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Foam Pieces/Pellets,2
-402,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Plastic Other,1
-405,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Metal,Metal Other,1
-401,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Wrapper/Wrapper Pieces,3
-400,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Soft Plastic Pieces,1
-395,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Plastic,Cigarette Butts,1
-404,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Biodegradable,Paper/ cardboard,3
-403,SMC00873,4/17/18,33.59849,-117.62668,San Juan Creek,Tijeras Creek,Fabric_Cloth,Synthetic Fabric,1
-326,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Plastic Other,3
-324,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Plastic Straw Wrapper,1
-316,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Bag - single use,4
-331,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Miscellaneous,Sports Balls,4
-327,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Fabric_Cloth,Synthetic Fabric,1
-325,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Wrapper/Wrapper Pieces,11
-319,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Foam Cups,4
-323,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Plastic Bottles,1
-318,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Container Cap/Pieces,1
-317,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Chip Bags,4
-330,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Metal,Spray Paint Cans,1
-329,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Metal,Aluminum Foil pieces,1
-328,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Biodegradable,Paper/ cardboard,2
-322,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Lid,1
-321,SMC00926,6/12/18,33.9074,-117.88297,San Gabriel,Fullerton Creek,Plastic,Hard Plastic Pieces,3
-560,SMC01097,5/1/18,33.48724,-117.25538,Santa Margarita,Sandia Creek,Metal,Metal Other,1
-559,SMC01097,5/1/18,33.48724,-117.25538,Santa Margarita,Sandia Creek,Large,Large Other,1
-558,SMC01097,5/1/18,33.48724,-117.25538,Santa Margarita,Sandia Creek,Plastic,Wrapper/Wrapper Pieces,1
-557,SMC01097,5/1/18,33.48724,-117.25538,Santa Margarita,Sandia Creek,Plastic,Plastic Bottles,1
-231,SMC01440,6/27/18,34.16643,-117.83864,San Gabriel,Little Dalton Canyon (Lower),Construction,Fabricated Wood,1
-234,SMC01440,6/27/18,34.16643,-117.83864,San Gabriel,Little Dalton Canyon (Lower),Miscellaneous,Misc. Other,1
-229,SMC01440,6/27/18,34.16643,-117.83864,San Gabriel,Little Dalton Canyon (Lower),Plastic,Bag - single use,1
-230,SMC01440,6/27/18,34.16643,-117.83864,San Gabriel,Little Dalton Canyon (Lower),Plastic,Wrapper/Wrapper Pieces,1
-233,SMC01440,6/27/18,34.16643,-117.83864,San Gabriel,Little Dalton Canyon (Lower),Glass,Glass Pieces,1
-232,SMC01440,6/27/18,34.16643,-117.83864,San Gabriel,Little Dalton Canyon (Lower),Construction,Construction Other,2
-268,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Container Cap/Pieces,1
-267,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Beverage Bottles,2
-270,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Hard Plastic Container,1
-283,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Miscellaneous,Sports Balls,2
-266,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Bag Pieces,1
-276,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Fabric_Cloth,"Natural (Cotton, Wool)",1
-282,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Miscellaneous,Mylar balloons,1
-278,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Glass,Glass Bottles,1
-269,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Foam Packing Peanuts,1
-280,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Metal,Aluminum or Steel Cans,1
-281,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Metal,Metal Other,1
-272,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Soft Plastic Pieces,6
-279,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Metal,Aluminum Foil pieces,1
-274,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Tobacco Wrapper/Pieces,1
-284,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Miscellaneous,Misc. Other,3
-277,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Biodegradable,Food Waste,1
-273,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Tarp,1
-275,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Wrapper/Wrapper Pieces,1
-271,SMC01694,8/6/18,33.92001,-117.90273,San Gabriel,Brea Canyon Channel,Plastic,Single Use Container,1
-519,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Plastic,Plastic Other,1
-520,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Fabric_Cloth,"Natural (Cotton, Wool)",5
-514,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Plastic,Beverage Bottles,1
-522,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Glass,Glass Bottles,2
-517,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Plastic,Tarp,1
-518,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Plastic,Wrapper/Wrapper Pieces,3
-515,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Plastic,Plastic Bottles,2
-516,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Plastic,Single Use Container,1
-523,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Metal,Aluminum or Steel Cans,4
-524,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Metal,Metal Other,2
-521,SMC02088,6/18/18,34.30151,-118.25939,Los Angeles,Big Tujunga Creek,Biodegradable,Paper/ cardboard,1
-432,SMC02092,6/18/18,34.27805,-118.20608,Los Angeles,Big Tujunga Creek,Metal,Spray Paint Cans,1
-465,SMC02568,8/2/18,34.28025,-118.22122,Los Angeles,Big Tujunga Creek,None,No Trash Present,0
-222,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Lid,1
-223,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Single Use Container,1
-224,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Wrapper/Wrapper Pieces,30
-225,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Plastic Other,1
-226,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Biodegradable,Paper/ cardboard,18
-227,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Biodegradable,Biodegradable Other,1
-228,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Metal,Aluminum Foil pieces,2
-220,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Foam Cups,3
-217,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Bag - reusable,2
-218,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Beverage Bottles,1
-219,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Chip Bags,3
-221,SMC02656,8/6/18,34.07506,-117.8722,San Gabriel,Walnut Creek,Plastic,Foam Pieces/Pellets,7
-28,SMC09698,6/5/18,34.7459,-116.70739,Santa Ana,Strawberry Creek,Plastic,Wrapper/Wrapper Pieces,1
-36,SMC11581,6/5/18,33.95218,-117.6063,Santa Ana,Cucamonga Channel,Miscellaneous,E-waste,1
-29,SMC11581,6/5/18,33.95218,-117.6063,Santa Ana,Cucamonga Channel,Plastic,Hard Plastic Pieces,3
-30,SMC11581,6/5/18,33.95218,-117.6063,Santa Ana,Cucamonga Channel,Plastic,Soft Plastic Pieces,1
-31,SMC11581,6/5/18,33.95218,-117.6063,Santa Ana,Cucamonga Channel,Plastic,Wrapper/Wrapper Pieces,1
-32,SMC11581,6/5/18,33.95218,-117.6063,Santa Ana,Cucamonga Channel,Plastic,Lid,1
-33,SMC11581,6/5/18,33.95218,-117.6063,Santa Ana,Cucamonga Channel,Glass,Glass Pieces,1
-34,SMC11581,6/5/18,33.95218,-117.6063,Santa Ana,Cucamonga Channel,Metal,"Nails, Screws, Bolts, etc.",1
-35,SMC11581,6/5/18,33.95218,-117.6063,Santa Ana,Cucamonga Channel,Metal,"Wire (barb, chicken, etc.)",2
+stationid,total_count,latitude,longitude,stratum,areaweight
+402M00058,1,34.444421,-119.296863,Agriculture,19.86655861
+402M00066,2,34.293238,-119.307443,Agriculture,19.86655861
+402M00082,0,34.289978,-119.307881,Agriculture,19.86655861
+402M00110,6,34.426005,-119.303083,Agriculture,19.86655861
+402M00114,1,34.417059,-119.368499,Agriculture,19.86655861
+402M00127,32,34.424704,-119.264705,Agriculture,19.86655861
+403M01560,31,34.235362,-119.212348,Urban,85.23642372
+403M01565,0,34.379668,-119.064247,Agriculture,19.86655861
+403M01571,1,34.586199,-119.278263,Urban,85.23642372
+403M01580,3,34.234319,-119.231198,Urban,85.23642372
+403M01626,0,34.434956,-119.087473,Urban,85.23642372
+403M05798,0,34.36334429,-118.4277212,Agriculture,19.86655861
+403M05800,0,34.52907,-118.52244,Agriculture,19.86655861
+403M05832,1,34.549558,-118.509711,Urban,85.23642372
+403M05844,8,34.593876,-118.562205,Urban,85.23642372
+403WE0682,33,34.5704221,-118.39079,Urban,85.23642372
+403WE0683,1,34.4396074,-119.07726,Urban,85.23642372
+404M04624,14,34.181301,-118.789124,Urban,85.23642372
+404M04674,1,34.146522,-118.849607,Agriculture,19.86655861
+404M07364,14,34.09674141,-118.7173578,Urban,85.23642372
+404M07365,3,34.04241,-118.51361,Urban,85.23642372
+404M07368,6,34.1264,-118.75364,Urban,85.23642372
+404M07372,12,34.135135,-118.75611,Urban,85.23642372
+404M07375,2,34.091885,-118.671075,Urban,85.23642372
+404M07376,3,34.081953,-118.689026,Urban,85.23642372
+405CE0280,3,34.2299122,-117.75247,Urban,85.23642372
+408BA0660,7,34.2678337,-118.93799,Urban,85.23642372
+408M03051,18,34.267523,-118.948785,Urban,85.23642372
+408M03100,107,34.180163,-119.086994,Agriculture,19.86655861
+408M03111,0,34.181186,-119.03281,Urban,85.23642372
+408M03115,11,34.266345,-118.946402,Urban,85.23642372
+408M03116,56,34.171197,-119.097117,Agriculture,19.86655861
+408M03119,0,34.227369,-118.973867,Urban,85.23642372
+410M01628,54,34.161393,-119.167114,Urban,85.23642372
+412CE0232,23,34.1585563,-118.45554,Urban,85.23642372
+412M08599,11,34.10602,-118.24338,Urban,85.23642372
+412M08641,101,34.306008,-118.069332,Urban,85.23642372
+412M08643,386,33.808385,-118.205629,Urban,85.23642372
+412M08645,95,34.2881,-118.501715,Urban,85.23642372
+412M08646,3,34.127913,-118.081882,Urban,85.23642372
+412M08647,8,34.278267,-118.302954,Urban,85.23642372
+412WE0552,0,34.2389496,-118.18159,Urban,85.23642372
+801M12672,39,33.797705,-117.949696,Urban,85.23642372
+801M12673,37,33.604341,-117.854122,Urban,85.23642372
+801M12674,17,33.729459,-117.795927,Urban,85.23642372
+801M12675,51,33.813117,-117.858259,Urban,85.23642372
+801M12678,0,33.794824,-117.705242,Urban,85.23642372
+801M12684,350,33.74943,-118.04212,Urban,85.23642372
+801M16957,2,33.854928,-117.356263,Urban,85.23642372
+801M16973,37,33.93558349,-117.3461844,Urban,85.23642372
+801M16976,94,34.01604,-117.37024,Urban,85.23642372
+802M16985,23,33.674112,-117.269023,Urban,85.23642372
+845PS0011,29,33.8812514,-117.89713,Urban,85.23642372
+901M14141,2,33.521044,-117.623184,Urban,85.23642372
+901M14142,62,33.620033,-117.689407,Urban,85.23642372
+901M14145,47,33.487406,-117.667811,Urban,85.23642372
+901M14149,0,33.56636,-117.747794,Urban,85.23642372
+902M18901,7,33.49624,-117.20413,Agriculture,19.86655861
+902M18909,9,33.464866,-117.198076,Agriculture,19.86655861
+902M20237,0,33.409883,-117.213634,Urban,85.23642372
+902M20273,2,33.402761,-117.255119,Urban,85.23642372
+902WE0888,3,33.4541711,-117.30288,Agriculture,19.86655861
+903M20214,33,33.21936164,-117.3588104,Agriculture,19.86655861
+903M20230,2,33.23967503,-117.3177406,Agriculture,19.86655861
+903M20235,2,33.24763134,-116.7854627,Urban,85.23642372
+903M20280,0,33.296575,-117.2193,Agriculture,19.86655861
+904M21761,0,33.107658,-117.208995,Urban,85.23642372
+904M21764,32,33.2074964,-117.2807541,Urban,85.23642372
+904M21782,35,33.153595,-117.034729,Agriculture,19.86655861
+904M21784,18,33.187252,-117.277914,Urban,85.23642372
+904WE1125,64,33.0990574,-117.12941,Urban,85.23642372
+905PS0026,0,33.1075387,-116.8642,Urban,85.23642372
+906M21754,5,32.95499662,-117.1727195,Urban,85.23642372
+906M21770,38,32.90359548,-117.2264432,Urban,85.23642372
+906M21774,0,32.934786,-117.059969,Urban,85.23642372
+906M23361,4,32.843209,-117.212391,Urban,85.23642372
+906M23380,23,32.787364,-117.186962,Urban,85.23642372
+907M23349,1,32.82490114,-117.0926552,Urban,85.23642372
+907M23367,0,32.96323187,-116.6639278,Urban,85.23642372
+907M23373,6,32.8379715,-117.0175678,Urban,85.23642372
+907M23379,5,32.80316877,-116.9243788,Urban,85.23642372
+907M23385,3,32.810756,-117.074673,Urban,85.23642372
+907M23401,0,32.834357,-117.046566,Urban,85.23642372
+907M23405,13,32.860977,-117.008293,Urban,85.23642372
+908M24952,96,32.72468,-117.073581,Urban,85.23642372
+909M24951,0,32.77032,-116.814903,Urban,85.23642372
+909M24953,0,32.80649,-116.801113,Urban,85.23642372
+909M24955,8,32.66661579,-116.9955932,Urban,85.23642372
+909WE0662,4,32.8996669,-116.58881,Urban,85.23642372
+911M24949,1,32.8093902,-116.4399296,Agriculture,19.86655861
+911M24957,0,32.67429686,-116.566019,Urban,85.23642372
+ME-CC,3,34.1796345,-119.04059,Urban,85.23642372
+SGLT506,164,34.0616723,-117.99384,Urban,85.23642372
+SMC00105,3,33.7458076,-117.58472,Urban,85.23642372
+SMC00206,4,33.5451478,-117.65998,Urban,85.23642372
+SMC00271,0,34.5489318,-119.16562,Agriculture,19.86655861
+SMC00318,141,33.8130527,-118.20559,Urban,85.23642372
+SMC00324,0,34.300583,-119.10977,Urban,85.23642372
+SMC00382,25,34.0444783,-117.9951,Urban,85.23642372
+SMC00440,9,34.2861499,-118.52907,Urban,85.23642372
+SMC00480,1,34.2342633,-117.73221,Urban,85.23642372
+SMC00670,65,33.8686273,-117.90923,Urban,85.23642372
+SMC00873,39,33.5978762,-117.62711,Urban,85.23642372
+SMC00926,42,33.9074099,-117.88296,Urban,85.23642372
+SMC01004,6,34.1492659,-118.16567,Urban,85.23642372
+SMC01097,17,33.4867467,-117.2556,Agriculture,19.86655861
+SMC01384,9,34.0645362,-118.70035,Urban,85.23642372
+SMC01640,9,34.1530146,-118.69681,Urban,85.23642372
+SMC01694,28,33.9200198,-117.90271,Urban,85.23642372
+SMC01726,162,33.8635246,-117.98813,Urban,85.23642372
+SMC02656,70,34.0747152,-117.87267,Urban,85.23642372
+SMC02976,6,34.2578936,-117.75662,Urban,85.23642372
+SMC04524,0,34.24762604,-118.0335586,Urban,85.23642372
+SMC09534,68,33.8375606,-118.09454,Urban,85.23642372
+SMC09698,16,33.7459227,-116.70738,Urban,85.23642372
+SMC11581,22,33.9520362,-117.6066,Urban,85.23642372
+SMC16832,145,33.8844398,-118.10855,Urban,85.23642372
+SMC20032,42,33.8766423,-118.10775,Urban,85.23642372

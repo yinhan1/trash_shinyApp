@@ -1,0 +1,269 @@
+objectid,stationid,sampledate,trawlnumber,debristype,debriscount,comments,latitude,longitude,stratum,Type,abandoned,Replaces,area_weight,region
+2269,B18-10231,2018-08-08T00:00:00Z,1,Kelp Stipe/Blade,2,Rotted blades,33.30713,-117.5233,Inner Shelf,New Site,No,NA,40.43039795,North San Diego Shelf
+2270,B18-10237,2018-08-01T00:00:00Z,1,Cup,1,Yogurt container,32.65979,-117.1684,Inner Shelf,New Site,No,NA,40.43039795,South San Diego Shelf
+2271,B18-10237,2018-08-01T00:00:00Z,1,Kelp Stipe/Blade,-88,Blades and fragments,32.65979,-117.1684,Inner Shelf,New Site,No,NA,40.43039795,South San Diego Shelf
+2272,B18-10265,2018-08-08T00:00:00Z,1,Other Foliose Algae,-88,NA,33.26988,-117.565,Mid Shelf,Revisit,No,NA,67.32610042,North San Diego Shelf
+2273,B18-10266,2018-08-08T00:00:00Z,1,Kelp Stipe/Blade,-88,Kelp blade fragments,33.2656,-117.5334,Mid Shelf,Revisit,No,NA,67.32610042,North San Diego Shelf
+2274,B18-10267,2018-08-08T00:00:00Z,1,Kelp Stipe/Blade,3,Kelp blade pieces,33.21766,-117.4805,Mid Shelf,New Site,No,NA,67.32610042,North San Diego Shelf
+2275,B18-10267,2018-08-08T00:00:00Z,1,Other Foliose Algae,1,Piece of Egregia,33.21766,-117.4805,Mid Shelf,New Site,No,NA,67.32610042,North San Diego Shelf
+2276,B18-10267,2018-08-08T00:00:00Z,1,Can - other,1,Can fragment,33.21766,-117.4805,Mid Shelf,New Site,No,NA,67.32610042,North San Diego Shelf
+2277,B18-10269,2018-08-07T00:00:00Z,1,Other Plastic (comment req.),1,PVC pipe (1.2 kg),33.08783,-117.3509,Mid Shelf,Revisit,No,NA,67.32610042,North San Diego Shelf
+2278,B18-10269,2018-08-07T00:00:00Z,1,Other Metal (comment req.),1,Tea pot - aluminum (0.3 kg),33.08783,-117.3509,Mid Shelf,Revisit,No,NA,67.32610042,North San Diego Shelf
+2279,B18-10277,2018-08-01T00:00:00Z,1,Kelp Stipe/Blade,-88,Blades; few fragments,32.58963,-117.2643,Mid Shelf,Revisit,No,NA,67.32610042,South San Diego Shelf
+2280,B18-10278,2018-08-01T00:00:00Z,1,Foliose Algae - not kelp,-88,Fragments,32.55149,-117.1994,Mid Shelf,Revisit,No,NA,67.32610042,South San Diego Shelf
+2281,B18-10278,2018-08-01T00:00:00Z,1,Kelp Holdfast,2,NA,32.55149,-117.1994,Mid Shelf,Revisit,No,NA,67.32610042,South San Diego Shelf
+2282,B18-10278,2018-08-01T00:00:00Z,1,Kelp Stipe/Blade,-88,Fragments,32.55149,-117.1994,Mid Shelf,Revisit,No,NA,67.32610042,South San Diego Shelf
+2283,B18-10320,2018-09-06T00:00:00Z,1,Plastic Piece (unid.),1,Fish tag; Photo taken,32.58576,-117.3406,Outer Shelf,Revisit,No,NA,23.28776249,South San Diego Shelf
+2284,B18-10348,2018-08-09T00:00:00Z,1,Food Bag/Wrapper,1,Foil on one side balloon (photo taken),33.09386,-117.417,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope
+2285,B18-10348,2018-08-09T00:00:00Z,1,Plastic Piece (unid.),1,Electrical tape (photo taken),33.09386,-117.417,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope
+2286,B18-10349,2018-08-07T00:00:00Z,2,None,0,No problem with trawl,33.05062,-117.3895,Upper Slope,New Site,No,NA,125.2249344,San Diego Slope
+2287,B18-10350,2018-09-05T00:00:00Z,1,Plastic Piece (unid.),1,Small,32.70487,-117.3537,Upper Slope,New Site,No,NA,125.2249344,San Diego Slope
+2288,B18-10351,2018-09-06T00:00:00Z,1,Food Bag/Wrapper,1,"Small piece (1"" x 1""); Photo taken",32.69303,-117.3948,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope
+2289,B18-10351,2018-09-06T00:00:00Z,1,Rag/Cloth,2,Cotton; Rib knit; Photo taken,32.69303,-117.3948,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope
+2290,B18-10351,2018-09-06T00:00:00Z,1,Other Misc. (comment req.),1,49 cm; Cotton rope,32.69303,-117.3948,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope
+2291,B18-10875,2018-08-09T00:00:00Z,1,Kelp Stipe/Blade,1,Fragments,33.1753,-117.4036,Inner Shelf,Overdraw,No,B18-10880,40.43039795,San Diego Shelf
+2292,B18-10879,2018-09-07T00:00:00Z,1,Food Bag/Wrapper,1,NA,32.66821,-117.206,Inner Shelf,Overdraw,No,B18-10235,40.43039795,South San Diego Shelf
+2293,B18-10879,2018-09-07T00:00:00Z,1,Foliose Algae - not kelp,-88,Bryozoan mat,32.66821,-117.206,Inner Shelf,Overdraw,No,B18-10235,40.43039795,South San Diego Shelf
+2294,B18-10879,2018-09-07T00:00:00Z,1,Kelp Stipe/Blade,2,NA,32.66821,-117.206,Inner Shelf,Overdraw,No,B18-10235,40.43039795,South San Diego Shelf
+2295,B18-10879,2018-09-07T00:00:00Z,1,Seagrass,-88,NA,32.66821,-117.206,Inner Shelf,Overdraw,No,B18-10235,40.43039795,South San Diego Shelf
+2296,B18-10925,2018-08-09T00:00:00Z,1,Kelp Stipe/Blade,1,Small fragments,33.24229,-117.5077,Mid Shelf,Overdraw,No,B18-10268,67.32610042,North San Diego Shelf
+2297,B18-10930,2018-09-05T00:00:00Z,1,Kelp Stipe/Blade,1,NA,32.70749,-117.3365,Mid Shelf,Overdraw,No,B18-10274,67.32610042,South San Diego Shelf
+2298,B18-10989,2018-09-05T00:00:00Z,1,Bag,1,NA,32.74153,-117.36,Outer Shelf,Overdraw,No,B18-10316,23.28776249,San Diego Slope
+2299,B18-10989,2018-09-05T00:00:00Z,1,Glass Bottle/Jar -other,1,NA,32.74153,-117.36,Outer Shelf,Overdraw,No,B18-10316,23.28776249,San Diego Slope
+2300,B18-10989,2018-09-05T00:00:00Z,1,Paper,2,NA,32.74153,-117.36,Outer Shelf,Overdraw,No,B18-10316,23.28776249,San Diego Slope
+2301,B18-10992,2018-09-07T00:00:00Z,1,Other Marine (comment req.),68,Encrusting coral,32.59962,-117.3434,Outer Shelf,Overdraw,No,B18-10317,23.28776249,North San Diego Shelf
+2302,B18-10992,2018-09-07T00:00:00Z,1,Other Metal (comment req.),100,Count is a very rough estimate; Aluminum plane pieces (20.3 kg),32.59962,-117.3434,Outer Shelf,Overdraw,No,B18-10317,23.28776249,North San Diego Shelf
+2303,B18-11032,2018-08-09T00:00:00Z,1,None,0,No problem with trawl,33.13011,-117.4396,Upper Slope,Overdraw,No,B18-10347,125.2249344,San Diego Slope
+2304,B18-10000,2018-07-19T00:00:00Z,1,Kelp Stipe/Blade,1,1 Egregia strand,33.75935,-118.16285,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2305,B18-10001,2018-07-19T00:00:00Z,1,None,0,No problems with trawl,33.75286667,-118.1502833,Bays,New Site,No,NA,0.269230769,Los Angeles/Long Beach
+2306,B18-10002,2018-07-30T00:00:00Z,1,Kelp Stipe/Blade,1,1 blade of Macrocystis,33.7442,-118.1687667,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2307,B18-10003,2018-07-19T00:00:00Z,1,Kelp Stipe/Blade,1,1 apical end of Macrocystis,33.74438333,-118.1402667,Bays,New Site,No,NA,0.269230769,Los Angeles/Long Beach
+2308,B18-10003,2018-07-19T00:00:00Z,1,Food Bag/Wrapper,1,1 small piece,33.74438333,-118.1402667,Bays,New Site,No,NA,0.269230769,Los Angeles/Long Beach
+2309,B18-10004,2018-07-19T00:00:00Z,1,None,0,No problems with trawl,33.74301667,-118.1530333,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2310,B18-10005,2018-07-17T00:00:00Z,1,Kelp Stipe/Blade,2,2 pieces of Macrocystis,33.7409,-118.1752667,Bays,New Site,No,NA,0.269230769,Los Angeles/Long Beach
+2311,B18-10005,2018-07-17T00:00:00Z,1,Stick/Branch/Driftwood,1,1 stick,33.7409,-118.1752667,Bays,New Site,No,NA,0.269230769,Los Angeles/Long Beach
+2312,B18-10006,2018-07-17T00:00:00Z,1,None,0,No problems with trawl,33.73966667,-118.1714833,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2313,B18-10007,2018-07-19T00:00:00Z,1,Kelp Stipe/Blade,3,"2 small pieces of Macrocystis, 1 small piece of other brown algae",33.73363333,-118.2111833,Bays,New Site,No,NA,0.269230769,Los Angeles/Long Beach
+2314,B18-10007,2018-07-19T00:00:00Z,1,Bag,1,1 broken down piece of a grocery bag,33.73363333,-118.2111833,Bays,New Site,No,NA,0.269230769,Los Angeles/Long Beach
+2315,B18-10007,2018-07-19T00:00:00Z,1,Tire,1,"16"" car tire from a tug boat",33.73363333,-118.2111833,Bays,New Site,No,NA,0.269230769,Los Angeles/Long Beach
+2316,B18-10008,2018-07-17T00:00:00Z,1,Kelp Stipe/Blade,1,Single strand of Egregia,33.73183333,-118.2044667,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2317,B18-10008,2018-07-17T00:00:00Z,1,Foliose Algae - not kelp,1,Degraded green algae,33.73183333,-118.2044667,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2318,B18-10008,2018-07-17T00:00:00Z,1,Food Bag/Wrapper,1,1980 Ruffles Cheddar & Sour Cream potato chip bag - 1.125 oz,33.73183333,-118.2044667,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2319,B18-10008,2018-07-17T00:00:00Z,1,Drink Can,1,Old Budweiser shredded can,33.73183333,-118.2044667,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2320,B18-10011,2018-08-01T00:00:00Z,1,Kelp Stipe/Blade,1,Macrocystis blade,33.72425,-118.2235333,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2321,B18-10012,2018-07-17T00:00:00Z,1,Bag,1,1 dog poop bag,33.71331667,-118.2410833,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2322,B18-10012,2018-07-17T00:00:00Z,1,Fishing Line/Net,2,2 pieces of fishing line,33.71331667,-118.2410833,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2323,B18-10012,2018-07-17T00:00:00Z,1,Foliose Algae - not kelp,-88,Red and green algae,33.71331667,-118.2410833,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2324,B18-10012,2018-07-17T00:00:00Z,1,Kelp Stipe/Blade,-88,Macrocystis,33.71331667,-118.2410833,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2325,B18-10012,2018-07-17T00:00:00Z,1,Seagrass,2,2 strands,33.71331667,-118.2410833,Bays,Revisit,No,NA,0.269230769,Los Angeles/Long Beach
+2326,B18-10218,2018-09-05T00:00:00Z,1,Kelp Stipe/Blade,9,"7 blades & stipes of Macrocystis, 1 strand of Egregia, 1 blade of Laminaria",34.02313333,-118.5934167,Inner Shelf,Revisit,No,NA,40.43039795,Santa Monica Bay
+2327,B18-10218,2018-09-05T00:00:00Z,1,Foliose Algae - not kelp,1,Rhodomenia,34.02313333,-118.5934167,Inner Shelf,Revisit,No,NA,40.43039795,Santa Monica Bay
+2328,B18-10218,2018-09-05T00:00:00Z,1,Seagrass,4,4 strands,34.02313333,-118.5934167,Inner Shelf,Revisit,No,NA,40.43039795,Santa Monica Bay
+2329,B18-10218,2018-09-05T00:00:00Z,1,Other Marine (comment req.),-88,"Thalamoporella californica (Bryozoan), large quantities to explain presence of nudibranchs",34.02313333,-118.5934167,Inner Shelf,Revisit,No,NA,40.43039795,Santa Monica Bay
+2330,B18-10219,2018-09-04T00:00:00Z,1,Foliose Algae - not kelp,4,"1 Sargassum, 2 Chondracanthus, 1 Plocamium",33.96228333,-118.4767333,Inner Shelf,Revisit,No,NA,40.43039795,Santa Monica Bay
+2331,B18-10219,2018-09-04T00:00:00Z,1,Kelp Stipe/Blade,4,"1 stipe, 3 blades of Macrocystis",33.96228333,-118.4767333,Inner Shelf,Revisit,No,NA,40.43039795,Santa Monica Bay
+2332,B18-10219,2018-09-04T00:00:00Z,1,Stick/Branch/Driftwood,1,1 stick,33.96228333,-118.4767333,Inner Shelf,Revisit,No,NA,40.43039795,Santa Monica Bay
+2333,B18-10250,2018-08-21T00:00:00Z,2,Other Plastic (comment req.),1,Anthropogenic house sponge,34.0528,-119.0490667,Mid Shelf,New Site,No,NA,67.32610042,Hueneme to Dume
+2334,B18-10250,2018-08-21T00:00:00Z,2,Kelp Stipe/Blade,-88,Egregia strands,34.0528,-119.0490667,Mid Shelf,New Site,No,NA,67.32610042,Hueneme to Dume
+2335,B18-10253,2018-09-04T00:00:00Z,1,Polypropylene Rope,1,1 small piece,33.94395,-118.5197333,Mid Shelf,Revisit,No,NA,67.32610042,Santa Monica Bay
+2336,B18-10253,2018-09-04T00:00:00Z,1,Seagrass,5,5 strands,33.94395,-118.5197333,Mid Shelf,Revisit,No,NA,67.32610042,Santa Monica Bay
+2337,B18-10254,2018-09-04T00:00:00Z,1,Kelp Stipe/Blade,2,1 blade and 1 stipe of Macrocystis,33.93495,-118.5395,Mid Shelf,Revisit,No,NA,67.32610042,Santa Monica Bay
+2338,B18-10254,2018-09-04T00:00:00Z,1,Seagrass,3,3 strands,33.93495,-118.5395,Mid Shelf,Revisit,No,NA,67.32610042,Santa Monica Bay
+2339,B18-10255,2018-09-18T00:00:00Z,1,Kelp Stipe/Blade,2,"1 Macrocystis stipe, 1 very large strand of Egregia (6ft long with 10 branches)",33.86583333,-118.5281,Mid Shelf,New Site,No,NA,67.32610042,Santa Monica Bay
+2340,B18-10303,2018-08-21T00:00:00Z,1,Food Bag/Wrapper,3,3 pieces of cheetos bag(s?),34.04463333,-119.05545,Outer Shelf,Revisit,No,NA,23.28776249,Hueneme to Dume
+2341,B18-10303,2018-08-21T00:00:00Z,1,Polypropylene Rope,1,1 thick piece,34.04463333,-119.05545,Outer Shelf,Revisit,No,NA,23.28776249,Hueneme to Dume
+2342,B18-10303,2018-08-21T00:00:00Z,1,Kelp Stipe/Blade,6,6 blades of Macrocystis,34.04463333,-119.05545,Outer Shelf,Revisit,No,NA,23.28776249,Hueneme to Dume
+2343,B18-10303,2018-08-21T00:00:00Z,1,Seagrass,2,2 strands,34.04463333,-119.05545,Outer Shelf,Revisit,No,NA,23.28776249,Hueneme to Dume
+2344,B18-10303,2018-08-21T00:00:00Z,1,Leaves/Seed Pod,1,1 leaf,34.04463333,-119.05545,Outer Shelf,Revisit,No,NA,23.28776249,Hueneme to Dume
+2345,B18-10303,2018-08-21T00:00:00Z,1,Stick/Branch/Driftwood,1,1 stick,34.04463333,-119.05545,Outer Shelf,Revisit,No,NA,23.28776249,Hueneme to Dume
+2346,B18-10304,2018-09-11T00:00:00Z,1,Seagrass,2,2 strands,34.03365,-119.0301167,Outer Shelf,New Site,No,NA,23.28776249,Hueneme to Dume
+2347,B18-10308,2018-09-18T00:00:00Z,1,None,0,No problems with trawl,33.91223333,-118.5884667,Outer Shelf,New Site,No,NA,23.28776249,Santa Monica Bay
+2348,B18-10309,2018-08-28T00:00:00Z,1,None,0,No problems with trawl,33.81898333,-118.5258833,Outer Shelf,New Site,No,NA,23.28776249,Santa Monica Bay
+2349,B18-10311,2018-08-28T00:00:00Z,1,Kelp Stipe/Blade,5,3 blades and 2 stipes of Macrocystis,33.76651667,-118.4604333,Outer Shelf,Revisit,No,NA,23.28776249,Santa Monica Bay
+2350,B18-10341,2018-08-29T00:00:00Z,2,None,0,No problems with trawl,33.9582,-118.6487,Upper Slope,New Site,No,NA,125.2249344,Santa Monica Bay
+2351,B18-10411,2018-07-30T00:00:00Z,1,Kelp Stipe/Blade,1,1 Egregia strand,33.73616667,-118.2172833,Bays,Overdraw,No,B18-10010,0.269230769,Los Angeles/Long Beach
+2352,B18-10417,2018-07-30T00:00:00Z,1,Kelp Stipe/Blade,1,1 blade of Macrocystis,33.73116667,-118.1571833,Bays,Overdraw,No,B18-10009,0.269230769,Los Angeles/Long Beach
+2353,B18-10905,2018-09-05T00:00:00Z,1,Kelp Stipe/Blade,9,"5 blades of Macrocystis, 4 blades of Laminariales",33.99113333,-118.5358833,Mid Shelf,Overdraw,No,B18-10252,67.32610042,Santa Monica Bay
+2354,B18-10905,2018-09-05T00:00:00Z,1,Seagrass,4,4 strands,33.99113333,-118.5358833,Mid Shelf,Overdraw,No,B18-10252,67.32610042,Santa Monica Bay
+2355,B18-10911,2018-08-28T00:00:00Z,1,Kelp Stipe/Blade,4,4 beat up blades of Macrocystis,33.7777,-118.47395,Mid Shelf,Overdraw,No,B18-10906,67.32610042,Santa Monica Bay
+2356,B18-10911,2018-08-28T00:00:00Z,1,Other Marine (comment req.),-88,large worm tubes and large shell hash,33.7777,-118.47395,Mid Shelf,Overdraw,No,B18-10906,67.32610042,Santa Monica Bay
+2357,B18-10968,2018-09-05T00:00:00Z,1,Kelp Stipe/Blade,1,1 blade of Macrocystis,33.92333333,-118.5675667,Outer Shelf,Overdraw,No,B18-10306,23.28776249,Hueneme to Dume
+2358,B18-10968,2018-09-05T00:00:00Z,1,Seagrass,5,5 strands,33.92333333,-118.5675667,Outer Shelf,Overdraw,No,B18-10306,23.28776249,Hueneme to Dume
+2359,B18-10968,2018-09-05T00:00:00Z,1,Stick/Branch/Driftwood,1,1 stick,33.92333333,-118.5675667,Outer Shelf,Overdraw,No,B18-10306,23.28776249,Hueneme to Dume
+2360,B18-10207,2018-08-08T00:00:00Z,1,Beer Bottle,1,NA,34.3960926,-119.6623071,Inner Shelf,Revisit,No,NA,40.43039795,East Santa Barbara Channel
+2361,B18-10207,2018-08-08T00:00:00Z,1,Kelp Stipe/Blade,10,NA,34.3960926,-119.6623071,Inner Shelf,Revisit,No,NA,40.43039795,East Santa Barbara Channel
+2362,B18-10211,2018-08-27T00:00:00Z,1,Foliose Algae - not kelp,5,NA,34.22829,-119.35223,Inner Shelf,New Site,No,NA,40.43039795,East Santa Barbara Channel
+2363,B18-10211,2018-08-27T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.22829,-119.35223,Inner Shelf,New Site,No,NA,40.43039795,East Santa Barbara Channel
+2364,B18-10212,2018-08-27T00:00:00Z,1,Foliose Algae - not kelp,8,NA,34.19941,-119.29601,Inner Shelf,New Site,No,NA,40.43039795,East Santa Barbara Channel
+2365,B18-10215,2018-08-27T00:00:00Z,1,Foliose Algae - not kelp,-88,NA,34.10112,-119.1507,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2366,B18-10215,2018-08-27T00:00:00Z,1,Kelp Stipe/Blade,5,NA,34.10112,-119.1507,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2367,B18-10215,2018-08-27T00:00:00Z,1,Seagrass,5,NA,34.10112,-119.1507,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2368,B18-10221,2018-08-27T00:00:00Z,1,Plastic Piece (unid.),1,NA,34.07996,-119.0598,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2369,B18-10221,2018-08-27T00:00:00Z,1,Kelp Holdfast,1,NA,34.07996,-119.0598,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2370,B18-10221,2018-08-27T00:00:00Z,1,Kelp Stipe/Blade,-88,NA,34.07996,-119.0598,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2371,B18-10221,2018-08-27T00:00:00Z,1,Stick/Branch/Driftwood,4,NA,34.07996,-119.0598,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2372,B18-10214,2018-08-27T00:00:00Z,1,Foliose Algae - not kelp,2,NA,34.12478,-119.19244,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2373,B18-10214,2018-08-27T00:00:00Z,1,Other Foliose Algae,-88,NA,34.12478,-119.19244,Inner Shelf,Revisit,No,NA,40.43039795,Hueneme to Dume
+2374,B18-10251,2018-08-28T00:00:00Z,3,Seagrass,1,NA,34.01583,-118.9119,Mid Shelf,New Site,No,NA,67.32610042,Hueneme to Dume
+2375,B18-10213,2018-09-03T00:00:00Z,1,None,0,No debris present in sample,34.17862,-119.34675,Inner Shelf,Revisit,No,NA,40.43039795,East Santa Barbara Channel
+2376,B18-10249,2018-09-03T00:00:00Z,1,None,0,No debris present in sample,34.19524,-119.39093,Mid Shelf,New Site,No,NA,67.32610042,East Santa Barbara Channel
+2377,B18-10210,2018-09-03T00:00:00Z,1,None,0,No debris present in sample,34.24353,-119.38537,Inner Shelf,New Site,No,NA,40.43039795,East Santa Barbara Channel
+2378,B18-10300,2018-09-04T00:00:00Z,6,None,0,No debris present in sample,34.08896,-119.27475,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2379,B18-10848,2018-09-05T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.10945,-119.20938,Inner Shelf,New Site,No,NA,40.43039795,East Santa Barbara Channel
+2380,B18-10299,2018-09-05T00:00:00Z,3,None,0,No debris present in sample,34.10704,-119.31886,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2381,B18-10295,2018-09-05T00:00:00Z,2,None,0,No debris present in sample,34.13272,-119.36348,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2382,B18-10953,2018-09-07T00:00:00Z,1,None,0,No debris present in sample,34.16299,-119.46716,Outer Shelf,Overdraw,No,B18-10302,23.28776249,Hueneme to Dume
+2383,B18-10205,2018-09-11T00:00:00Z,1,Foliose Algae - not kelp,-88,NA,34.40361,-119.81217,Inner Shelf,Revisit,No,NA,40.43039795,East Santa Barbara Channel
+2384,B18-10205,2018-09-11T00:00:00Z,1,Kelp Stipe/Blade,-88,NA,34.40361,-119.81217,Inner Shelf,Revisit,No,NA,40.43039795,East Santa Barbara Channel
+2385,B18-10205,2018-09-11T00:00:00Z,1,Other Marine (comment req.),-88,Bryozoan,34.40361,-119.81217,Inner Shelf,Revisit,No,NA,40.43039795,East Santa Barbara Channel
+2386,B18-10243,2018-09-11T00:00:00Z,1,Kelp Stipe/Blade,-88,NA,34.40102,-119.83283,Mid Shelf,Revisit,No,NA,67.32610042,East Santa Barbara Channel
+2387,B18-10243,2018-09-11T00:00:00Z,1,Fishing Gear,1,NA,34.40102,-119.83283,Mid Shelf,Revisit,No,NA,67.32610042,East Santa Barbara Channel
+2388,B18-10244,2018-09-11T00:00:00Z,1,None,0,No debris present in sample,34.3591,-119.82501,Mid Shelf,New Site,No,NA,67.32610042,East Santa Barbara Channel
+2389,B18-10245,2018-09-11T00:00:00Z,1,None,0,No debris present in sample,34.3576,-119.67377,Mid Shelf,New Site,No,NA,67.32610042,East Santa Barbara Channel
+2390,B18-10842,2018-09-14T00:00:00Z,1,Kelp Stipe/Blade,1,NA,34.32716,-119.41375,Inner Shelf,New Site,No,NA,40.43039795,East Santa Barbara Channel
+2391,B18-10842,2018-09-14T00:00:00Z,1,Other Foliose Algae,1,NA,34.32716,-119.41375,Inner Shelf,New Site,No,NA,40.43039795,East Santa Barbara Channel
+2392,B18-10208,2018-09-14T00:00:00Z,1,Kelp Stipe/Blade,1,NA,34.33409,-119.43464,Inner Shelf,New Site,No,NA,40.43039795,East Santa Barbara Channel
+2393,B18-10248,2018-09-14T00:00:00Z,2,None,0,No debris present in sample,34.22984,-119.5182,Mid Shelf,New Site,No,NA,67.32610042,East Santa Barbara Channel
+2394,B18-10247,2018-09-14T00:00:00Z,1,Foliose Algae - not kelp,-88,NA,34.31191,-119.54771,Mid Shelf,New Site,No,NA,67.32610042,East Santa Barbara Channel
+2395,B18-10246,2018-09-14T00:00:00Z,1,Kelp Stipe/Blade,-88,NA,34.3441,-119.56253,Mid Shelf,Revisit,No,NA,67.32610042,East Santa Barbara Channel
+2396,B18-10224,2018-08-16T00:00:00Z,1,Kelp Stipe/Blade,-88,"Macrocystis, Egregia, Laminaria, reds",33.6952,-118.29596,Inner Shelf,Revisit,No,NA,40.43039795,Palos Verdes Shelf
+2397,B18-10224,2018-08-16T00:00:00Z,1,Seagrass,1,NA,33.6952,-118.29596,Inner Shelf,Revisit,No,NA,40.43039795,Palos Verdes Shelf
+2398,B18-10283,2018-07-18T00:00:00Z,1,Food Bag/Wrapper,1,NA,34.27778,-119.71841,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2399,B18-10283,2018-07-18T00:00:00Z,1,Kelp Stipe/Blade,1,Macrocystis,34.27778,-119.71841,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2400,B18-10283,2018-07-18T00:00:00Z,1,Seagrass,2,NA,34.27778,-119.71841,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2401,B18-10284,2018-07-18T00:00:00Z,1,Kelp Stipe/Blade,6,Macrocystis,34.27256,-119.65716,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2402,B18-10284,2018-07-18T00:00:00Z,1,Seagrass,5,NA,34.27256,-119.65716,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2403,B18-10286,2018-07-17T00:00:00Z,1,Kelp Holdfast,1,NA,34.24393,-119.70575,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2404,B18-10286,2018-07-17T00:00:00Z,1,Kelp Stipe/Blade,1,NA,34.24393,-119.70575,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2405,B18-10286,2018-07-17T00:00:00Z,1,Other Plastic (comment req.),1,zip tie,34.24393,-119.70575,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2406,B18-10286,2018-07-17T00:00:00Z,1,Plastic Piece (unid.),1,NA,34.24393,-119.70575,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2407,B18-10290,2018-07-19T00:00:00Z,1,Kelp Stipe/Blade,3,NA,34.2068,-119.56755,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2408,B18-10290,2018-07-19T00:00:00Z,1,Leaves/Seed Pod,1,NA,34.2068,-119.56755,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2409,B18-10291,2018-07-19T00:00:00Z,1,Kelp Stipe/Blade,2,Macrocystis,34.19691,-119.57135,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2410,B18-10291,2018-07-19T00:00:00Z,1,Seagrass,5,NA,34.19691,-119.57135,Outer Shelf,New Site,No,NA,23.28776249,East Santa Barbara Channel
+2411,B18-10292,2018-07-19T00:00:00Z,1,None,0,No debris present,34.19563,-119.63735,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2412,B18-10294,2018-07-20T00:00:00Z,1,Kelp Stipe/Blade,1,Macrocystis,34.13289,-119.37902,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2413,B18-10294,2018-07-20T00:00:00Z,1,Other Plastic (comment req.),1,plastic sheet,34.13289,-119.37902,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2414,B18-10294,2018-07-20T00:00:00Z,1,Rock,3,NA,34.13289,-119.37902,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2415,B18-10296,2018-07-20T00:00:00Z,1,Kelp Stipe/Blade,1,NA,34.13269,-119.36993,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2416,B18-10296,2018-07-20T00:00:00Z,1,Stick/Branch/Driftwood,2,NA,34.13269,-119.36993,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2417,B18-10297,2018-07-20T00:00:00Z,1,Fishing Gear,1,hook,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2418,B18-10297,2018-07-20T00:00:00Z,1,Fishing Line/Net,1,monofilament,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2419,B18-10297,2018-07-20T00:00:00Z,1,Kelp Stipe/Blade,6,NA,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2420,B18-10297,2018-07-20T00:00:00Z,1,Rock,3,NA,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2421,B18-10297,2018-07-20T00:00:00Z,1,Seagrass,5,NA,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2422,B18-10297,2018-07-20T00:00:00Z,1,Stick/Branch/Driftwood,3,stick,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel
+2423,B18-10307,2018-08-17T00:00:00Z,1,Kelp Stipe/Blade,1,Cystoseira,33.95713,-118.59299,Outer Shelf,Revisit,No,NA,23.28776249,Santa Monica Bay
+2424,B18-10310,2018-08-16T00:00:00Z,1,Kelp Stipe/Blade,1,Macrocystis,33.76748,-118.45901,Mid Shelf,Revisit,No,NA,67.32610042,Santa Monica Bay
+2425,B18-10310,2018-08-16T00:00:00Z,1,Rock,2,NA,33.76748,-118.45901,Mid Shelf,Revisit,No,NA,67.32610042,Santa Monica Bay
+2426,B18-10325,2018-07-18T00:00:00Z,1,Food Bag/Wrapper,1,NA,34.26184,-119.80546,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2427,B18-10325,2018-07-18T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.26184,-119.80546,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2428,B18-10328,2018-07-18T00:00:00Z,1,Kelp Stipe/Blade,1,NA,34.2521,-119.83736,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2429,B18-10328,2018-07-18T00:00:00Z,1,Other Misc. (comment req.),1,String,34.2521,-119.83736,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2430,B18-10328,2018-07-18T00:00:00Z,1,Seagrass,3,NA,34.2521,-119.83736,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2431,B18-10332,2018-07-18T00:00:00Z,1,Other Marine (comment req.),10,Tar balls,34.17079,-119.79362,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2432,B18-10332,2018-07-18T00:00:00Z,1,Seagrass,-88,NA,34.17079,-119.79362,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2433,B18-10332,2018-07-18T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.17079,-119.79362,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel
+2434,B18-10333,2018-07-18T00:00:00Z,1,Kelp Holdfast,1,NA,34.15832,-119.82782,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2435,B18-10333,2018-07-18T00:00:00Z,1,Kelp Stipe/Blade,3,NA,34.15832,-119.82782,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2436,B18-10333,2018-07-18T00:00:00Z,1,Stick/Branch/Driftwood,2,NA,34.15832,-119.82782,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2437,B18-10338,2018-07-19T00:00:00Z,1,Cap/Lid,1,NA,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2438,B18-10338,2018-07-19T00:00:00Z,1,Clothing,1,shirt sleeve,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2439,B18-10338,2018-07-19T00:00:00Z,1,Kelp Holdfast,1,Macrocystis,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2440,B18-10338,2018-07-19T00:00:00Z,1,Other Plastic (comment req.),1,plastic label,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2441,B18-10338,2018-07-19T00:00:00Z,1,Plastic Piece (unid.),1,NA,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2442,B18-10338,2018-07-19T00:00:00Z,1,Rag/Cloth,1,NA,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel
+2443,B18-10339,2018-07-16T00:00:00Z,1,Rock,1,NA,34.04155,-119.19747,Upper Slope,Revisit,No,NA,125.2249344,Hueneme to Dume
+2444,B18-10339,2018-07-16T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.04155,-119.19747,Upper Slope,Revisit,No,NA,125.2249344,Hueneme to Dume
+2445,B18-10340,2018-07-16T00:00:00Z,1,None,0,No debris present,34.03852,-119.12566,Upper Slope,New Site,No,NA,125.2249344,Hueneme to Dume
+2446,B18-10342,2018-09-04T00:00:00Z,3,Gorgonian Sea Fan (dead),1,NA,33.90613,-118.66631,Upper Slope,New Site,No,NA,125.2249344,Santa Monica Bay
+2447,B18-10342,2018-09-04T00:00:00Z,3,Seagrass,1,NA,33.90613,-118.66631,Upper Slope,New Site,No,NA,125.2249344,Santa Monica Bay
+2448,B18-10343,2018-08-16T00:00:00Z,1,Kelp Holdfast,1,Macrocystis,33.69417,-118.34703,Upper Slope,Revisit,No,NA,125.2249344,Palos Verdes Shelf
+2449,B18-10343,2018-08-16T00:00:00Z,1,Other Misc. (comment req.),1,rope,33.69417,-118.34703,Upper Slope,Revisit,No,NA,125.2249344,Palos Verdes Shelf
+2450,B18-10343,2018-08-16T00:00:00Z,1,Rock,9,NA,33.69417,-118.34703,Upper Slope,Revisit,No,NA,125.2249344,Palos Verdes Shelf
+2451,B18-10949,2018-07-19T00:00:00Z,1,Food Bag/Wrapper,2,"potato bag, clear wrapper",34.247,-119.68242,Outer Shelf,Overdraw,No,B18-10305,23.28776249,Hueneme to Dume
+2452,B18-10949,2018-07-19T00:00:00Z,1,Leaves/Seed Pod,3,NA,34.247,-119.68242,Outer Shelf,Overdraw,No,B18-10305,23.28776249,Hueneme to Dume
+2453,B18-10949,2018-07-19T00:00:00Z,1,Other Plastic (comment req.),1,hagfish trap bucket,34.247,-119.68242,Outer Shelf,Overdraw,No,B18-10305,23.28776249,Hueneme to Dume
+2454,B18-10949,2018-07-19T00:00:00Z,1,Seagrass,1,NA,34.247,-119.68242,Outer Shelf,Overdraw,No,B18-10305,23.28776249,Hueneme to Dume
+2455,B18-11000,2018-07-17T00:00:00Z,1,Food Bag/Wrapper,1,NA,34.22874,-119.81929,Upper Slope,Overdraw,No,B18-10337,125.2249344,Hueneme to Dume
+2456,B18-11000,2018-07-17T00:00:00Z,1,Kelp Holdfast,1,Macrocystis,34.22874,-119.81929,Upper Slope,Overdraw,No,B18-10337,125.2249344,Hueneme to Dume
+2457,B18-11000,2018-07-17T00:00:00Z,1,Kelp Stipe/Blade,3,Macrocystis,34.22874,-119.81929,Upper Slope,Overdraw,No,B18-10337,125.2249344,Hueneme to Dume
+2458,B18-11000,2018-07-17T00:00:00Z,1,Seagrass,2,NA,34.22874,-119.81929,Upper Slope,Overdraw,No,B18-10337,125.2249344,Hueneme to Dume
+2459,B18-11000,2018-07-17T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.22874,-119.81929,Upper Slope,Overdraw,No,B18-10337,125.2249344,Hueneme to Dume
+2460,B18-10321,2018-07-31T00:00:00Z,1,None,0,None,34.36301,-120.01353,Upper Slope,Revisit,Yes,no replacement,NA,NA
+2461,B18-10322,2018-08-01T00:00:00Z,1,Foliose Algae - not kelp,3,NA,34.3446,-120.3675,Upper Slope,Revisit,No,NA,125.2249344,West Santa Barbara Channel
+2462,B18-10242,2018-08-02T00:00:00Z,1,Kelp Stipe/Blade,3,Partial blades,34.42325,-120.05743,Mid Shelf,New Site,No,NA,67.32610042,West Santa Barbara Channel
+2463,B18-10241,2018-08-02T00:00:00Z,1,None,0,None,34.43576,-120.23716,Mid Shelf,New Site,No,NA,67.32610042,West Santa Barbara Channel
+2464,B18-10279,2018-08-02T00:00:00Z,2,None,0,"abundance of red crab, abandoned station",34.41861,-120.21385,Outer Shelf,New Site,Yes,no replacement,NA,NA
+2465,B18-10838,2018-08-28T00:00:00Z,2,Kelp Stipe/Blade,0,blade,34.4126,-119.89586,Inner Shelf,New Site,No,B18-10204,40.43039795,West Santa Barbara Channel
+2466,B18-10334,2018-09-25T00:00:00Z,1,Kelp Stipe/Blade,-99,Low estimated weight,34.14988,-120.12125,Upper Slope,New Site,No,NA,125.2249344,West Santa Barbara Channel
+2467,B18-10334,2018-09-25T00:00:00Z,1,Seagrass,-99,Low estimated weight; Eelgrass blades probably greater than 10 count,34.14988,-120.12125,Upper Slope,New Site,No,NA,125.2249344,West Santa Barbara Channel
+2468,B18-10327,2018-09-25T00:00:00Z,2,Kelp Stipe/Blade,-99,Low estimated weight,34.25798,-120.2615,Upper Slope,New Site,No,NA,125.2249344,West Santa Barbara Channel
+2469,B18-10327,2018-09-25T00:00:00Z,2,Seagrass,-99,Low estimated weight; Eelgrass blades probably greater than 10 count,34.25798,-120.2615,Upper Slope,New Site,No,NA,125.2249344,West Santa Barbara Channel
+2470,B18-10327,2018-09-25T00:00:00Z,2,Other Terrestrial (comment req.),1,About a 5 cm section from a Coreopsis gigantea stem decomposing (island debris); Low estimated weight,34.25798,-120.2615,Upper Slope,New Site,No,NA,125.2249344,West Santa Barbara Channel
+2471,B18-10228,2018-08-14T00:00:00Z,2,None,0,No debris present,33.61865997,-118.0413437,Inner Shelf,New Site,No,NA,40.43039795,San Pedro Shelf
+2472,B18-10260,2018-08-14T00:00:00Z,1,None,0,No debris present,33.60198975,-118.0563965,Mid Shelf,Revisit,No,NA,67.32610042,San Pedro Shelf
+2473,B18-10227,2018-08-14T00:00:00Z,1,None,0,No debris present,33.62779999,-117.9871292,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf
+2474,B18-10225,2018-08-15T00:00:00Z,1,Kelp Holdfast,1,NA,33.65961838,-118.1306763,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf
+2475,B18-10225,2018-08-15T00:00:00Z,1,Kelp Stipe/Blade,3,NA,33.65961838,-118.1306763,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf
+2476,B18-10867,2018-08-15T00:00:00Z,1,None,0,No debris present,33.65991974,-118.0550537,Inner Shelf,New Site,No,NA,40.43039795,Orange Shelf
+2477,B18-10313,2018-08-15T00:00:00Z,1,None,0,No debris present,33.56816864,-118.024353,Outer Shelf,New Site,No,NA,23.28776249,San Pedro Channel
+2478,B18-10258,2018-08-16T00:00:00Z,1,Kelp Stipe/Blade,4,NA,33.64812088,-118.1490936,Mid Shelf,Revisit,No,NA,67.32610042,San Pedro Shelf
+2479,B18-10258,2018-08-16T00:00:00Z,1,Other Misc. (comment req.),1,Rope (1 feet) - Photo w/one cotton glove,33.64812088,-118.1490936,Mid Shelf,Revisit,No,NA,67.32610042,San Pedro Shelf
+2480,B18-10914,2018-08-16T00:00:00Z,1,None,0,No debris present,33.61119843,-118.2223816,Mid Shelf,New Site,No,NA,67.32610042,San Pedro Shelf
+2481,B18-10262,2018-08-16T00:00:00Z,1,Kelp Stipe/Blade,2,NA,33.59503174,-118.1944809,Mid Shelf,New Site,No,NA,67.32610042,San Pedro Shelf
+2482,B18-10222,2018-08-20T00:00:00Z,1,Kelp Stipe/Blade,8,NA,33.71036911,-118.2216797,Inner Shelf,New Site,No,NA,40.43039795,San Pedro Shelf
+2483,B18-10220,2018-08-20T00:00:00Z,1,None,0,No debris present,33.73345184,-118.1221237,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf
+2484,B18-10223,2018-08-20T00:00:00Z,1,Kelp Stipe/Blade,20,NA,33.70500946,-118.1920471,Inner Shelf,New Site,No,NA,40.43039795,San Pedro Shelf
+2485,B18-10913,2018-08-21T00:00:00Z,1,Kelp Holdfast,3,NA,33.63544846,-118.199852,Mid Shelf,Overdraw,No,B18-10261,67.32610042,San Pedro Shelf
+2486,B18-10913,2018-08-21T00:00:00Z,1,Kelp Stipe/Blade,24,NA,33.63544846,-118.199852,Mid Shelf,Overdraw,No,B18-10261,67.32610042,San Pedro Shelf
+2487,B18-10226,2018-08-21T00:00:00Z,1,Plastic Piece (unid.),1,NA,33.64360046,-118.0789719,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf
+2488,B18-10226,2018-08-21T00:00:00Z,1,Kelp Stipe/Blade,4,NA,33.64360046,-118.0789719,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf
+2489,B18-10915,2018-08-21T00:00:00Z,1,Kelp Stipe/Blade,4,NA,33.6009903,-118.0717926,Outer Shelf,Overdraw,No,B18-10263,23.28776249,San Pedro Shelf
+2490,B18-10314,2018-08-22T00:00:00Z,1,Other Plastic (comment req.),2,1 Pipe - 6 inch diameter and 8.5 feet / 1 Broken container 48 x 20 x 18 inches (length x width x height),33.54776001,-117.8522797,Upper Slope,Revisit,No,NA,125.2249344,Orange Shelf
+2491,B18-10314,2018-08-22T00:00:00Z,1,Kelp Stipe/Blade,3,NA,33.54776001,-117.8522797,Upper Slope,Revisit,No,NA,125.2249344,Orange Shelf
+2492,B18-10973,2018-08-22T00:00:00Z,1,None,0,No debris present,33.59194183,-118.0795212,Outer Shelf,Overdraw,No,B18-10312,23.28776249,San Pedro Channel
+2493,B18-10346,2018-09-25T00:00:00Z,1,Other Plastic (comment req.),1,Plastic container,33.53673172,-117.847847,Upper Slope,Revisit,No,NA,125.2249344,Orange Slope
+2494,B18-10346,2018-09-25T00:00:00Z,1,Lumber,2,Wood pieces,33.53673172,-117.847847,Upper Slope,Revisit,No,NA,125.2249344,Orange Slope
+2495,B18-10344,2018-09-25T00:00:00Z,2,Other Misc. (comment req.),0,No debris present,33.55598831,-118.0215988,Upper Slope,Revisit,No,NA,125.2249344,Orange Slope
+2496,B18-10345,2018-09-26T00:00:00Z,1,None,0,No debris present,33.55551147,-118.1147308,Upper Slope,New Site,No,NA,125.2249344,Orange Slope
+2497,B18-10862,2018-09-26T00:00:00Z,1,Kelp Holdfast,7,NA,33.68928909,-118.1919327,Inner Shelf,Overdraw,No,B18-10230,40.43039795,Orange Shelf
+2498,B18-10862,2018-09-26T00:00:00Z,1,Kelp Stipe/Blade,31,NA,33.68928909,-118.1919327,Inner Shelf,Overdraw,No,B18-10230,40.43039795,Orange Shelf
+2499,B18-10862,2018-09-26T00:00:00Z,1,Other Misc. (comment req.),1,Excess ball fishing line,33.68928909,-118.1919327,Inner Shelf,Overdraw,No,B18-10230,40.43039795,Orange Shelf
+2500,B18-10068,2018-07-10T00:00:00Z,2,Bottle,1,NA,33.45762911,-117.6913958,Marinas,New Site,No,NA,0,Dana Point Harbor
+2501,B18-10068,2018-07-10T00:00:00Z,2,Kelp Holdfast,4,NA,33.45762911,-117.6913958,Marinas,New Site,No,NA,0,Dana Point Harbor
+2502,B18-10068,2018-07-10T00:00:00Z,2,Foliose Algae - not kelp,6,NA,33.45762911,-117.6913958,Marinas,New Site,No,NA,0,Dana Point Harbor
+2503,B18-10068,2018-07-10T00:00:00Z,2,Seagrass,5,NA,33.45762911,-117.6913958,Marinas,New Site,No,NA,0,Dana Point Harbor
+2504,B18-10071,2018-07-11T00:00:00Z,1,Foliose Algae - not kelp,-88,NA,33.20810109,-117.3969019,Marinas,New Site,No,NA,0,Oceanside Harbor
+2505,B18-10071,2018-07-11T00:00:00Z,1,Kelp Holdfast,3,NA,33.20810109,-117.3969019,Marinas,New Site,No,NA,0,Oceanside Harbor
+2506,B18-10071,2018-07-11T00:00:00Z,1,Kelp Stipe/Blade,-88,NA,33.20810109,-117.3969019,Marinas,New Site,No,NA,0,Oceanside Harbor
+2507,B18-10016,2018-07-13T00:00:00Z,1,Foliose Algae - not kelp,-88,NA,32.78485,-117.24055,Bays,New Site,No,NA,0.269230769,Mission Bay
+2508,B18-10016,2018-07-13T00:00:00Z,1,Seagrass,-88,lots of epiphytes,32.78485,-117.24055,Bays,New Site,No,NA,0.269230769,Mission Bay
+2509,B18-10016,2018-07-13T00:00:00Z,2,None,0,no debris present in sample,32.78485,-117.24055,Bays,New Site,No,NA,0.269230769,Mission Bay
+2510,B18-10017,2018-07-13T00:00:00Z,1,Foliose Algae - not kelp,-88,NA,32.78401,-117.2155,Bays,Revisit,No,NA,0.269230769,Mission Bay
+2511,B18-10017,2018-07-13T00:00:00Z,1,Kelp Stipe/Blade,6,NA,32.78401,-117.2155,Bays,Revisit,No,NA,0.269230769,Mission Bay
+2512,B18-10017,2018-07-13T00:00:00Z,1,Seagrass,-88,NA,32.78401,-117.2155,Bays,Revisit,No,NA,0.269230769,Mission Bay
+2513,B18-10019,2018-07-13T00:00:00Z,1,Foliose Algae - not kelp,-88,NA,32.76793,-117.24142,Bays,Revisit,No,NA,0.269230769,Mission Bay
+2514,B18-10019,2018-07-13T00:00:00Z,1,Kelp Stipe/Blade,1,NA,32.76793,-117.24142,Bays,Revisit,No,NA,0.269230769,Mission Bay
+2515,B18-10019,2018-07-13T00:00:00Z,1,Seagrass,-88,NA,32.76793,-117.24142,Bays,Revisit,No,NA,0.269230769,Mission Bay
+2516,B18-10022,2018-07-23T00:00:00Z,1,Kelp Stipe/Blade,2,blade,32.72435424,-117.1829514,Bays,Revisit,No,NA,0.269230769,San Diego Bay
+2517,B18-10022,2018-07-23T00:00:00Z,1,Seagrass,2,NA,32.72435424,-117.1829514,Bays,Revisit,No,NA,0.269230769,San Diego Bay
+2518,B18-10023,2018-07-23T00:00:00Z,1,None,0,no debris present in sample,32.71750433,-117.2155607,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2519,B18-10024,2018-07-23T00:00:00Z,1,None,0,no debris present in sample,32.7148,-117.18302,Bays,Revisit,No,NA,0.269230769,San Diego Bay
+2520,B18-10030,2018-07-23T00:00:00Z,1,Kelp Holdfast,1,NA,32.68800855,-117.2299528,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2521,B18-10030,2018-07-23T00:00:00Z,1,Kelp Stipe/Blade,-88,NA,32.68800855,-117.2299528,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2522,B18-10030,2018-07-23T00:00:00Z,1,Foliose Algae - not kelp,1,red algae,32.68800855,-117.2299528,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2523,B18-10030,2018-07-23T00:00:00Z,1,Seagrass,12,NA,32.68800855,-117.2299528,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2524,B18-10030,2018-07-23T00:00:00Z,1,Other Marine (comment req.),12,empty tubes; some shell hash,32.68800855,-117.2299528,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2525,B18-10030,2018-07-23T00:00:00Z,2,Kelp Stipe/Blade,-88,NA,32.68800855,-117.2299528,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2526,B18-10034,2018-07-24T00:00:00Z,1,None,0,no debris present in sample,32.66518062,-117.1499572,Bays,Revisit,No,NA,0.269230769,San Diego Bay
+2527,B18-10036,2018-07-24T00:00:00Z,1,Foliose Algae - not kelp,-88,red algae,32.65847001,-117.1447356,Bays,Revisit,No,NA,0.269230769,San Diego Bay
+2528,B18-10037,2018-07-24T00:00:00Z,1,Foliose Algae - not kelp,-88,red algae,32.64755,-117.11819,Bays,Revisit,No,NA,0.269230769,San Diego Bay
+2529,B18-10037,2018-07-24T00:00:00Z,1,Seagrass,-88,eelgrass,32.64755,-117.11819,Bays,Revisit,No,NA,0.269230769,San Diego Bay
+2530,B18-10039,2018-07-24T00:00:00Z,1,Foliose Algae - not kelp,-88,red algae with epiphytic bryozoans,32.64157944,-117.139037,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2531,B18-10039,2018-07-24T00:00:00Z,1,Seagrass,-88,eelgrass,32.64157944,-117.139037,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2532,B18-10039,2018-07-24T00:00:00Z,1,Other Marine (comment req.),4,empty Musculista,32.64157944,-117.139037,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2533,B18-10038,2018-07-25T00:00:00Z,1,Foliose Algae - not kelp,-88,red algae,32.64283,-117.12626,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2534,B18-10038,2018-07-25T00:00:00Z,1,Seagrass,-88,NA,32.64283,-117.12626,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2535,B18-10042,2018-07-25T00:00:00Z,1,Foliose Algae - not kelp,-88,NA,32.62567,-117.11086,Bays,New Site,No,NA,0.269230769,San Diego Bay
+2536,B18-10042,2018-07-25T00:00:00Z,1,Seagrass,-88,lots of epiphytes on eelgrass,32.62567,-117.11086,Bays,New Site,No,NA,0.269230769,San Diego Bay

@@ -11,59 +11,9 @@ library(RCurl)
 library(rjson)
 library(jsonlite)
 
-trash_df = read.csv("./data/2013/River/Bight_2013_Regional_Survey__Trash_and_Debris_in_Rivers.csv") %>%
-  mutate(
-    sampledate = as.Date(sampledate),
-    stratum = if_else(as.character(stratum) == 'Ag', 'Agriculture', as.character(stratum))
-  )
-
-trash_total <- trash_df %>% 
-  select(
-    objectid,
-    stationid,
-    sampledate,
-    longitude,
-    latitude,
-    stratum,
-    areaweight,
-    county,
-    smcshed,
-    contains('total')
-  )
-
-trash_weight_county <- trash_total %>% 
-  group_by(county) %>% 
-  summarise(
-    count = sum(totalcount * areaweight)/sum(areaweight),
-    biodegradeable = sum(totalbiodegradeable * areaweight)/sum(areaweight),
-    biohazard = sum(totalbiohazard * areaweight)/sum(areaweight),
-    construction = sum(totalconstruction * areaweight)/sum(areaweight),
-    fabric = sum(totalfabricandcloth * areaweight)/sum(areaweight),
-    glass = sum(totalglass * areaweight)/sum(areaweight),
-    large = sum(totallarge * areaweight)/sum(areaweight),
-    metal = sum(totalmetal * areaweight)/sum(areaweight),
-    misc = sum(totalmisc * areaweight)/sum(areaweight),
-    plastic = sum(totalplastic * areaweight)/sum(areaweight),
-    toxic = sum(totaltoxic * areaweight)/sum(areaweight)
-  ) 
-
-
-trash_weight_stratum <- trash_total %>% 
-  group_by(stratum) %>% 
-  summarise(
-    count = sum(totalcount * areaweight)/sum(areaweight),
-    biodegradeable = sum(totalbiodegradeable * areaweight)/sum(areaweight),
-    biohazard = sum(totalbiohazard * areaweight)/sum(areaweight),
-    construction = sum(totalconstruction * areaweight)/sum(areaweight),
-    fabric = sum(totalfabricandcloth * areaweight)/sum(areaweight),
-    glass = sum(totalglass * areaweight)/sum(areaweight),
-    large = sum(totallarge * areaweight)/sum(areaweight),
-    metal = sum(totalmetal * areaweight)/sum(areaweight),
-    misc = sum(totalmisc * areaweight)/sum(areaweight),
-    plastic = sum(totalplastic * areaweight)/sum(areaweight),
-    toxic = sum(totaltoxic * areaweight)/sum(areaweight)
-  ) 
-
+source('script/tab3/area-weighted-mean-count_ocean_2018.R')
+source('script/tab3/calculate-areaweight-SMC_2018.R')
+source('script/tab3/river_2018_relative-percent-plot.R')
 #### functions for tab 1: background ------------------ ####
 
 
@@ -87,17 +37,19 @@ pchIcons <- function(pch = 1, width = 30, height = 30, bg = "transparent", col =
   files
 }
 
+tab2_ocean_sites <- function(year){
+  read.csv("./data/map_data_04_16_2020.csv") %>% filter(tag == paste("Ocean",year)) %>% nrow() %>% paste(., "ocean sites")
+}
+
+tab2_river_sites <- function(year){
+  read.csv("./data/map_data_04_16_2020.csv") %>% filter(tag == paste("River",year)) %>% nrow() %>% paste(., "river sites")
+}
+
 
 tab2_call_map <- function(year){
-  cols_to_take <- c("stationid","latitude","longitude","stratum")
-  ## 2018
-  if(TRUE){
-      map_data = 
-        bind_rows(
-          read.csv("./data/2018/Ocean/ocean_2018_map.csv") %>% select(cols_to_take) %>% mutate(water = "Ocean"),
-          read.csv("./data/2018/River/river_2018_map.csv") %>% select(cols_to_take) %>% mutate(water = "River")
-        )
-  }
+  map_data = read.csv("./data/map_data_04_16_2020.csv") %>% 
+    filter(str_detect(tag,as.character(year))) %>% 
+    mutate(water = ifelse(str_detect(tag,"Ocean"), "Ocean", "River"))
   map_data %>% mutate(water = factor(water, levels = c("Ocean","River"))) %>% tab2_mapper()
 }
 
@@ -114,7 +66,7 @@ tab2_mapper <- function(data){
       data = data,
       lng = ~ longitude, 
       lat = ~ latitude,
-      popup = ~ paste("Stratum: ", water),
+      popup = ~ stratum,
       icon = ~ icons(
         iconUrl = iconFiles[water],
         popupAnchorX = 20, popupAnchorY = 0
@@ -122,11 +74,11 @@ tab2_mapper <- function(data){
 }
 
 tab2_site_count_plotter <- function(){
-  data.frame(year = c(1998,2003,2008,2013,2018),
-             Ocean = c(100,100,30,194,40) + rnorm(5,10,10),
-             River = c(50,50,80,85,118) + rnorm(5,2,3)) %>%
+  data.frame(year = c(1994,1998,2008,2013,2018),
+             Ocean = c(113,242,140,164,164),
+             River = c(70,70,70,273,118)) %>%
     melt(id.vars = "year") %>% 
-    ggplot(aes(x = year, y = value, fill = variable, shape = variable)) +
+    ggplot(aes(x = as.character(year), y = value, fill = variable, shape = variable)) +
     geom_bar(stat="identity", position ="dodge", alpha = 0.5, linetype = "dashed") +
     scale_fill_manual(values = c("Ocean"="blue", "River"="red")) +
     labs(x = "Year", y = "Number of Sites Sampled") +
@@ -134,6 +86,8 @@ tab2_site_count_plotter <- function(){
     theme_minimal() +
     theme(legend.position = "none")
 }
+
+
 
 
 #### functions for tab 3 ---------------------------- ####
