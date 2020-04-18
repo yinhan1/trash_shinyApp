@@ -7,7 +7,6 @@ library(shinycssloaders)
 library(gridExtra)
 library(ggsci)
 
-
 shinyUI(fluidPage(
   
   # #### logo & header ------------- ####
@@ -63,10 +62,10 @@ shinyUI(fluidPage(
     tabPanel("Area Weighted Mean Count",
              sidebarLayout(position = "left",
                            sidebarPanel("sidebar panel",
-                                        checkboxInput("donum1", "Count by Stratum", value = T),
+                                        checkboxInput("donum1", "Count by Stratum", value = F),
                                         checkboxInput("donum2", "Count by Region", value = F),
                                         checkboxInput("donum3", "Count by Land Use", value = F),
-                                        checkboxInput("donum4", "Relative Count by Watershed", value = F)
+                                        checkboxInput("donum4", "Relative Count by Watershed", value = T)
                                         # sliderInput("wt1","Weight 1",min=1,max=10,value=1),
                                         # sliderInput("wt2","Weight 2",min=1,max=10,value=1),
                                         # sliderInput("wt3","Weight 3",min=1,max=10,value=1)
@@ -76,6 +75,60 @@ shinyUI(fluidPage(
              )
           )
     ),
+    
+    # #### tab 3.5: magnitude and frequency of occurence ####
+    tabPanel("Magnitude and Trend",
+             sidebarLayout(position = "left",
+                           sidebarPanel(
+                             width = 3,
+                               selectizeInput(
+                                 inputId = "tab3_Type",
+                                 label = "River or Ocean",
+                                 choices = c("River","Ocean"),
+                                 options = list(
+                                   placeholder = 'Choose river or ocean',
+                                   onInitialize = I('function() { this.setValue(""); }')
+                                 )
+                             ),
+                             selectizeInput(
+                               inputId = "tab3_Year",
+                               label = "Year",
+                               choices = c(2018,2013,"Compare"),
+                               options = list(
+                                 placeholder = 'Choose a year',
+                                 onInitialize = I('function() { this.setValue(""); }')
+                               )
+                             ),
+                             conditionalPanel(
+                               'input.tab3_Year!="" & input.tab3_Type!=""',
+                               div(
+                                 checkboxInput("tab3_count_by_stratum", "Count by Stratum", value = F),
+                                 checkboxInput("tab3_count_by_county", "Count by County", value = F),
+                                 checkboxInput("tab3_relative_by_stratum", "Relative by County", value = F),
+                                 checkboxInput("tab3_relative_by_county", "Count by County", value = F),
+                                 style = "font-size: 12px !important; text-align:left;"
+                               )
+                             )
+                           ),
+                           mainPanel(
+                             fluidRow(
+                               box(
+                                 title = "Plot #1",
+                                 solidHeader = TRUE,
+                                 width = 12, collapsible = TRUE,
+                                 plotOutput("tab3_example1", height = 200)
+                               ),
+                               box(
+                                 title = "Plot #2",
+                                 solidHeader = TRUE,
+                                 width = 12, collapsible = TRUE,
+                                 plotOutput("tab3_example2", height = 200)
+                               )
+                             )
+                           )
+             )
+    ),
+    
     
     #### tab 4: distance to nearest road ####
     # tabPanel("Distance to nearest road"),

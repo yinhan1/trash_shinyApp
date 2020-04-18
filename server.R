@@ -49,8 +49,10 @@ shinyServer(function(input, output) {
         grid.arrange(grobs=ptlist,nrow=length(ptlist))
     })
     
+    #### tab 3.5: magnitude and frequency ####
     
-    
+    output$tab3_example1 <- renderPlot(tab2_site_count_plotter())
+    output$tab3_example2 <- renderPlot(tab2_site_count_plotter())
     
     #### tab 4 output: distance to nearest road ####
     
