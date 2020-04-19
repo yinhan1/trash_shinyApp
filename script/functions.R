@@ -171,6 +171,24 @@ trash_w_county <- trash_weight_county %>%
   )
 
 
+#### function for tab 3.5: magnititude and trend ---------- ####
+
+tab3_plotter <- function(year,type){
+  data.frame(year = c(1994,1998,2008,2013,2018),
+             Ocean = c(113,242,140,164,164),
+             River = c(70,70,70,273,118)) %>%
+    melt(id.vars = "year") %>% 
+    ggplot(aes(x = as.character(year), y = value, fill = variable, shape = variable)) +
+    geom_bar(stat="identity", position ="dodge", alpha = 0.5, linetype = "dashed") +
+    scale_fill_manual(values = c("Ocean"="blue", "River"="red")) +
+    labs(x = "Year", y = "Number of Sites Sampled", subtitle = paste(type, "data collected in", year)) +
+    facet_wrap(variable~., scales = "free_y", ncol = 1) +
+    theme_minimal() +
+    theme(legend.position = "none")
+}
+
+
+
 
 #### functions for tab 4: distance to nearest road -------- ####
 

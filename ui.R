@@ -7,6 +7,8 @@ library(shinycssloaders)
 library(gridExtra)
 library(ggsci)
 
+
+
 shinyUI(fluidPage(
   
   # #### logo & header ------------- ####
@@ -76,11 +78,13 @@ shinyUI(fluidPage(
           )
     ),
     
-    # #### tab 3.5: magnitude and frequency of occurence ####
+    # #### tab 3.5: magnitude and Trend ####
     tabPanel("Magnitude and Trend",
              sidebarLayout(position = "left",
+                           
+                           ### sideBar panel
                            sidebarPanel(
-                             width = 3,
+                             width = 2,
                                selectizeInput(
                                  inputId = "tab3_Type",
                                  label = "River or Ocean",
@@ -100,7 +104,7 @@ shinyUI(fluidPage(
                                )
                              ),
                              conditionalPanel(
-                               'input.tab3_Year!="" & input.tab3_Type!=""',
+                               condition = 'input.tab3_Year!="" & input.tab3_Type!=""',
                                div(
                                  checkboxInput("tab3_count_by_stratum", "Count by Stratum", value = F),
                                  checkboxInput("tab3_count_by_county", "Count by County", value = F),
@@ -110,24 +114,133 @@ shinyUI(fluidPage(
                                )
                              )
                            ),
+                          
                            mainPanel(
-                             fluidRow(
-                               box(
-                                 title = "Plot #1",
-                                 solidHeader = TRUE,
-                                 width = 12, collapsible = TRUE,
-                                 plotOutput("tab3_example1", height = 200)
+                             box(
+                               width = 12,
+                               
+                               #### single year ####
+                               
+                               conditionalPanel(
+                                 width = 12,
+                                 'input.tab3_Year!="Compare"',
+                                 fluidRow(
+                                   width = 12,
+                                   conditionalPanel(
+                                     'input.tab3_count_by_stratum',
+                                     box(
+                                       width = 12, title = "Count by Stratum",
+                                       plotOutput("tab3_example1", height = 500)
+                                       )
+                                   )
+                                 ),
+                                 fluidRow(
+                                   width = 12,
+                                   conditionalPanel(
+                                     'input.tab3_count_by_county',
+                                     box(
+                                       width = 12, title = "Count by County",
+                                       plotOutput("tab3_example2", height = 500)
+                                     )
+                                   )
+                                 ),
+                                 fluidRow(
+                                   width = 12,
+                                   conditionalPanel(
+                                     'input.tab3_relative_by_stratum',
+                                     box(
+                                       width = 12, title = "Relative by Stratum",
+                                       plotOutput("tab3_example3", height = 500)
+                                     )
+                                   )
+                                 ),
+                                 fluidRow(
+                                   width = 12,
+                                   conditionalPanel(
+                                     'input.tab3_relative_by_county',
+                                     box(
+                                       width = 12, title = "Relative by County",
+                                       plotOutput("tab3_example4", height = 500)
+                                     )
+                                   )
+                                 )
                                ),
-                               box(
-                                 title = "Plot #2",
-                                 solidHeader = TRUE,
-                                 width = 12, collapsible = TRUE,
-                                 plotOutput("tab3_example2", height = 200)
-                               )
+                               
+                               #### compare years ####
+                               
+                               conditionalPanel(
+                                 width = 12,
+                                 'input.tab3_Year == "Compare"',
+                                 fluidRow(
+                                   width = 12,
+                                   conditionalPanel(
+                                     'input.tab3_count_by_stratum',
+                                     box(
+                                       width = 12,
+                                       title = "County by Stratum",
+                                       column(6,
+                                         plotOutput("tab3_compare_11", height = 500)
+                                       ),
+                                       column(6,
+                                         plotOutput("tab3_compare_12", height = 500)
+                                       )
+                                     )
+                                   )
+                                 ),
+                                 fluidRow(
+                                   width = 12,
+                                   conditionalPanel(
+                                     'input.tab3_count_by_county',
+                                     box(
+                                       width = 12,
+                                       title = "County by County",
+                                       column(6,
+                                              plotOutput("tab3_compare_21", height = 500)
+                                       ),
+                                       column(6,
+                                              plotOutput("tab3_compare_22", height = 500)
+                                       )
+                                     )
+                                   )
+                                 ),
+                                 fluidRow(
+                                   width = 12,
+                                   conditionalPanel(
+                                     'input.tab3_relative_by_stratum',
+                                     box(
+                                       width = 12,
+                                       title = "Relative by Stratum",
+                                       column(6,
+                                              plotOutput("tab3_compare_31", height = 500)
+                                       ),
+                                       column(6,
+                                              plotOutput("tab3_compare_32", height = 500)
+                                       )
+                                     )
+                                   )
+                                 ),
+                                 fluidRow(
+                                   width = 12,
+                                   conditionalPanel(
+                                     'input.tab3_relative_by_county',
+                                     box(
+                                       width = 12,
+                                       title = "Relative by County",
+                                       column(6,
+                                              plotOutput("tab3_compare_41", height = 500)
+                                       ),
+                                       column(6,
+                                              plotOutput("tab3_compare_42", height = 500)
+                                       )
+                                     )
+                                   )
+                                 )
+                               ) 
                              )
-                           )
+                           ) 
              )
     ),
+  
     
     
     #### tab 4: distance to nearest road ####

@@ -51,8 +51,23 @@ shinyServer(function(input, output) {
     
     #### tab 3.5: magnitude and frequency ####
     
-    output$tab3_example1 <- renderPlot(tab2_site_count_plotter())
-    output$tab3_example2 <- renderPlot(tab2_site_count_plotter())
+    # single year 
+    
+    output$tab3_example1 <- renderPlot(tab3_plotter(input$tab3_Year, input$tab3_Type))
+    output$tab3_example2 <- renderPlot(tab3_plotter(input$tab3_Year, input$tab3_Type))
+    output$tab3_example3 <- renderPlot(tab3_plotter(input$tab3_Year, input$tab3_Type))
+    output$tab3_example4 <- renderPlot(tab3_plotter(input$tab3_Year, input$tab3_Type))
+    
+    # compare 
+    
+    output$tab3_compare_11 <- renderPlot(tab3_plotter(2013, input$tab3_Type))
+    output$tab3_compare_12 <- renderPlot(tab3_plotter(2018, input$tab3_Type))
+    output$tab3_compare_21 <- renderPlot(tab3_plotter(2013, input$tab3_Type))
+    output$tab3_compare_22 <- renderPlot(tab3_plotter(2018, input$tab3_Type))
+    output$tab3_compare_31 <- renderPlot(tab3_plotter(2013, input$tab3_Type))
+    output$tab3_compare_32 <- renderPlot(tab3_plotter(2018, input$tab3_Type))
+    output$tab3_compare_41 <- renderPlot(tab3_plotter(2013, input$tab3_Type))
+    output$tab3_compare_42 <- renderPlot(tab3_plotter(2018, input$tab3_Type))
     
     #### tab 4 output: distance to nearest road ####
     
