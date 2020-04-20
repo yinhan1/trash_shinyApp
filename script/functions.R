@@ -11,10 +11,11 @@ library(RCurl)
 library(rjson)
 library(jsonlite)
 
+# 
+# source('script/tab3/area-weighted-mean-count_ocean_2018.R')
+# source('script/tab3/calculate-areaweight-SMC_2018.R')
+# source('script/tab3/river_2018_relative-percent-plot.R')
 
-source('script/tab3/area-weighted-mean-count_ocean_2018.R')
-source('script/tab3/calculate-areaweight-SMC_2018.R')
-source('script/tab3/river_2018_relative-percent-plot.R')
 #### functions for tab 1: background ------------------ ####
 
 
@@ -108,68 +109,68 @@ tab3_call_river_2013 <- function() {
   }
 
 
-area_w_stratum <- trash_df %>% 
-  group_by(stratum) %>% 
-  summarise(
-    areaweight = sum(areaweight),
-    count = sum(totalcount)
-  ) %>% 
-  ggplot() +
-  geom_col(aes(x = stratum, y = areaweight, fill = stratum)) +
-  # facet_grid(.~county) +
-  theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+# area_w_stratum <- trash_df %>% 
+#   group_by(stratum) %>% 
+#   summarise(
+#     areaweight = sum(areaweight),
+#     count = sum(totalcount)
+#   ) %>% 
+#   ggplot() +
+#   geom_col(aes(x = stratum, y = areaweight, fill = stratum)) +
+#   # facet_grid(.~county) +
+#   theme_bw() +
+#   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+# 
+# total_count_area <- trash_df %>% 
+#   group_by(county, stratum) %>% 
+#   summarise(
+#     `Total Area` = sum(areaweight),
+#     `Total Count` = sum(totalcount)
+#   ) %>% 
+#   pivot_longer(
+#     cols = c(`Total Count`, `Total Area`)
+#   ) %>% 
+#   mutate_at('name', factor, levels = c('Total Count', 'Total Area')) %>% 
+#   ggplot() +
+#   geom_col(aes(x = stratum, y = value, group = county, fill = stratum)) +
+#   facet_grid(name ~ county, scales = 'free_y') +
+#   theme_bw() +
+#   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
+#   labs(
+#     x = '',
+#     y = ''
+#   ) 
 
-total_count_area <- trash_df %>% 
-  group_by(county, stratum) %>% 
-  summarise(
-    `Total Area` = sum(areaweight),
-    `Total Count` = sum(totalcount)
-  ) %>% 
-  pivot_longer(
-    cols = c(`Total Count`, `Total Area`)
-  ) %>% 
-  mutate_at('name', factor, levels = c('Total Count', 'Total Area')) %>% 
-  ggplot() +
-  geom_col(aes(x = stratum, y = value, group = county, fill = stratum)) +
-  facet_grid(name ~ county, scales = 'free_y') +
-  theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
-  labs(
-    x = '',
-    y = ''
-  ) 
 
-
-trash_w_stratum <- trash_weight_stratum %>%
-  pivot_longer(
-    cols = -c(stratum)
-  ) %>% 
-  filter(name != 'plastic') %>% 
-  ggplot(aes(x = stratum, y = value, group = stratum, fill = stratum)) +
-  geom_col(position = "dodge") +
-  theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
-  # facet_grid(.~ county) +
-  labs(
-    x = '',
-    y = 'Area Weighted Mean Counts'
-  )
-
-trash_w_county <- trash_weight_county %>%
-  pivot_longer(
-    cols = -c(county)
-  ) %>% 
-  filter(name != 'plastic') %>% 
-  ggplot(aes(x = county, y = value, group = county, fill = county)) +
-  geom_col(position = "dodge") +
-  theme_bw() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
-  # facet_grid(.~ county) +
-  labs(
-    x = '',
-    y = 'Area Weighted Mean Counts'
-  )
+# trash_w_stratum <- trash_weight_stratum %>%
+#   pivot_longer(
+#     cols = -c(stratum)
+#   ) %>% 
+#   filter(name != 'plastic') %>% 
+#   ggplot(aes(x = stratum, y = value, group = stratum, fill = stratum)) +
+#   geom_col(position = "dodge") +
+#   theme_bw() +
+#   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
+#   # facet_grid(.~ county) +
+#   labs(
+#     x = '',
+#     y = 'Area Weighted Mean Counts'
+#   )
+# 
+# trash_w_county <- trash_weight_county %>%
+#   pivot_longer(
+#     cols = -c(county)
+#   ) %>% 
+#   filter(name != 'plastic') %>% 
+#   ggplot(aes(x = county, y = value, group = county, fill = county)) +
+#   geom_col(position = "dodge") +
+#   theme_bw() +
+#   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
+#   # facet_grid(.~ county) +
+#   labs(
+#     x = '',
+#     y = 'Area Weighted Mean Counts'
+#   )
 
 
 #### function for tab 3.5: magnititude and trend ---------- ####
