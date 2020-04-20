@@ -51,36 +51,38 @@ shinyServer(function(input, output) {
     
     #### tab 3.5: magnitude and frequency ####
     
+    output$tab3_title1 <- renderText(paste(input$tab3_Type, " Data Collected in ", input$tab3_Year))
+    output$tab3_title2 <- renderText(paste("Trend of ", input$tab3_Type, " Data Over 2013 to 2018"))
+    
     # single year 
     
-    output$tab3_example1 <- renderPlot(tab3_plotter(input$tab3_Year, input$tab3_Type))
-    output$tab3_example2 <- renderPlot(tab3_plotter(input$tab3_Year, input$tab3_Type))
-    output$tab3_example3 <- renderPlot(tab3_plotter(input$tab3_Year, input$tab3_Type))
-    output$tab3_example4 <- renderPlot(tab3_plotter(input$tab3_Year, input$tab3_Type))
+    ## by stratum
+    output$tab3_ttl_count_by_stratum_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "stratum", plot_tt_cnt = T))
+    output$tab3_area_count_by_stratum_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "stratum", plot_tt_cnt = F))
+    ## by county
+    output$tab3_ttl_count_by_county_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "county", plot_tt_cnt = T))
+    output$tab3_area_count_by_county_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "county", plot_tt_cnt = F))
+    ## by trash types
+    output$tab3_ttl_count_by_trashType_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "trashType", plot_tt_cnt = T))
+    output$tab3_area_count_by_trashType_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "trashType", plot_tt_cnt = F))
+    
+    # relative percent 
+    output$tab3_relative_by_stratum_plot <- renderPlot(tab3_relative_plotter(input$tab3_Year, input$tab3_Type))
     
     # compare 
+    output$tab3_compare_stratum_plot <- renderPlot(tab3_compare_plotter(input$tab3_Type, "stratum"))
+    output$tab3_compare_county_plot <- renderPlot(tab3_compare_plotter(input$tab3_Type, "county"))
+    output$tab3_compare_trashType_plot <- renderPlot(tab3_compare_plotter(input$tab3_Type, "trashType"))
     
-    output$tab3_compare_11 <- renderPlot(tab3_plotter(2013, input$tab3_Type))
-    output$tab3_compare_12 <- renderPlot(tab3_plotter(2018, input$tab3_Type))
-    output$tab3_compare_21 <- renderPlot(tab3_plotter(2013, input$tab3_Type))
-    output$tab3_compare_22 <- renderPlot(tab3_plotter(2018, input$tab3_Type))
-    output$tab3_compare_31 <- renderPlot(tab3_plotter(2013, input$tab3_Type))
-    output$tab3_compare_32 <- renderPlot(tab3_plotter(2018, input$tab3_Type))
-    output$tab3_compare_41 <- renderPlot(tab3_plotter(2013, input$tab3_Type))
-    output$tab3_compare_42 <- renderPlot(tab3_plotter(2018, input$tab3_Type))
     
     #### tab 4 output: distance to nearest road ####
     
-    
-    
-    
-    
-    
+  
     
     #### tab 5 output: data ####
     output$tab5 <- renderDataTable(
-        tab5_call_tb(input$tab5_Type, input$tab5_Year)
-    )
+      datatable(tab3_pick_data(input$tab5_Year, input$tab5_Type), options = list("pageLength" = 15))
+      )
     
     
     

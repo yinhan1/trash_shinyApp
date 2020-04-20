@@ -1,361 +1,118 @@
 objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,longitude,debriscategorybroad,debriscategory,agency,debristype,count,comments
-1,B13-8017,9/6/2013,1,Bay,3.85972347,San Diego Bay,32.629511,-117.129983,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Foliose Algae,-99,Red Algae - Unknown individual weight. Total combined weight of both debris types = 4.41 kg
-2,B13-8017,9/6/2013,1,Bay,3.85972347,San Diego Bay,32.629511,-117.129983,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - Unknown individual weight. Total combined weight of both debris types = 4.41 kg
-3,B13-8020,9/5/2013,1,Bay,3.85972347,San Diego Bay,32.641114,-117.13285,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - 17.55 kg
-4,B13-8029,9/5/2013,1,Bay,0.20086571,San Diego Bay,32.646418,-117.120747,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - Unknown individual weight. Total combined weight of both debris types = 49.43 kg
-5,B13-8029,9/5/2013,1,Bay,0.20086571,San Diego Bay,32.646418,-117.120747,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Foliose Algae,-99,Red Algae - Unknown individual weight. Total combined weight of both debris types = 49.43 kg
-6,B13-8052,9/5/2013,1,Bay,3.85972347,San Diego Bay,32.658322,-117.145958,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - 2.03 kg
-7,B13-8058,9/4/2013,1,Bay,3.85972347,San Diego Bay,32.662371,-117.144215,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - 3.33 kg
-8,B13-8058,9/4/2013,1,Bay,3.85972347,San Diego Bay,32.662371,-117.144215,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Foliose Algae,-99,Red Algae - 0.217 kg
-9,B13-8060,9/4/2013,1,Bay,3.85972347,San Diego Bay,32.666203,-117.15078,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - 7.990 kg
-10,B13-8060,9/4/2013,1,Bay,3.85972347,San Diego Bay,32.666203,-117.15078,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Foliose Algae,-99,Ulva Lactuca - 0.031 kg
-11,B13-8078,9/4/2013,1,Bay,3.61530392,San Diego Bay,32.687333,-117.149056,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - 2.430 kg
-12,B13-8078,9/4/2013,1,Bay,3.61530392,San Diego Bay,32.687333,-117.149056,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Foliose Algae,-99,Ulva Lactuca - 0.037 kg
-13,B13-8109,9/3/2013,1,Bay,3.61530392,San Diego Bay,32.716287,-117.184571,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - 0.031 kg
-14,B13-8118,9/3/2013,2,Bay,3.61530392,San Diego Bay,32.719619,-117.177377,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Zoobotryon - 0.525 kg
-15,B13-8122,9/3/2013,1,Bay,3.61530392,San Diego Bay,32.72462,-117.181506,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Foliose Algae,-99,Red Algae - 0.060 kg
-16,B13-8159,8/8/2013,1,Bay,6.48937512,Mission Bay,32.784714,-117.214572,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Other Marine,-99,Bryozoan. Zoobotryon. Verticillatum. - Unknown individual weights. Total combined weight of all debris types = 22.6 kg
-17,B13-8159,8/8/2013,1,Bay,6.48937512,Mission Bay,32.784714,-117.214572,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Foliose Algae,-99,Red Algae
-18,B13-8304,9/24/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.713467,-118.240567,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,-99,0.25 kg
-19,B13-8304,9/24/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.713467,-118.240567,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Holdfast,1,small Egregia sp.
-20,B13-8315,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,Peroxide
-21,B13-8315,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,"Egregia, Macrocystis"
-22,B13-8315,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Blue shopping cart basket
-23,B13-8315,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Foliose Algae,1,green-Ulva
-24,B13-8318,9/24/2013,2,Bay,1.76746223,Los Angeles/Long Beach,33.724583,-118.2242,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,-99,NA
-25,B13-8318,9/24/2013,2,Bay,1.76746223,Los Angeles/Long Beach,33.724583,-118.2242,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,-99,NA
-26,B13-8319,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72512,-118.13491,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,Macrocystis
-27,B13-8322,9/19/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72805,-118.211833,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,2,NA
-28,B13-8323,9/24/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.728083,-118.20625,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,-99,red algae
-29,B13-8325,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,"Amber color, stiff, thin"
-30,B13-8325,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,Stipes & blades
-31,B13-8325,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Leaves/Seed Pod,1,Leaf
-32,B13-8335,9/24/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Misc. Items/Pieces,Other,City of Los Angeles Environmental Monitoring Division,Other Misc.,2,"2 pieces twine, possibly from mop"
-33,B13-8335,9/24/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,2,2 partial pieces of blade
-34,B13-8335,9/24/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Terrestrial Vegetation,Terrestrial Vegetation,City of Los Angeles Environmental Monitoring Division,Other Terrest.,1,pine needles
-35,B13-8346,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.73877,-118.14476,No Debris Present,None,MBC Applied Environmental Sciences,No Debris Present,-99,NA
-36,B13-8350,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,Blade
-37,B13-8350,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Holdfast,1,NA
-38,B13-8350,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Metal,Cans,Los Angeles County Sanitation Districts,Drink Can,1,Michelob Ultra Superior Light Beer
-39,B13-8350,8/12/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Leaves/Seed Pod,1,Leaf
-40,B13-8351,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.74017,-118.15825,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Kelp Stipe/Blade,1,NA
-41,B13-8355,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.74225,-118.15333,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Seagrass,-99,NA
-42,B13-8358,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.74418,-118.16955,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Foliose Algae,-99,NA
-43,B13-8375,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.75239,-118.17693,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Foliose Algae,-99,NA
-44,B13-8388,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Terrestrial Vegetation,Terrestrial Vegetation,MBC Applied Environmental Sciences,Stick/Branch/Driftwood,3,NA
-45,B13-8388,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Plastic,Plastic,MBC Applied Environmental Sciences,Food Bag / Wrapper,1,NA
-46,B13-8388,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Metal,Cans,MBC Applied Environmental Sciences,Can - other,1,King Cobra Beer
-47,B13-8388,9/11/2013,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Foliose Algae,-99,NA
-48,B13-9005,7/16/2013,1,Inner Shelf,35.65453697,Bight,32.53497,-117.1535,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,-99,Red algae pieces
-49,B13-9005,7/16/2013,1,Inner Shelf,35.65453697,Bight,32.53497,-117.1535,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,1,1 blade
-50,B13-9005,7/16/2013,1,Inner Shelf,35.65453697,Bight,32.53497,-117.1535,Marine Origin,Marine Vegetation,City of San Diego,Other Marine,-99,Green algae pieces
-51,B13-9006,7/16/2013,1,MPA,4.07437995,Bight,32.5487,-117.14034,Marine Origin,Marine Vegetation,City of San Diego,Seagrass,1,1 clump 3 blades
-52,B13-9006,7/16/2013,1,MPA,4.07437995,Bight,32.5487,-117.14034,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,-99,Red algae pieces
-53,B13-9006,7/16/2013,1,MPA,4.07437995,Bight,32.5487,-117.14034,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,2,Single blades
-54,B13-9006,7/16/2013,1,MPA,4.07437995,Bight,32.5487,-117.14034,Marine Origin,Marine Vegetation,City of San Diego,Rock,1,NA
-55,B13-9007,7/23/2013,1,Mid Shelf,56.20926257,Bight,32.54949,-117.1991,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,"3/4 of a 5gal bucket, one juvenile Pelagophycus, ~12' long, one 5gal bucket (holdfast, stipe, blades)"
-56,B13-9008,7/23/2013,1,MPA,4.07437995,Bight,32.55008,-117.1494,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,1/4 of a 5gal bucket
-57,B13-9011,7/22/2013,1,Outer Shelf,16.67756423,Bight,32.58434,-117.33803,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
-58,B13-9012,7/24/2013,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Plastic Piece,1,small black shard
-59,B13-9012,7/24/2013,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Polypropylene Rope,1,Partial metal debris
-60,B13-9012,7/24/2013,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Metal,Metal debris,City of San Diego,Metal Piece,1,part of trap with nylon cord
-61,B13-9012,7/24/2013,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,NA
-62,B13-9012,7/24/2013,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Marine Origin,Marine Vegetation,City of San Diego,Gorgonian Sea Fan (dead),-99,Very small frags
-63,B13-9012,7/24/2013,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,-99,Red
-64,B13-9012,7/24/2013,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Marine Origin,Marine Vegetation,City of San Diego,Seagrass,1,One leaf
-65,B13-9013,7/22/2013,1,Outer Shelf,16.67756423,Bight,32.59408,-117.34748,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,Small pieces
-66,B13-9014,8/6/2013,1,Outer Shelf,16.67756423,Bight,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Cup,1,Metridium attached
-67,B13-9014,8/6/2013,1,Outer Shelf,16.67756423,Bight,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Plastic Piece,1,"1"" x 3"" opaque"
-68,B13-9014,8/6/2013,1,Outer Shelf,16.67756423,Bight,32.59538,-117.32856,Marine Origin,Marine Vegetation,City of San Diego,Rock,2,NA
-69,B13-9023,8/1/2013,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Misc. Items/Pieces,Other,City of San Diego,Rag/Cloth,1,"5"" x 5"" burlap"
-70,B13-9023,8/1/2013,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament old and brittle
-71,B13-9023,8/1/2013,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,"Says ""crackers"""
-72,B13-9026,8/1/2013,1,Upper Slope,98.50645161,Bight,32.69393,-117.39587,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament
-73,B13-9034,8/6/2013,1,Mid Shelf,56.20926257,Bight,32.73907,-117.31494000000001,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,3,Blade pieces
-74,B13-9035,8/6/2013,1,Upper Slope,98.50645161,Bight,32.73972,-117.42619,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,1,NA
-75,B13-9035,8/6/2013,1,Upper Slope,98.50645161,Bight,32.73972,-117.42619,Marine Origin,Marine Vegetation,City of San Diego,Other Marine,1,Twig
-76,B13-9035,8/6/2013,1,Upper Slope,98.50645161,Bight,32.73972,-117.42619,Marine Origin,Marine Vegetation,City of San Diego,Seagrass,1,Blade
-77,B13-9037,8/2/2013,1,Mid Shelf,56.20926257,Bight,32.76238,-117.31976,Marine Origin,Marine Vegetation,City of San Diego,Kelp Holdfast,-99,Small piece
-78,B13-9037,8/2/2013,1,Mid Shelf,56.20926257,Bight,32.76238,-117.31976,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,Blade fragments
-79,B13-9040,8/8/2013,1,Inner Shelf,35.65453697,Bight,32.78069,-117.26913,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,-99,NA
-80,B13-9040,8/8/2013,1,Inner Shelf,35.65453697,Bight,32.78069,-117.26913,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,NA
-81,B13-9040,8/8/2013,1,Inner Shelf,35.65453697,Bight,32.78069,-117.26913,Marine Origin,Marine Vegetation,City of San Diego,Seagrass,-99,NA
-82,B13-9051,8/7/2013,1,Upper Slope,98.50645161,Bight,32.81732,-117.3695,Marine Origin,Marine Vegetation,City of San Diego,Kelp Holdfast,-99,Small piece
-83,B13-9052,8/8/2013,1,MPA,2.7940155,Bight,32.82126,-117.34166,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,1,One strand red algae
-84,B13-9052,8/8/2013,1,MPA,2.7940155,Bight,32.82126,-117.34166,Marine Origin,Marine Vegetation,City of San Diego,Seagrass,-99,Several blades
-85,B13-9053,8/8/2013,1,Outer Shelf,16.67756423,Bight,32.82313,-117.36676,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
-86,B13-9056,8/8/2013,1,Outer Shelf,16.67756423,Bight,32.83104,-117.35956,Plastic,Plastic,City of San Diego,Other Plastic,1,Boat thingy
-87,B13-9056,8/8/2013,1,Outer Shelf,16.67756423,Bight,32.83104,-117.35956,Marine Origin,Marine Vegetation,City of San Diego,Other Marine,1,Bone (dolphin?)
-88,B13-9056,8/8/2013,1,Outer Shelf,16.67756423,Bight,32.83104,-117.35956,Marine Origin,Marine Vegetation,City of San Diego,Rock,2,NA
-89,B13-9073,8/7/2013,1,Outer Shelf,16.67756423,Bight,32.90917,-117.29504,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,Small
-90,B13-9073,8/7/2013,1,Outer Shelf,16.67756423,Bight,32.90917,-117.29504,Marine Origin,Marine Vegetation,City of San Diego,Kelp Holdfast,-99,Small
-91,B13-9073,8/7/2013,1,Outer Shelf,16.67756423,Bight,32.90917,-117.29504,Plastic,Plastic,City of San Diego,Bottle,1,H2O bottle
-92,B13-9091,8/12/2013,2,MPA,7.10222287,Bight,33.01512,-117.33945,Marine Origin,Marine Vegetation,City of San Diego,Kelp Holdfast,1,NA
-93,B13-9092,8/12/2013,1,MPA,4.35019692,Bight,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Other Plastic,1,Popsicle maker
-94,B13-9092,8/12/2013,1,MPA,4.35019692,Bight,33.02296,-117.3342,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,1,One blade
-95,B13-9092,8/12/2013,1,MPA,4.35019692,Bight,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,Thin plastic
-96,B13-9092,8/12/2013,1,MPA,4.35019692,Bight,33.02296,-117.3342,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,3,Red algae pieces
-97,B13-9094,8/12/2013,1,MPA,7.72644587,Bight,33.03266,-117.3167,Marine Origin,Marine Vegetation,City of San Diego,Seagrass,-99,NA
-98,B13-9094,8/12/2013,1,MPA,7.72644587,Bight,33.03266,-117.3167,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,-99,Red algae pieces
-99,B13-9094,8/12/2013,1,MPA,7.72644587,Bight,33.03266,-117.3167,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,NA
-100,B13-9100,8/13/2013,1,Outer Shelf,16.67756423,Bight,33.06689,-117.36712,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
-101,B13-9104,8/12/2013,1,Mid Shelf,56.20926257,Bight,33.08075,-117.34234,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,-99,Red algae pieces
-102,B13-9104,8/12/2013,1,Mid Shelf,56.20926257,Bight,33.08075,-117.34234,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,Lots of kelp pieces
-103,B13-9104,8/12/2013,1,Mid Shelf,56.20926257,Bight,33.08075,-117.34234,Marine Origin,Marine Vegetation,City of San Diego,Seagrass,-99,NA
-104,B13-9105,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.08887,-117.35115,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,One small piece (blade)
-105,B13-9107,8/13/2013,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Terrestrial Vegetation,Terrestrial Vegetation,City of San Diego,Stick/Branch/Driftwood,4,Small pieces wood
-106,B13-9107,8/13/2013,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Misc. Items/Pieces,Other,City of San Diego,Tape,1,2 ft long piece
-107,B13-9107,8/13/2013,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Plastic Piece,1,Piece of plastic wrapper
-108,B13-9107,8/13/2013,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Bottle,1,Spout of 5 gallon jug
-109,B13-9107,8/13/2013,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Misc. Items/Pieces,Other,City of San Diego,Other Misc.,1,Tar piece
-110,B13-9111,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.10467,-117.36168,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
-111,B13-9121,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.17427,-117.38129,Metal,Cans,City of San Diego,Drink Can,1,Beer can
-112,B13-9121,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.17427,-117.38129,Marine Origin,Marine Vegetation,City of San Diego,Foliose Algae,-99,Gracilariopsis (red alga)
-113,B13-9121,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.17427,-117.38129,Marine Origin,Marine Vegetation,City of San Diego,Kelp Stipe/Blade,-99,"Several blades, Macrocystis and Desmarestia"
-114,B13-9125,8/29/2013,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,20,Kelp Stipe/Blade - all single blades
-115,B13-9125,8/29/2013,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,lots of clear plastic
-116,B13-9125,8/29/2013,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Cap/Lid,1,Plastic Bottle Cap
-117,B13-9125,8/29/2013,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Metal,Cans,Orange County Sanitation Districts,Drink Can,2,1 can Budweiser - 1 can Diet Coke
-118,B13-9125,8/29/2013,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Paper,1,article
-119,B13-9125,8/29/2013,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Other Misc.,1,spoon
-120,B13-9129,8/27/2013,1,Mid Shelf,56.20926257,Bight,33.263798,-117.531543,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,3,Kelp Stipe/Blade
-121,B13-9131,8/21/2013,1,Mid Shelf,56.20926257,Bight,33.267749,-117.561686,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Gorgonian Sea Fan (dead),-99,Gorgonian Sea Fan - Red
-122,B13-9152,8/27/2013,1,MPA,4.07437995,Bight,33.471932,-117.735612,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Holdfast,3,Kelp Holdfast
-123,B13-9152,8/27/2013,1,MPA,4.07437995,Bight,33.471932,-117.735612,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,20,Kelp Stipe/Blade - all single blades
-124,B13-9159,8/27/2013,1,MPA,4.07437995,Bight,33.497982,-117.751709,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Holdfast,4,Kelp Holdfast - small to medium size - Photo taken
-125,B13-9159,8/27/2013,1,MPA,4.07437995,Bight,33.497982,-117.751709,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,-99,Kelp Stipe/Blade - all single blades
-126,B13-9161,9/4/2013,1,MPA,2.7940155,Bight,33.503284,-117.771859,Metal,Metal debris,Orange County Sanitation Districts,Can Pull-tab,1,16 oz. Budweiser Can Pull-tab
-127,B13-9161,9/4/2013,1,MPA,2.7940155,Bight,33.503284,-117.771859,Terrestrial Vegetation,Terrestrial Vegetation,Orange County Sanitation Districts,Stick/Branch/Driftwood,1,NA
-128,B13-9166,8/20/2013,1,Mid Shelf,2.7940155,Bight,33.50885,-117.769678,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Holdfast,3,Kelp Holdfast. Bullwhip
-129,B13-9166,8/20/2013,1,Mid Shelf,2.7940155,Bight,33.50885,-117.769678,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Rag/Cloth,1,Rag/Cloth.  Photo taken
-130,B13-9168,8/20/2013,1,MPA,7.72644587,Bight,33.511385,-117.777799,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Seagrass,1,Seagrass
-131,B13-9168,8/20/2013,1,MPA,7.72644587,Bight,33.511385,-117.777799,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Holdfast,1,Kelp Holdfast
-132,B13-9168,8/20/2013,1,MPA,7.72644587,Bight,33.511385,-117.777799,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Bottom
-133,B13-9171,8/27/2013,1,Inner Shelf,6.35969097,Bight,33.519332,-117.768245,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,-99,Kelp Stipe/Blade.  Lots of individual blades
-134,B13-9171,8/27/2013,1,Inner Shelf,6.35969097,Bight,33.519332,-117.768245,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Seagrass,-99,Seagrass.  Holdfast clump
-135,B13-9171,8/27/2013,1,Inner Shelf,6.35969097,Bight,33.519332,-117.768245,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Holdfast,4,Kelp Holdfast
-136,B13-9173,9/5/2013,1,MPA,7.72644587,Bight,33.522648,-117.794141,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Clear
-137,B13-9174,8/21/2013,1,Upper Slope,98.50645161,Bight,33.535885,-117.846826,Metal,Cans,Orange County Sanitation Districts,Drink Can,2,Photo taken - 1 can Coors Light - 1 partial can Diet Coke
-138,B13-9177,8/20/2013,1,MPA,2.7940155,Bight,33.546366,-117.822363,Terrestrial Vegetation,Terrestrial Vegetation,Orange County Sanitation Districts,Stick/Branch/Driftwood,1,NA
-139,B13-9177,8/20/2013,1,MPA,2.7940155,Bight,33.546366,-117.822363,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Photo taken
-140,B13-9177,8/20/2013,1,MPA,2.7940155,Bight,33.546366,-117.822363,Metal,Metal debris,Orange County Sanitation Districts,Other Metal,1,Photo taken - remains of a crab trap
-141,B13-9177,8/20/2013,1,MPA,2.7940155,Bight,33.546366,-117.822363,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Seagrass,1,Seagrass
-142,B13-9177,8/20/2013,1,MPA,2.7940155,Bight,33.546366,-117.822363,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Holdfast,38,Kelp holdfasts of various sizes
-143,B13-9179,8/15/2013,1,Upper Slope,98.50645161,Bight,33.554635,-118.016943,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,1,Kelp Stipe/Blade
-144,B13-9179,8/15/2013,1,Upper Slope,98.50645161,Bight,33.554635,-118.016943,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Holdfast,1,Kelp Holdfast
-145,B13-9179,8/15/2013,1,Upper Slope,98.50645161,Bight,33.554635,-118.016943,Metal,Cans,Orange County Sanitation Districts,Drink Can,1,Miller MGD can
-146,B13-9185,8/15/2013,1,Outer Shelf,16.67756423,Bight,33.564518,-118.017204,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Oil
-147,B13-9185,8/15/2013,1,Outer Shelf,16.67756423,Bight,33.564518,-118.017204,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Gorgonian Sea Fan (dead),1,Gorgonian Sea Fan - Red
-148,B13-9187,8/14/2013,1,MPA,2.7940155,Bight,33.567318,-117.853792,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Holdfast,9,Kelp Holdfast
-149,B13-9187,8/14/2013,1,MPA,2.7940155,Bight,33.567318,-117.853792,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,1,Kelp Stipe/Blade Weight = 11.8 kg
-150,B13-9187,8/14/2013,1,MPA,2.7940155,Bight,33.567318,-117.853792,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Seagrass,1,Seagrass
-151,B13-9187,8/14/2013,1,MPA,2.7940155,Bight,33.567318,-117.853792,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Gorgonian Sea Fan (dead),1,Gorgonian Sea Fan
-152,B13-9192,8/21/2013,1,MPA,4.07437995,Bight,33.579032,-117.865544,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Other Misc.,1,Estimate = M
-153,B13-9192,8/21/2013,1,MPA,4.07437995,Bight,33.579032,-117.865544,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,2,1 piece green - 1 piece clear
-154,B13-9192,8/21/2013,1,MPA,4.07437995,Bight,33.579032,-117.865544,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Seagrass,1,Seagrass
-155,B13-9194,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label
-156,B13-9194,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Terrestrial Vegetation,Terrestrial Vegetation,Orange County Sanitation Districts,Stick/Branch/Driftwood,2,NA
-157,B13-9194,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Black
-158,B13-9194,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label
-159,B13-9194,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Balloon (mylar/latex)/Ribbon,1,Long thin ribbon
-160,B13-9194,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Metal,Metal debris,Orange County Sanitation Districts,Other Metal,1,Aluminum foil
-161,B13-9199,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.600452,-118.054199,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Other Marine,1,Marine Vegetation
-162,B13-9199,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.600452,-118.054199,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,1,Kelp Stipe/Blade
-163,B13-9200,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.60313,-118.09835,No Debris Present,None,Los Angeles County Sanitation Districts,No Debris Present,-99,NA
-164,B13-9204,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.625651,-117.984603,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Kelp Stipe/Blade,1,Kelp Stipe/Blade.  Weight = 1100 grams
-165,B13-9214,8/14/2013,1,Inner Shelf,35.65453697,Bight,33.643449,-118.081022,No Debris Present,None,Orange County Sanitation Districts,No Debris Present,-99,NA
-166,B13-9217,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.64763,-118.1538,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,"Macrocystis, Pteragophera, Laminarians"
-167,B13-9217,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.64763,-118.1538,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Holdfast,3,Laminaria
-168,B13-9217,8/13/2013,1,Mid Shelf,56.20926257,Bight,33.64763,-118.1538,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Foliose Algae,-99,Various red spp.
-169,B13-9219,8/14/2013,1,Inner Shelf,35.65453697,Bight,33.656299,-118.059782,No Debris Present,None,Orange County Sanitation Districts,No Debris Present,-99,NA
-170,B13-9221,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.6603,-118.13449,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Holdfast,1,small macrocystis
-171,B13-9221,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.6603,-118.13449,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,Macrocystis
-172,B13-9221,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.6603,-118.13449,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Foliose Algae,-99,Reds
-173,B13-9223,8/16/2013,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,7-up
-174,B13-9223,8/16/2013,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Stick/Branch/Driftwood,3,NA
-175,B13-9223,8/16/2013,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Rock,3,small
-176,B13-9223,8/16/2013,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Leaves/Seed Pod,2,NA
-177,B13-9223,8/16/2013,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Metal,Cans,Los Angeles County Sanitation Districts,Can - other,1,part of one can
-178,B13-9228,8/14/2013,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422000000001,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Other Misc.,4,clinkers
-179,B13-9228,8/14/2013,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422000000001,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Lid to pepper can
-180,B13-9228,8/14/2013,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422000000001,Misc. Items/Pieces,Lumber,Los Angeles County Sanitation Districts,Lumber,1,"6"" small piece"
-181,B13-9228,8/14/2013,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422000000001,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,1,Egregia
-182,B13-9228,8/14/2013,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422000000001,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Boat/Ship/Engine part,1,blob of caulk
-183,B13-9229,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.69511,-118.29172,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,Macrocystis
-184,B13-9229,8/13/2013,1,Inner Shelf,35.65453697,Bight,33.69511,-118.29172,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Seagrass,4,NA
-185,B13-9235,8/14/2013,1,MPA,7.10222287,Bight,33.70392,-118.39901,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,2,"clear, thin"
-186,B13-9235,8/14/2013,1,MPA,7.10222287,Bight,33.70392,-118.39901,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Stick/Branch/Driftwood,2,"<4"" long"
-187,B13-9237,8/16/2013,1,MPA,7.10222287,Bight,33.7201,-118.4144,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,maybe plastic ruler.  Item recorded but discarded.
-188,B13-9239,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.7213,-118.15279,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Gorgonian Sea Fan (dead),1,Red - Muricea californica
-189,B13-9239,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.7213,-118.15279,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,"Egregia, Macrocystis"
-190,B13-9239,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.7213,-118.15279,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Other Terrest.,-99,Tree roots & shoots
-191,B13-9239,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,2,Water bottle
-192,B13-9239,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Fishing Line/Net,1,Line
-193,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Food Bag / Wrapper,11,"ziploc snack size, mickey mouse candy, snickers, reeses, Bon sola sol, Tamarind candy"
-194,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,7,"Water w/ sports lid, soda w/ red lid, water w/ clear lid"
-195,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Cup,2,"Red party cup, clear"
-196,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Metal,Cans,Los Angeles County Sanitation Districts,Drink Can,3,"Red Bull, Modelo especial, Bud light chelada"
-197,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Foliose Algae,-99,"Red filamentous, foliose"
-198,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bag,3,NA
-199,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Leaves/Seed Pod,1,Leaf
-200,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,3,"groblock label, tobacco wrapper, green sewing grid"
-201,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,42,"big white square, clear"
-202,B13-9245,8/12/2013,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Stipe/Blade,-99,Macrocystis
-203,B13-9251,8/14/2013,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Glass,Glass bottles,Los Angeles County Sanitation Districts,Beer Bottle,1,NA
-204,B13-9251,8/14/2013,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Stick/Branch/Driftwood,1,"small piece of driftwood  ~4"""
-205,B13-9251,8/14/2013,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Kelp Holdfast,1,Egregia?
-206,B13-9251,8/14/2013,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,Piece of lens cap
-207,B13-9257,9/17/2013,1,Inner Shelf,35.65453697,Bight,33.8306,-118.400067,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,-99,NA
-208,B13-9257,9/17/2013,1,Inner Shelf,35.65453697,Bight,33.8306,-118.400067,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Seagrass,-99,NA
-209,B13-9257,9/17/2013,1,Inner Shelf,35.65453697,Bight,33.8306,-118.400067,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,-99,NA
-210,B13-9266,9/3/2013,1,Mid Shelf,56.20926257,Bight,33.858467,-118.445183,No Debris Present,None,City of Los Angeles Environmental Monitoring Division,No Debris Present,-99,NA
-211,B13-9271,9/17/2013,1,Mid Shelf,56.20926257,Bight,33.895217,-118.535467,Metal,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Gear,1,piece of crab trap
-212,B13-9286,9/17/2013,1,Mid Shelf,56.20926257,Bight,33.9317,-118.538383,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,5 inches of monofilament
-213,B13-9287,9/4/2013,1,Outer Shelf,16.67756423,Bight,33.93395,-118.590517,No Debris Present,None,City of Los Angeles Environmental Monitoring Division,No Debris Present,-99,NA
-214,B13-9292,8/21/2013,1,Mid Shelf,56.20926257,Bight,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Piece of bag or plastic sheet
-215,B13-9292,8/21/2013,1,Mid Shelf,56.20926257,Bight,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Bottle,1,NA
-216,B13-9292,8/21/2013,1,Mid Shelf,56.20926257,Bight,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Other Plastic,1,Auto or boat part; possibly side mirror or bumber piece
-217,B13-9300,9/4/2013,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Bottle,1,"Beverage, clear"
-218,B13-9300,9/4/2013,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Metal,Metal debris,City of Los Angeles Environmental Monitoring Division,Other Metal,1,"aluminum sheeting, possibly aircraft"
-219,B13-9300,9/4/2013,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,1,1 ft
-220,B13-9300,9/4/2013,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,monofilament; several feet
-221,B13-9300,9/4/2013,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,1,NA
-222,B13-9303,9/9/2014,2,Inner Shelf,35.65453697,Bight,33.962,-118.475433,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,-99,NA
-223,B13-9303,9/9/2014,2,Inner Shelf,35.65453697,Bight,33.962,-118.475433,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,-99,various species
-224,B13-9309,8/20/2013,1,Upper Slope,98.50645161,Bight,33.97731,-118.877507,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,2,small sticks
-225,B13-9309,8/20/2013,1,Upper Slope,98.50645161,Bight,33.97731,-118.877507,Plastic,Plastic,Vantuna Research Group,Bag,1,"""King Pop"" wrapper"
-226,B13-9309,8/20/2013,1,Upper Slope,98.50645161,Bight,33.97731,-118.877507,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,1,small
-227,B13-9314,9/18/2013,2,MPA,4.35019692,Bight,33.99337,-118.86241,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Foliose Algae,-99,NA
-228,B13-9314,9/18/2013,2,MPA,4.35019692,Bight,33.99337,-118.86241,Terrestrial Vegetation,Terrestrial Vegetation,Aquatic Bioassay Consultants,Leaves/Seed Pod,-99,NA
-229,B13-9316,9/4/2013,1,Mid Shelf,56.20926257,Bight,33.994867,-118.6274,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,4,"small pieces, blade"
-230,B13-9316,9/4/2013,1,Mid Shelf,56.20926257,Bight,33.994867,-118.6274,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Rock,5,NA
-231,B13-9319,9/10/2013,1,Inner Shelf,35.65453697,Bight,33.997033,-118.49135,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,-99,NA
-232,B13-9319,9/10/2013,1,Inner Shelf,35.65453697,Bight,33.997033,-118.49135,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,-99,6.15 kg
-233,B13-9320,9/18/2013,1,MPA,7.72644587,Bight,34.00077,-118.87336,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Foliose Algae,-99,NA
-234,B13-9321,7/22/2013,1,MPA,7.72644587,Bight,33.999613,-118.81427,Glass,Glass bottles,Vantuna Research Group,Beer Bottle,1,small piece
-235,B13-9321,7/22/2013,1,MPA,7.72644587,Bight,33.999613,-118.81427,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,tarp strap
-236,B13-9321,7/22/2013,1,MPA,7.72644587,Bight,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,2,NA
-237,B13-9321,7/22/2013,1,MPA,7.72644587,Bight,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Rock,6,~2 kg each
-238,B13-9321,7/22/2013,1,MPA,7.72644587,Bight,33.999613,-118.81427,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,-99,NA
-239,B13-9321,7/22/2013,1,MPA,7.72644587,Bight,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,NA
-240,B13-9321,7/22/2013,1,MPA,7.72644587,Bight,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,-99,NA
-241,B13-9321,7/22/2013,1,MPA,7.72644587,Bight,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,13,NA
-242,B13-9323,7/22/2013,1,MPA,7.72644587,Bight,34.000304,-118.822712,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,NA
-243,B13-9323,7/22/2013,1,MPA,7.72644587,Bight,34.000304,-118.822712,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,1,NA
-244,B13-9323,7/22/2013,1,MPA,7.72644587,Bight,34.000304,-118.822712,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,-99,NA
-245,B13-9325,8/20/2013,1,Outer Shelf,16.67756423,Bight,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Polypropylene Rope,1,NA
-246,B13-9325,8/20/2013,1,Outer Shelf,16.67756423,Bight,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Other Plastic,2,cracker bags?
-247,B13-9326,8/29/2013,1,Mid Shelf,56.20926257,Bight,34.0037,-118.76935,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,-99,NA
-248,B13-9326,8/29/2013,1,Mid Shelf,56.20926257,Bight,34.0037,-118.76935,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Holdfast,1,NA
-249,B13-9331,8/30/2013,1,Mid Shelf,56.20926257,Bight,34.0133,-118.66725,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Holdfast,-99,NA
-250,B13-9331,8/30/2013,1,Mid Shelf,56.20926257,Bight,34.0133,-118.66725,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,-99,NA
-251,B13-9331,8/30/2013,1,Mid Shelf,56.20926257,Bight,34.0133,-118.66725,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,-99,NA
-252,B13-9336,8/29/2013,1,Inner Shelf,35.65453697,Bight,34.019767,-118.743717,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,-99,small pieces
-253,B13-9336,8/29/2013,1,Inner Shelf,35.65453697,Bight,34.019767,-118.743717,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,-99,small pieces
-254,B13-9336,8/29/2013,1,Inner Shelf,35.65453697,Bight,34.019767,-118.743717,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Similar to Easter grass
-255,B13-9336,8/29/2013,1,Inner Shelf,35.65453697,Bight,34.019767,-118.743717,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Seagrass,-99,NA
-256,B13-9339,9/18/2013,1,MPA,7.72644587,Bight,34.02242,-118.87612,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Foliose Algae,2,NA
-257,B13-9341,9/10/2013,1,Inner Shelf,35.65453697,Bight,34.02265,-118.590817,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Seagrass,1,<0.05 kg
-258,B13-9341,9/10/2013,1,Inner Shelf,35.65453697,Bight,34.02265,-118.590817,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,2,<0.05 kg
-259,B13-9341,9/10/2013,1,Inner Shelf,35.65453697,Bight,34.02265,-118.590817,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Foliose Algae,-99,various small pieces
-260,B13-9342,9/10/2013,1,Inner Shelf,35.65453697,Bight,34.0262,-118.568983,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Seagrass,2,2 blades
-261,B13-9342,9/10/2013,1,Inner Shelf,35.65453697,Bight,34.0262,-118.568983,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Kelp Stipe/Blade,1,small piece
-262,B13-9348,7/30/2013,1,Upper Slope,98.50645161,Bight,34.03957,-119.19698,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Stick/Branch/Driftwood,1,NA
-263,B13-9348,7/30/2013,1,Upper Slope,98.50645161,Bight,34.03957,-119.19698,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Paper,1,NA
-264,B13-9348,7/30/2013,1,Upper Slope,98.50645161,Bight,34.03957,-119.19698,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Rock,2,NA
-265,B13-9350,7/30/2013,1,Outer Shelf,16.67756423,Bight,34.04374,-119.058,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Rock,2,small
-266,B13-9350,7/30/2013,1,Outer Shelf,16.67756423,Bight,34.04374,-119.058,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Stick/Branch/Driftwood,2,small branch & wood block
-267,B13-9354,7/30/2013,1,Upper Slope,98.50645161,Bight,34.05092,-119.21821,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Stick/Branch/Driftwood,1,small wood stick
-268,B13-9354,7/30/2013,1,Upper Slope,98.50645161,Bight,34.05092,-119.21821,Glass,Glass bottles,Los Angeles County Sanitation Districts,Glass Bottle/Jar -other,1,Hennessy Cognac - Green
-269,B13-9356,9/6/2013,1,Outer Shelf,16.67756423,Bight,34.05389,-119.15568,Terrestrial Vegetation,Terrestrial Vegetation,Aquatic Bioassay Consultants,Stick/Branch/Driftwood,1,NA
-270,B13-9356,9/6/2013,1,Outer Shelf,16.67756423,Bight,34.05389,-119.15568,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Stipe/Blade,4,NA
-271,B13-9372,8/21/2013,1,Inner Shelf,35.65453697,Bight,34.10179,-119.15284,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Foliose Algae,-99,NA
-272,B13-9372,8/21/2013,1,Inner Shelf,35.65453697,Bight,34.10179,-119.15284,Terrestrial Vegetation,Terrestrial Vegetation,Aquatic Bioassay Consultants,Stick/Branch/Driftwood,1,NA
-273,B13-9374,8/23/2013,1,Outer Shelf,16.67756423,Bight,34.106938,-119.321987,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,1,eelgrass
-274,B13-9377,8/21/2013,1,Inner Shelf,35.65453697,Bight,34.11387,-119.18192,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Foliose Algae,-99,NA
-275,B13-9379,8/21/2013,1,Upper Slope,98.50645161,Bight,34.118608,-119.630503,Marine Origin,Marine Vegetation,Vantuna Research Group,Other Marine,-99,shark/ray parts
-276,B13-9380,8/20/2013,1,Outer Shelf,16.67756423,Bight,34.12374,-119.33325,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
-277,B13-9382,8/23/2013,1,Inner Shelf,35.65453697,Bight,34.125287,-119.261288,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,-99,all blades
-278,B13-9382,8/23/2013,1,Inner Shelf,35.65453697,Bight,34.125287,-119.261288,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,1,2 kg log
-279,B13-9383,9/6/2013,1,Inner Shelf,35.65453697,Bight,34.1262,-119.19485,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Stipe/Blade,-99,NA
-280,B13-9385,8/23/2013,1,Outer Shelf,16.67756423,Bight,34.132872,-119.371883,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-281,B13-9387,8/23/2013,1,Upper Slope,98.50645161,Bight,34.143587,-120.177188,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-282,B13-9388,7/26/2013,1,Upper Slope,98.50645161,Bight,34.146005,-119.772347,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-283,B13-9391,7/26/2013,1,Upper Slope,98.50645161,Bight,34.158032,-119.8281,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,1,small part of holdfast
-284,B13-9391,7/26/2013,1,Upper Slope,98.50645161,Bight,34.158032,-119.8281,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,mixed eelgrass and surfgrass
-285,B13-9394,8/22/2013,1,Upper Slope,98.50645161,Bight,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,stick
-286,B13-9394,8/22/2013,1,Upper Slope,98.50645161,Bight,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,trash bag?
-287,B13-9396,7/26/2013,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Marine Origin,Marine Vegetation,Vantuna Research Group,Other Marine,-99,emulsified oil (?) all over net
-288,B13-9396,7/26/2013,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Misc. Items/Pieces,Other,Vantuna Research Group,Clothing,1,small swatch
-289,B13-9396,7/26/2013,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,NA
-290,B13-9396,7/26/2013,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,wrapper?
-291,B13-9396,7/26/2013,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,grommet from tarp
-292,B13-9396,7/26/2013,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,1,NA
-293,B13-9397,8/20/2013,1,Inner Shelf,35.65453697,Bight,34.18497,-119.35116,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
-294,B13-9398,8/22/2013,1,Upper Slope,98.50645161,Bight,34.179395,-119.612567,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,1,NA
-295,B13-9398,8/22/2013,1,Upper Slope,98.50645161,Bight,34.179395,-119.612567,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,1,ball of surfgrass
-296,B13-9398,8/22/2013,1,Upper Slope,98.50645161,Bight,34.179395,-119.612567,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,1,NA
-297,B13-9399,7/23/2013,1,Upper Slope,98.50645161,Bight,34.182183,-120.40688,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,1,NA
-298,B13-9399,7/23/2013,1,Upper Slope,98.50645161,Bight,34.182183,-120.40688,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,NA
-299,B13-9399,7/23/2013,1,Upper Slope,98.50645161,Bight,34.182183,-120.40688,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,-99,NA
-300,B13-9400,7/23/2013,1,Upper Slope,98.50645161,Bight,34.184059,-120.35593,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,1,NA
-301,B13-9400,7/23/2013,1,Upper Slope,98.50645161,Bight,34.184059,-120.35593,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,NA
-302,B13-9403,8/22/2013,1,Outer Shelf,16.67756423,Bight,34.206832,-119.635323,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-303,B13-9407,8/22/2013,1,Outer Shelf,16.67756423,Bight,34.216753,-119.605325,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-304,B13-9409,8/20/2013,1,Inner Shelf,35.65453697,Bight,34.22391,-119.29943,Misc. Items/Pieces,Other,Aquatic Bioassay Consultants,Paper,1,NA
-305,B13-9414,8/21/2013,1,Outer Shelf,16.67756423,Bight,34.226393,-119.733735,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-306,B13-9419,9/13/2013,2,Outer Shelf,16.67756423,Bight,34.23285,-119.66165,Terrestrial Vegetation,Terrestrial Vegetation,Aquatic Bioassay Consultants,Stick/Branch/Driftwood,2,NA
-307,B13-9419,9/13/2013,2,Outer Shelf,16.67756423,Bight,34.23285,-119.66165,Plastic,Plastic,Aquatic Bioassay Consultants,Plastic Piece,1,NA
-308,B13-9421,8/20/2013,1,Inner Shelf,35.65453697,Bight,34.24567,-119.37254,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
-309,B13-9424,9/12/2013,1,Mid Shelf,56.20926257,Bight,34.26338,-119.48072,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
-310,B13-9426,7/26/2013,1,Upper Slope,98.50645161,Bight,34.258198,-119.809933,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,1,NA
-311,B13-9427,7/24/2013,1,Upper Slope,98.50645161,Bight,34.260202,-120.282198,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,1,NA
-312,B13-9427,7/24/2013,1,Upper Slope,98.50645161,Bight,34.260202,-120.282198,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,mixed eelgrass and surfgrass
-313,B13-9427,7/24/2013,1,Upper Slope,98.50645161,Bight,34.260202,-120.282198,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,1,Pterygophora californica
-314,B13-9431,9/13/2013,1,Outer Shelf,16.67756423,Bight,34.28286,-119.6646,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Seagrass,-99,NA
-315,B13-9432,8/21/2013,1,Outer Shelf,16.67756423,Bight,34.277462,-119.717675,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,eelgrass
-316,B13-9433,9/11/2013,1,Mid Shelf,56.20926257,Bight,34.27897,-119.5848,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
-317,B13-9435,7/24/2013,1,Upper Slope,98.50645161,Bight,34.285222,-120.42729,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,surfgrass
-318,B13-9435,7/24/2013,1,Upper Slope,98.50645161,Bight,34.285222,-120.42729,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,1,large stipe
-319,B13-9436,7/24/2013,1,Upper Slope,98.50645161,Bight,34.288591,-120.459736,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,mixed eelgrass and surfgrass
-320,B13-9441,7/25/2013,1,Upper Slope,98.50645161,Bight,34.314902,-119.88686,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-321,B13-9444,8/21/2013,1,Outer Shelf,16.67756423,Bight,34.320107,-119.750878,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-322,B13-9447,9/12/2013,1,Inner Shelf,35.65453697,Bight,34.34453,-119.46177,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Holdfast,1,NA
-323,B13-9447,9/12/2013,1,Inner Shelf,35.65453697,Bight,34.34453,-119.46177,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Foliose Algae,-99,NA
-324,B13-9448,8/6/2013,1,Mid Shelf,56.20926257,Bight,34.346364,-119.779392,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Stipe/Blade,-99,NA
-325,B13-9449,8/21/2013,1,Mid Shelf,56.20926257,Bight,34.344263,-119.562572,Marine Origin,Marine Vegetation,Vantuna Research Group,Other Marine,3,Cephaloscyllium ventriosum egg cases
-326,B13-9449,8/21/2013,1,Mid Shelf,56.20926257,Bight,34.344263,-119.562572,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,1,small
-327,B13-9450,7/24/2013,1,Upper Slope,98.50645161,Bight,34.34458,-120.370385,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,2,NA
-328,B13-9450,7/24/2013,1,Upper Slope,98.50645161,Bight,34.34458,-120.370385,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,NA
-329,B13-9450,7/24/2013,1,Upper Slope,98.50645161,Bight,34.34458,-120.370385,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,3,NA
-330,B13-9450,7/24/2013,1,Upper Slope,98.50645161,Bight,34.34458,-120.370385,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,1,Egregia menziesii
-331,B13-9454,8/7/2013,1,MPA,7.72644587,Bight,34.360922,-119.854586,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
-332,B13-9455,7/23/2013,1,Outer Shelf,4.35019692,Bight,34.362304,-119.895231,Plastic,Plastic,Vantuna Research Group,Food Bag / Wrapper,1,NA
-333,B13-9455,7/23/2013,1,Outer Shelf,4.35019692,Bight,34.362304,-119.895231,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,mixed eelgrass and surfgrass
-334,B13-9456,8/7/2013,1,Mid Shelf,7.72644587,Bight,34.362338,-119.85358,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
-335,B13-9457,7/24/2013,1,Upper Slope,98.50645161,Bight,34.363057,-120.009978,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-336,B13-9458,9/11/2013,1,Mid Shelf,56.20926257,Bight,34.36851,-119.54238,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Holdfast,1,NA
-337,B13-9458,9/11/2013,1,Mid Shelf,56.20926257,Bight,34.36851,-119.54238,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Foliose Algae,-99,NA
-338,B13-9459,7/25/2013,1,Upper Slope,98.50645161,Bight,34.368948,-120.116513,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,mixed eelgrass and surfgrass
-339,B13-9459,7/25/2013,1,Upper Slope,98.50645161,Bight,34.368948,-120.116513,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,1,Egregia menziesii
-340,B13-9465,7/23/2013,1,MPA,7.72644587,Bight,34.394734,-119.85726,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,-99,Gracilaria and Desmarestia
-341,B13-9465,7/23/2013,1,MPA,7.72644587,Bight,34.394734,-119.85726,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,2,NA
-342,B13-9465,7/23/2013,1,MPA,7.72644587,Bight,34.394734,-119.85726,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,-99,NA
-343,B13-9465,7/23/2013,1,MPA,7.72644587,Bight,34.394734,-119.85726,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,2,NA
-344,B13-9465,7/23/2013,1,MPA,7.72644587,Bight,34.394734,-119.85726,Plastic,Plastic,Vantuna Research Group,Bottle,1,oil or coolant bottle
-345,B13-9466,8/6/2013,1,Inner Shelf,35.65453697,Bight,34.393408,-119.668002,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Stipe/Blade,-99,NA
-346,B13-9467,9/11/2013,1,Inner Shelf,6.35969097,Bight,34.3996,-119.86724,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Stipe/Blade,-99,NA
-347,B13-9468,9/11/2013,1,MPA,6.35969097,Bight,34.40112,-119.8791,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Stipe/Blade,-99,NA
-348,B13-9470,9/11/2013,1,Mid Shelf,56.20926257,Bight,34.40006,-119.8346,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Kelp Stipe/Blade,-99,NA
-349,B13-9470,9/11/2013,1,Mid Shelf,56.20926257,Bight,34.40006,-119.8346,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Foliose Algae,-99,NA
-350,B13-9470,9/11/2013,1,Mid Shelf,56.20926257,Bight,34.40006,-119.8346,Misc. Items/Pieces,Other,Aquatic Bioassay Consultants,Fiberglass,1,large boat piece
-351,B13-9471,7/25/2013,2,Inner Shelf,35.65453697,Bight,34.403698,-119.812175,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,-99,Gracilaria
-352,B13-9471,7/25/2013,2,Inner Shelf,35.65453697,Bight,34.403698,-119.812175,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,-99,NA
-353,B13-9471,7/25/2013,2,Inner Shelf,35.65453697,Bight,34.403698,-119.812175,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,mixed eelgrass and surfgrass
-354,B13-9476,7/25/2013,1,Outer Shelf,16.67756423,Bight,34.420267,-120.268282,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Stipe/Blade,-99,NA
-355,B13-9476,7/25/2013,1,Outer Shelf,16.67756423,Bight,34.420267,-120.268282,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,-99,Laminaria
-356,B13-9476,7/25/2013,1,Outer Shelf,16.67756423,Bight,34.420267,-120.268282,Marine Origin,Marine Vegetation,Vantuna Research Group,Kelp Holdfast,1,NA
-357,B13-9482,7/25/2013,1,Mid Shelf,56.20926257,Bight,34.443547,-120.285017,Marine Origin,Marine Vegetation,Vantuna Research Group,Rock,1,3 kg
-358,B13-9482,7/25/2013,1,Mid Shelf,56.20926257,Bight,34.443547,-120.285017,Marine Origin,Marine Vegetation,Vantuna Research Group,Foliose Algae,-99,Laminaria and Pterygophora
-359,B13-9487,7/25/2013,1,Inner Shelf,35.65453697,Bight,34.464803,-120.177835,Marine Origin,Marine Vegetation,Vantuna Research Group,Seagrass,-99,NA
-360,B13-9487,7/25/2013,1,Inner Shelf,35.65453697,Bight,34.464803,-120.177835,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Stick/Branch/Driftwood,-99,NA
+20,B13-8315,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,Peroxide
+22,B13-8315,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Blue shopping cart basket
+29,B13-8325,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,"Amber color, stiff, thin"
+32,B13-8335,9/24/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Misc. Items/Pieces,Other,City of Los Angeles Environmental Monitoring Division,Other Misc.,2,"2 pieces twine, possibly from mop"
+35,B13-8346,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.73877,-118.14476,No Debris Present,None,MBC Applied Environmental Sciences,No Debris Present,-99,NA
+38,B13-8350,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Metal,Recyclable,Los Angeles County Sanitation Districts,Drink Can,1,Michelob Ultra Superior Light Beer
+45,B13-8388,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Plastic,Plastic,MBC Applied Environmental Sciences,Food Bag / Wrapper,1,NA
+46,B13-8388,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Metal,Recyclable,MBC Applied Environmental Sciences,Can - other,1,King Cobra Beer
+57,B13-9011,7/22/13,1,Outer Shelf,16.67756423,Bight,32.58434,-117.33803,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
+58,B13-9012,7/24/13,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Plastic Piece,1,small black shard
+59,B13-9012,7/24/13,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Polypropylene Rope,1,Partial metal debris
+60,B13-9012,7/24/13,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Metal,Metal,City of San Diego,Metal Piece,1,part of trap with nylon cord
+66,B13-9014,8/6/13,1,Outer Shelf,16.67756423,Bight,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Cup,1,Metridium attached
+67,B13-9014,8/6/13,1,Outer Shelf,16.67756423,Bight,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Plastic Piece,1,"1"" x 3"" opaque"
+69,B13-9023,8/1/13,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Misc. Items/Pieces,Other,City of San Diego,Rag/Cloth,1,"5"" x 5"" burlap"
+70,B13-9023,8/1/13,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament old and brittle
+71,B13-9023,8/1/13,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,"Says ""crackers"""
+72,B13-9026,8/1/13,1,Upper Slope,98.50645161,Bight,32.69393,-117.39587,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament
+85,B13-9053,8/8/13,1,Outer Shelf,16.67756423,Bight,32.82313,-117.36676,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
+86,B13-9056,8/8/13,1,Outer Shelf,16.67756423,Bight,32.83104,-117.35956,Plastic,Plastic,City of San Diego,Other Plastic,1,Boat thingy
+91,B13-9073,8/7/13,1,Outer Shelf,16.67756423,Bight,32.90917,-117.29504,Plastic,Plastic,City of San Diego,Bottle,1,H2O bottle
+93,B13-9092,8/12/13,1,MPA,4.35019692,Bight,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Other Plastic,1,Popsicle maker
+95,B13-9092,8/12/13,1,MPA,4.35019692,Bight,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,Thin plastic
+100,B13-9100,8/13/13,1,Outer Shelf,16.67756423,Bight,33.06689,-117.36712,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
+106,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Misc. Items/Pieces,Other,City of San Diego,Tape,1,2 ft long piece
+107,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Plastic Piece,1,Piece of plastic wrapper
+108,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Bottle,1,Spout of 5 gallon jug
+109,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Misc. Items/Pieces,Other,City of San Diego,Other Misc.,1,Tar piece
+110,B13-9111,8/13/13,1,Mid Shelf,56.20926257,Bight,33.10467,-117.36168,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
+111,B13-9121,8/13/13,1,Inner Shelf,35.65453697,Bight,33.17427,-117.38129,Metal,Recyclable,City of San Diego,Drink Can,1,Beer can
+115,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,lots of clear plastic
+116,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Cap/Lid,1,Plastic Bottle Cap
+117,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Metal,Recyclable,Orange County Sanitation Districts,Drink Can,2,1 can Budweiser - 1 can Diet Coke
+118,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Paper,1,article
+119,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Other Misc.,1,spoon
+126,B13-9161,9/4/13,1,MPA,2.7940155,Bight,33.503284,-117.771859,Metal,Metal,Orange County Sanitation Districts,Can Pull-tab,1,16 oz. Budweiser Can Pull-tab
+129,B13-9166,8/20/13,1,Mid Shelf,2.7940155,Bight,33.50885,-117.769678,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Rag/Cloth,1,Rag/Cloth.  Photo taken
+132,B13-9168,8/20/13,1,MPA,7.72644587,Bight,33.511385,-117.777799,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Bottom
+136,B13-9173,9/5/13,1,MPA,7.72644587,Bight,33.522648,-117.794141,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Clear
+137,B13-9174,8/21/13,1,Upper Slope,98.50645161,Bight,33.535885,-117.846826,Metal,Recyclable,Orange County Sanitation Districts,Drink Can,2,Photo taken - 1 can Coors Light - 1 partial can Diet Coke
+139,B13-9177,8/20/13,1,MPA,2.7940155,Bight,33.546366,-117.822363,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Photo taken
+140,B13-9177,8/20/13,1,MPA,2.7940155,Bight,33.546366,-117.822363,Metal,Metal,Orange County Sanitation Districts,Other Metal,1,Photo taken - remains of a crab trap
+145,B13-9179,8/15/13,1,Upper Slope,98.50645161,Bight,33.554635,-118.016943,Metal,Recyclable,Orange County Sanitation Districts,Drink Can,1,Miller MGD can
+146,B13-9185,8/15/13,1,Outer Shelf,16.67756423,Bight,33.564518,-118.017204,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Oil
+152,B13-9192,8/21/13,1,MPA,4.07437995,Bight,33.579032,-117.865544,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Other Misc.,1,Estimate = M
+153,B13-9192,8/21/13,1,MPA,4.07437995,Bight,33.579032,-117.865544,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,2,1 piece green - 1 piece clear
+155,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label
+157,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Black
+158,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label
+159,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Balloon (mylar/latex)/Ribbon,1,Long thin ribbon
+160,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Metal,Metal,Orange County Sanitation Districts,Other Metal,1,Aluminum foil
+163,B13-9200,8/13/13,1,Mid Shelf,56.20926257,Bight,33.60313,-118.09835,No Debris Present,None,Los Angeles County Sanitation Districts,No Debris Present,-99,NA
+165,B13-9214,8/14/13,1,Inner Shelf,35.65453697,Bight,33.643449,-118.081022,No Debris Present,None,Orange County Sanitation Districts,No Debris Present,-99,NA
+169,B13-9219,8/14/13,1,Inner Shelf,35.65453697,Bight,33.656299,-118.059782,No Debris Present,None,Orange County Sanitation Districts,No Debris Present,-99,NA
+173,B13-9223,8/16/13,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,7-up
+177,B13-9223,8/16/13,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Metal,Recyclable,Los Angeles County Sanitation Districts,Can - other,1,part of one can
+178,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Other Misc.,4,clinkers
+179,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Lid to pepper can
+180,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Lumber,Los Angeles County Sanitation Districts,Lumber,1,"6"" small piece"
+182,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Boat/Ship/Engine part,1,blob of caulk
+185,B13-9235,8/14/13,1,MPA,7.10222287,Bight,33.70392,-118.39901,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,2,"clear, thin"
+187,B13-9237,8/16/13,1,MPA,7.10222287,Bight,33.7201,-118.4144,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,maybe plastic ruler.  Item recorded but discarded.
+191,B13-9239,8/12/13,1,Inner Shelf,35.65453697,Bight,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,2,Water bottle
+192,B13-9239,8/12/13,1,Inner Shelf,35.65453697,Bight,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Fishing Line/Net,1,Line
+193,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Food Bag / Wrapper,11,"ziploc snack size, mickey mouse candy, snickers, reeses, Bon sola sol, Tamarind candy"
+194,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,7,"Water w/ sports lid, soda w/ red lid, water w/ clear lid"
+195,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Cup,2,"Red party cup, clear"
+196,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Metal,Recyclable,Los Angeles County Sanitation Districts,Drink Can,3,"Red Bull, Modelo especial, Bud light chelada"
+198,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bag,3,NA
+200,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,3,"groblock label, tobacco wrapper, green sewing grid"
+201,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,42,"big white square, clear"
+203,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Glass,Glass bottles,Los Angeles County Sanitation Districts,Beer Bottle,1,NA
+206,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,Piece of lens cap
+210,B13-9266,9/3/13,1,Mid Shelf,56.20926257,Bight,33.858467,-118.445183,No Debris Present,None,City of Los Angeles Environmental Monitoring Division,No Debris Present,-99,NA
+211,B13-9271,9/17/13,1,Mid Shelf,56.20926257,Bight,33.895217,-118.535467,Metal,Metal,City of Los Angeles Environmental Monitoring Division,Fishing Gear,1,piece of crab trap
+212,B13-9286,9/17/13,1,Mid Shelf,56.20926257,Bight,33.9317,-118.538383,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,5 inches of monofilament
+213,B13-9287,9/4/13,1,Outer Shelf,16.67756423,Bight,33.93395,-118.590517,No Debris Present,None,City of Los Angeles Environmental Monitoring Division,No Debris Present,-99,NA
+214,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Bight,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Piece of bag or plastic sheet
+215,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Bight,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Bottle,1,NA
+216,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Bight,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Other Plastic,1,Auto or boat part; possibly side mirror or bumber piece
+217,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Bottle,1,"Beverage, clear"
+218,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Metal,Metal,City of Los Angeles Environmental Monitoring Division,Other Metal,1,"aluminum sheeting, possibly aircraft"
+220,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,monofilament; several feet
+225,B13-9309,8/20/13,1,Upper Slope,98.50645161,Bight,33.97731,-118.877507,Plastic,Plastic,Vantuna Research Group,Bag,1,"""King Pop"" wrapper"
+234,B13-9321,7/22/13,1,MPA,7.72644587,Bight,33.999613,-118.81427,Glass,Glass bottles,Vantuna Research Group,Beer Bottle,1,small piece
+235,B13-9321,7/22/13,1,MPA,7.72644587,Bight,33.999613,-118.81427,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,tarp strap
+245,B13-9325,8/20/13,1,Outer Shelf,16.67756423,Bight,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Polypropylene Rope,1,NA
+246,B13-9325,8/20/13,1,Outer Shelf,16.67756423,Bight,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Other Plastic,2,cracker bags?
+254,B13-9336,8/29/13,1,Inner Shelf,35.65453697,Bight,34.019767,-118.743717,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Similar to Easter grass
+263,B13-9348,7/30/13,1,Upper Slope,98.50645161,Bight,34.03957,-119.19698,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Paper,1,NA
+268,B13-9354,7/30/13,1,Upper Slope,98.50645161,Bight,34.05092,-119.21821,Glass,Glass bottles,Los Angeles County Sanitation Districts,Glass Bottle/Jar -other,1,Hennessy Cognac - Green
+276,B13-9380,8/20/13,1,Outer Shelf,16.67756423,Bight,34.12374,-119.33325,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
+280,B13-9385,8/23/13,1,Outer Shelf,16.67756423,Bight,34.132872,-119.371883,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+281,B13-9387,8/23/13,1,Upper Slope,98.50645161,Bight,34.143587,-120.177188,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+282,B13-9388,7/26/13,1,Upper Slope,98.50645161,Bight,34.146005,-119.772347,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+285,B13-9394,8/22/13,1,Upper Slope,98.50645161,Bight,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,stick
+286,B13-9394,8/22/13,1,Upper Slope,98.50645161,Bight,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,trash bag?
+288,B13-9396,7/26/13,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Misc. Items/Pieces,Other,Vantuna Research Group,Clothing,1,small swatch
+290,B13-9396,7/26/13,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,wrapper?
+291,B13-9396,7/26/13,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,grommet from tarp
+293,B13-9397,8/20/13,1,Inner Shelf,35.65453697,Bight,34.18497,-119.35116,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
+302,B13-9403,8/22/13,1,Outer Shelf,16.67756423,Bight,34.206832,-119.635323,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+303,B13-9407,8/22/13,1,Outer Shelf,16.67756423,Bight,34.216753,-119.605325,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+304,B13-9409,8/20/13,1,Inner Shelf,35.65453697,Bight,34.22391,-119.29943,Misc. Items/Pieces,Other,Aquatic Bioassay Consultants,Paper,1,NA
+305,B13-9414,8/21/13,1,Outer Shelf,16.67756423,Bight,34.226393,-119.733735,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+307,B13-9419,9/13/13,2,Outer Shelf,16.67756423,Bight,34.23285,-119.66165,Plastic,Plastic,Aquatic Bioassay Consultants,Plastic Piece,1,NA
+308,B13-9421,8/20/13,1,Inner Shelf,35.65453697,Bight,34.24567,-119.37254,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
+309,B13-9424,9/12/13,1,Mid Shelf,56.20926257,Bight,34.26338,-119.48072,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
+316,B13-9433,9/11/13,1,Mid Shelf,56.20926257,Bight,34.27897,-119.5848,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
+320,B13-9441,7/25/13,1,Upper Slope,98.50645161,Bight,34.314902,-119.88686,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+321,B13-9444,8/21/13,1,Outer Shelf,16.67756423,Bight,34.320107,-119.750878,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+331,B13-9454,8/7/13,1,MPA,7.72644587,Bight,34.360922,-119.854586,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
+332,B13-9455,7/23/13,1,Outer Shelf,4.35019692,Bight,34.362304,-119.895231,Plastic,Plastic,Vantuna Research Group,Food Bag / Wrapper,1,NA
+334,B13-9456,8/7/13,1,Mid Shelf,7.72644587,Bight,34.362338,-119.85358,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
+335,B13-9457,7/24/13,1,Upper Slope,98.50645161,Bight,34.363057,-120.009978,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
+344,B13-9465,7/23/13,1,MPA,7.72644587,Bight,34.394734,-119.85726,Plastic,Plastic,Vantuna Research Group,Bottle,1,oil or coolant bottle
+350,B13-9470,9/11/13,1,Mid Shelf,56.20926257,Bight,34.40006,-119.8346,Misc. Items/Pieces,Other,Aquatic Bioassay Consultants,Fiberglass,1,large boat piece
