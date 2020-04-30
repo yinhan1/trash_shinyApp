@@ -40,16 +40,16 @@ pchIcons <- function(pch = 1, width = 30, height = 30, bg = "transparent", col =
 }
 
 tab2_ocean_sites <- function(year){
-  read.csv("./data/map_data_04_16_2020.csv") %>% filter(tag == paste("Ocean",year)) %>% nrow() %>% paste(., "ocean sites")
+  read.csv("./data/map_data_04_30_2020.csv") %>% filter(tag == paste("Ocean",year)) %>% nrow() %>% paste(., "ocean sites")
 }
 
 tab2_river_sites <- function(year){
-  read.csv("./data/map_data_04_16_2020.csv") %>% filter(tag == paste("River",year)) %>% nrow() %>% paste(., "river sites")
+  read.csv("./data/map_data_04_30_2020.csv") %>% filter(tag == paste("River",year)) %>% nrow() %>% paste(., "river sites")
 }
 
 
 tab2_call_map <- function(year){
-  map_data = read.csv("./data/map_data_04_16_2020.csv") %>% 
+  map_data = read.csv("./data/map_data_04_30_2020.csv") %>% 
     filter(str_detect(tag,as.character(year))) %>% 
     mutate(water = ifelse(str_detect(tag,"Ocean"), "Ocean", "River"))
   map_data %>% mutate(water = factor(water, levels = c("Ocean","River"))) %>% tab2_mapper()
@@ -77,7 +77,7 @@ tab2_mapper <- function(data){
 
 tab2_site_count_plotter <- function(){
   data.frame(year = c(1994,1998,2008,2013,2018),
-             Ocean = c(113,242,140,164,135),
+             Ocean = c(158,169,140,164,139),
              River = c(70,70,70,273,133)) %>%
     melt(id.vars = "year") %>% 
     ggplot(aes(x = as.character(year), y = value, fill = variable, shape = variable)) +

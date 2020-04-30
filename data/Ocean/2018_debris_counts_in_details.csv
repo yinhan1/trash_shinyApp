@@ -10,7 +10,7 @@ objectid,stationid,sampledate,trawlnumber,debristype,debriscount,comments,lat,lo
 2287,B18-10350,2018-09-05T00:00:00Z,1,Plastic Piece (unid.),1,Small,32.70487,-117.3537,Upper Slope,New Site,No,NA,125.2249344,San Diego Slope,Plastic
 2288,B18-10351,2018-09-06T00:00:00Z,1,Food Bag/Wrapper,1,"Small piece (1"" x 1""); Photo taken",32.69303,-117.3948,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope,Plastic
 2289,B18-10351,2018-09-06T00:00:00Z,1,Rag/Cloth,2,Cotton; Rib knit; Photo taken,32.69303,-117.3948,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope,Fabric_Cloth
-2290,B18-10351,2018-09-06T00:00:00Z,1,Other Misc. (comment req.),1,49 cm; Cotton rope,32.69303,-117.3948,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope,miscellaneous
+2290,B18-10351,2018-09-06T00:00:00Z,1,Other Misc. (comment req.),1,49 cm; Cotton rope,32.69303,-117.3948,Upper Slope,Revisit,No,NA,125.2249344,San Diego Slope,Miscellaneous
 2292,B18-10879,2018-09-07T00:00:00Z,1,Food Bag/Wrapper,1,NA,32.66821,-117.206,Inner Shelf,Overdraw,No,B18-10235,40.43039795,South San Diego Shelf,Plastic
 2298,B18-10989,2018-09-05T00:00:00Z,1,Bag,1,NA,32.74153,-117.36,Outer Shelf,Overdraw,No,B18-10316,23.28776249,San Diego Slope,Plastic
 2299,B18-10989,2018-09-05T00:00:00Z,1,Glass Bottle/Jar -other,1,NA,32.74153,-117.36,Outer Shelf,Overdraw,No,B18-10316,23.28776249,San Diego Slope,Recyclable
@@ -61,16 +61,13 @@ objectid,stationid,sampledate,trawlnumber,debristype,debriscount,comments,lat,lo
 2408,B18-10290,2018-07-19T00:00:00Z,1,Leaves/Seed Pod,1,NA,34.2068,-119.56755,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel,Biodegradable
 2411,B18-10292,2018-07-19T00:00:00Z,1,None,0,No debris present,34.19563,-119.63735,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel,None
 2413,B18-10294,2018-07-20T00:00:00Z,1,Other Plastic (comment req.),1,plastic sheet,34.13289,-119.37902,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel,Plastic
-2414,B18-10294,2018-07-20T00:00:00Z,1,Rock,3,NA,34.13289,-119.37902,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel,Rock
 2416,B18-10296,2018-07-20T00:00:00Z,1,Stick/Branch/Driftwood,2,NA,34.13269,-119.36993,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel,Biodegradable
 2417,B18-10297,2018-07-20T00:00:00Z,1,Fishing Gear,1,hook,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel,Plastic
 2418,B18-10297,2018-07-20T00:00:00Z,1,Fishing Line/Net,1,monofilament,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel,Plastic
-2420,B18-10297,2018-07-20T00:00:00Z,1,Rock,3,NA,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel,Rock
 2422,B18-10297,2018-07-20T00:00:00Z,1,Stick/Branch/Driftwood,3,stick,34.12282,-119.3313,Outer Shelf,Revisit,No,NA,23.28776249,East Santa Barbara Channel,Biodegradable
-2425,B18-10310,2018-08-16T00:00:00Z,1,Rock,2,NA,33.76748,-118.45901,Mid Shelf,Revisit,No,NA,67.32610042,Santa Monica Bay,Rock
 2426,B18-10325,2018-07-18T00:00:00Z,1,Food Bag/Wrapper,1,NA,34.26184,-119.80546,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel,Plastic
 2427,B18-10325,2018-07-18T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.26184,-119.80546,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel,Biodegradable
-2429,B18-10328,2018-07-18T00:00:00Z,1,Other Misc. (comment req.),1,String,34.2521,-119.83736,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel,miscellaneous
+2429,B18-10328,2018-07-18T00:00:00Z,1,Other Misc. (comment req.),1,String,34.2521,-119.83736,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel,Miscellaneous
 2433,B18-10332,2018-07-18T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.17079,-119.79362,Upper Slope,New Site,No,NA,125.2249344,East Santa Barbara Channel,Biodegradable
 2436,B18-10333,2018-07-18T00:00:00Z,1,Stick/Branch/Driftwood,2,NA,34.15832,-119.82782,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel,Biodegradable
 2437,B18-10338,2018-07-19T00:00:00Z,1,Cap/Lid,1,NA,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel,Plastic
@@ -78,24 +75,21 @@ objectid,stationid,sampledate,trawlnumber,debristype,debriscount,comments,lat,lo
 2440,B18-10338,2018-07-19T00:00:00Z,1,Other Plastic (comment req.),1,plastic label,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel,Plastic
 2441,B18-10338,2018-07-19T00:00:00Z,1,Plastic Piece (unid.),1,NA,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel,Plastic
 2442,B18-10338,2018-07-19T00:00:00Z,1,Rag/Cloth,1,NA,34.11827,-119.62886,Upper Slope,Revisit,No,NA,125.2249344,East Santa Barbara Channel,Fabric_Cloth
-2443,B18-10339,2018-07-16T00:00:00Z,1,Rock,1,NA,34.04155,-119.19747,Upper Slope,Revisit,No,NA,125.2249344,Hueneme to Dume,Rock
 2444,B18-10339,2018-07-16T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.04155,-119.19747,Upper Slope,Revisit,No,NA,125.2249344,Hueneme to Dume,Biodegradable
 2445,B18-10340,2018-07-16T00:00:00Z,1,None,0,No debris present,34.03852,-119.12566,Upper Slope,New Site,No,NA,125.2249344,Hueneme to Dume,None
-2449,B18-10343,2018-08-16T00:00:00Z,1,Other Misc. (comment req.),1,rope,33.69417,-118.34703,Upper Slope,Revisit,No,NA,125.2249344,Palos Verdes Shelf,miscellaneous
-2450,B18-10343,2018-08-16T00:00:00Z,1,Rock,9,NA,33.69417,-118.34703,Upper Slope,Revisit,No,NA,125.2249344,Palos Verdes Shelf,Rock
+2449,B18-10343,2018-08-16T00:00:00Z,1,Other Misc. (comment req.),1,rope,33.69417,-118.34703,Upper Slope,Revisit,No,NA,125.2249344,Palos Verdes Shelf,Miscellaneous
 2451,B18-10949,2018-07-19T00:00:00Z,1,Food Bag/Wrapper,2,"potato bag, clear wrapper",34.247,-119.68242,Outer Shelf,Overdraw,No,B18-10305,23.28776249,Hueneme to Dume,Plastic
 2452,B18-10949,2018-07-19T00:00:00Z,1,Leaves/Seed Pod,3,NA,34.247,-119.68242,Outer Shelf,Overdraw,No,B18-10305,23.28776249,Hueneme to Dume,Biodegradable
 2453,B18-10949,2018-07-19T00:00:00Z,1,Other Plastic (comment req.),1,hagfish trap bucket,34.247,-119.68242,Outer Shelf,Overdraw,No,B18-10305,23.28776249,Hueneme to Dume,Plastic
 2455,B18-11000,2018-07-17T00:00:00Z,1,Food Bag/Wrapper,1,NA,34.22874,-119.81929,Upper Slope,Overdraw,No,B18-10337,125.2249344,Hueneme to Dume,Plastic
 2459,B18-11000,2018-07-17T00:00:00Z,1,Stick/Branch/Driftwood,1,NA,34.22874,-119.81929,Upper Slope,Overdraw,No,B18-10337,125.2249344,Hueneme to Dume,Biodegradable
 2463,B18-10241,2018-08-02T00:00:00Z,1,None,0,None,34.43576,-120.23716,Mid Shelf,New Site,No,NA,67.32610042,West Santa Barbara Channel,None
-2470,B18-10327,2018-09-25T00:00:00Z,2,Other Terrestrial (comment req.),1,About a 5 cm section from a Coreopsis gigantea stem decomposing (island debris); Low estimated weight,34.25798,-120.2615,Upper Slope,New Site,No,NA,125.2249344,West Santa Barbara Channel,Rock
 2471,B18-10228,2018-08-14T00:00:00Z,2,None,0,No debris present,33.61865997,-118.0413437,Inner Shelf,New Site,No,NA,40.43039795,San Pedro Shelf,None
 2472,B18-10260,2018-08-14T00:00:00Z,1,None,0,No debris present,33.60198975,-118.0563965,Mid Shelf,Revisit,No,NA,67.32610042,San Pedro Shelf,None
 2473,B18-10227,2018-08-14T00:00:00Z,1,None,0,No debris present,33.62779999,-117.9871292,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf,None
 2476,B18-10867,2018-08-15T00:00:00Z,1,None,0,No debris present,33.65991974,-118.0550537,Inner Shelf,New Site,No,NA,40.43039795,Orange Shelf,None
 2477,B18-10313,2018-08-15T00:00:00Z,1,None,0,No debris present,33.56816864,-118.024353,Outer Shelf,New Site,No,NA,23.28776249,San Pedro Channel,None
-2479,B18-10258,2018-08-16T00:00:00Z,1,Other Misc. (comment req.),1,Rope (1 feet) - Photo w/one cotton glove,33.64812088,-118.1490936,Mid Shelf,Revisit,No,NA,67.32610042,San Pedro Shelf,miscellaneous
+2479,B18-10258,2018-08-16T00:00:00Z,1,Other Misc. (comment req.),1,Rope (1 feet) - Photo w/one cotton glove,33.64812088,-118.1490936,Mid Shelf,Revisit,No,NA,67.32610042,San Pedro Shelf,Miscellaneous
 2480,B18-10914,2018-08-16T00:00:00Z,1,None,0,No debris present,33.61119843,-118.2223816,Mid Shelf,New Site,No,NA,67.32610042,San Pedro Shelf,None
 2483,B18-10220,2018-08-20T00:00:00Z,1,None,0,No debris present,33.73345184,-118.1221237,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf,None
 2487,B18-10226,2018-08-21T00:00:00Z,1,Plastic Piece (unid.),1,NA,33.64360046,-118.0789719,Inner Shelf,Revisit,No,NA,40.43039795,San Pedro Shelf,Plastic
@@ -103,9 +97,9 @@ objectid,stationid,sampledate,trawlnumber,debristype,debriscount,comments,lat,lo
 2492,B18-10973,2018-08-22T00:00:00Z,1,None,0,No debris present,33.59194183,-118.0795212,Outer Shelf,Overdraw,No,B18-10312,23.28776249,San Pedro Channel,None
 2493,B18-10346,2018-09-25T00:00:00Z,1,Other Plastic (comment req.),1,Plastic container,33.53673172,-117.847847,Upper Slope,Revisit,No,NA,125.2249344,Orange Slope,Plastic
 2494,B18-10346,2018-09-25T00:00:00Z,1,Lumber,2,Wood pieces,33.53673172,-117.847847,Upper Slope,Revisit,No,NA,125.2249344,Orange Slope,Biodegradable
-2495,B18-10344,2018-09-25T00:00:00Z,2,Other Misc. (comment req.),0,No debris present,33.55598831,-118.0215988,Upper Slope,Revisit,No,NA,125.2249344,Orange Slope,miscellaneous
+2495,B18-10344,2018-09-25T00:00:00Z,2,Other Misc. (comment req.),0,No debris present,33.55598831,-118.0215988,Upper Slope,Revisit,No,NA,125.2249344,Orange Slope,Miscellaneous
 2496,B18-10345,2018-09-26T00:00:00Z,1,None,0,No debris present,33.55551147,-118.1147308,Upper Slope,New Site,No,NA,125.2249344,Orange Slope,None
-2499,B18-10862,2018-09-26T00:00:00Z,1,Other Misc. (comment req.),1,Excess ball fishing line,33.68928909,-118.1919327,Inner Shelf,Overdraw,No,B18-10230,40.43039795,Orange Shelf,miscellaneous
+2499,B18-10862,2018-09-26T00:00:00Z,1,Other Misc. (comment req.),1,Excess ball fishing line,33.68928909,-118.1919327,Inner Shelf,Overdraw,No,B18-10230,40.43039795,Orange Shelf,Miscellaneous
 2509,B18-10016,2018-07-13T00:00:00Z,2,None,0,no debris present in sample,32.78485,-117.24055,Bay,New Site,No,NA,0.269230769,Mission Bay,None
 2518,B18-10023,2018-07-23T00:00:00Z,1,None,0,no debris present in sample,32.71750433,-117.2155607,Bay,New Site,No,NA,0.269230769,San Diego Bay,None
 2519,B18-10024,2018-07-23T00:00:00Z,1,None,0,no debris present in sample,32.7148,-117.18302,Bay,Revisit,No,NA,0.269230769,San Diego Bay,None

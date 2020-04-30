@@ -2,7 +2,7 @@ objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,lon
 20,B13-8315,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,Peroxide
 22,B13-8315,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Blue shopping cart basket
 29,B13-8325,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,"Amber color, stiff, thin"
-32,B13-8335,9/24/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Misc. Items/Pieces,Other,City of Los Angeles Environmental Monitoring Division,Other Misc.,2,"2 pieces twine, possibly from mop"
+32,B13-8335,9/24/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Misc. Items/Pieces,Miscellaneous,City of Los Angeles Environmental Monitoring Division,Other Misc.,2,"2 pieces twine, possibly from mop"
 35,B13-8346,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.73877,-118.14476,No Debris Present,None,MBC Applied Environmental Sciences,No Debris Present,-99,NA
 38,B13-8350,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Metal,Recyclable,Los Angeles County Sanitation Districts,Drink Can,1,Michelob Ultra Superior Light Beer
 45,B13-8388,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Plastic,Plastic,MBC Applied Environmental Sciences,Food Bag / Wrapper,1,NA
@@ -13,7 +13,7 @@ objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,lon
 60,B13-9012,7/24/13,1,Mid Shelf,56.20926257,Bight,32.58634,-117.26284,Metal,Metal,City of San Diego,Metal Piece,1,part of trap with nylon cord
 66,B13-9014,8/6/13,1,Outer Shelf,16.67756423,Bight,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Cup,1,Metridium attached
 67,B13-9014,8/6/13,1,Outer Shelf,16.67756423,Bight,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Plastic Piece,1,"1"" x 3"" opaque"
-69,B13-9023,8/1/13,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Misc. Items/Pieces,Other,City of San Diego,Rag/Cloth,1,"5"" x 5"" burlap"
+69,B13-9023,8/1/13,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Misc. Items/Pieces,Miscellaneous,City of San Diego,Rag/Cloth,1,"5"" x 5"" burlap"
 70,B13-9023,8/1/13,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament old and brittle
 71,B13-9023,8/1/13,1,Upper Slope,98.50645161,Bight,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,"Says ""crackers"""
 72,B13-9026,8/1/13,1,Upper Slope,98.50645161,Bight,32.69393,-117.39587,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament
@@ -23,19 +23,19 @@ objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,lon
 93,B13-9092,8/12/13,1,MPA,4.35019692,Bight,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Other Plastic,1,Popsicle maker
 95,B13-9092,8/12/13,1,MPA,4.35019692,Bight,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,Thin plastic
 100,B13-9100,8/13/13,1,Outer Shelf,16.67756423,Bight,33.06689,-117.36712,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
-106,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Misc. Items/Pieces,Other,City of San Diego,Tape,1,2 ft long piece
+106,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Misc. Items/Pieces,Miscellaneous,City of San Diego,Tape,1,2 ft long piece
 107,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Plastic Piece,1,Piece of plastic wrapper
 108,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Bottle,1,Spout of 5 gallon jug
-109,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Misc. Items/Pieces,Other,City of San Diego,Other Misc.,1,Tar piece
+109,B13-9107,8/13/13,1,Upper Slope,98.50645161,Bight,33.09295,-117.41689,Misc. Items/Pieces,Miscellaneous,City of San Diego,Other Misc.,1,Tar piece
 110,B13-9111,8/13/13,1,Mid Shelf,56.20926257,Bight,33.10467,-117.36168,No Debris Present,None,City of San Diego,No Debris Present,-99,NA
 111,B13-9121,8/13/13,1,Inner Shelf,35.65453697,Bight,33.17427,-117.38129,Metal,Recyclable,City of San Diego,Drink Can,1,Beer can
 115,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,lots of clear plastic
 116,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Cap/Lid,1,Plastic Bottle Cap
 117,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Metal,Recyclable,Orange County Sanitation Districts,Drink Can,2,1 can Budweiser - 1 can Diet Coke
-118,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Paper,1,article
-119,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Other Misc.,1,spoon
+118,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Misc. Items/Pieces,Miscellaneous,Orange County Sanitation Districts,Paper,1,article
+119,B13-9125,8/29/13,1,Outer Shelf,16.67756423,Bight,33.219417,-117.510954,Misc. Items/Pieces,Miscellaneous,Orange County Sanitation Districts,Other Misc.,1,spoon
 126,B13-9161,9/4/13,1,MPA,2.7940155,Bight,33.503284,-117.771859,Metal,Metal,Orange County Sanitation Districts,Can Pull-tab,1,16 oz. Budweiser Can Pull-tab
-129,B13-9166,8/20/13,1,Mid Shelf,2.7940155,Bight,33.50885,-117.769678,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Rag/Cloth,1,Rag/Cloth.  Photo taken
+129,B13-9166,8/20/13,1,Mid Shelf,2.7940155,Bight,33.50885,-117.769678,Misc. Items/Pieces,Miscellaneous,Orange County Sanitation Districts,Rag/Cloth,1,Rag/Cloth.  Photo taken
 132,B13-9168,8/20/13,1,MPA,7.72644587,Bight,33.511385,-117.777799,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Bottom
 136,B13-9173,9/5/13,1,MPA,7.72644587,Bight,33.522648,-117.794141,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Clear
 137,B13-9174,8/21/13,1,Upper Slope,98.50645161,Bight,33.535885,-117.846826,Metal,Recyclable,Orange County Sanitation Districts,Drink Can,2,Photo taken - 1 can Coors Light - 1 partial can Diet Coke
@@ -43,11 +43,11 @@ objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,lon
 140,B13-9177,8/20/13,1,MPA,2.7940155,Bight,33.546366,-117.822363,Metal,Metal,Orange County Sanitation Districts,Other Metal,1,Photo taken - remains of a crab trap
 145,B13-9179,8/15/13,1,Upper Slope,98.50645161,Bight,33.554635,-118.016943,Metal,Recyclable,Orange County Sanitation Districts,Drink Can,1,Miller MGD can
 146,B13-9185,8/15/13,1,Outer Shelf,16.67756423,Bight,33.564518,-118.017204,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Oil
-152,B13-9192,8/21/13,1,MPA,4.07437995,Bight,33.579032,-117.865544,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Other Misc.,1,Estimate = M
+152,B13-9192,8/21/13,1,MPA,4.07437995,Bight,33.579032,-117.865544,Misc. Items/Pieces,Miscellaneous,Orange County Sanitation Districts,Other Misc.,1,Estimate = M
 153,B13-9192,8/21/13,1,MPA,4.07437995,Bight,33.579032,-117.865544,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,2,1 piece green - 1 piece clear
-155,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label
+155,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Glass,Recyclable,Orange County Sanitation Districts,Beer Bottle,1,No label
 157,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Black
-158,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label
+158,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Glass,Recyclable,Orange County Sanitation Districts,Beer Bottle,1,No label
 159,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Balloon (mylar/latex)/Ribbon,1,Long thin ribbon
 160,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Bight,33.589217,-117.892025,Metal,Metal,Orange County Sanitation Districts,Other Metal,1,Aluminum foil
 163,B13-9200,8/13/13,1,Mid Shelf,56.20926257,Bight,33.60313,-118.09835,No Debris Present,None,Los Angeles County Sanitation Districts,No Debris Present,-99,NA
@@ -55,10 +55,10 @@ objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,lon
 169,B13-9219,8/14/13,1,Inner Shelf,35.65453697,Bight,33.656299,-118.059782,No Debris Present,None,Orange County Sanitation Districts,No Debris Present,-99,NA
 173,B13-9223,8/16/13,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,7-up
 177,B13-9223,8/16/13,2,Upper Slope,98.50645161,Bight,33.67607,-118.33359,Metal,Recyclable,Los Angeles County Sanitation Districts,Can - other,1,part of one can
-178,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Other Misc.,4,clinkers
+178,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Miscellaneous,Los Angeles County Sanitation Districts,Other Misc.,4,clinkers
 179,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Lid to pepper can
-180,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Lumber,Los Angeles County Sanitation Districts,Lumber,1,"6"" small piece"
-182,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Boat/Ship/Engine part,1,blob of caulk
+180,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Biodegradable,Los Angeles County Sanitation Districts,Lumber,1,"6"" small piece"
+182,B13-9228,8/14/13,1,Upper Slope,98.50645161,Bight,33.69252,-118.34422,Misc. Items/Pieces,Miscellaneous,Los Angeles County Sanitation Districts,Boat/Ship/Engine part,1,blob of caulk
 185,B13-9235,8/14/13,1,MPA,7.10222287,Bight,33.70392,-118.39901,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,2,"clear, thin"
 187,B13-9237,8/16/13,1,MPA,7.10222287,Bight,33.7201,-118.4144,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,maybe plastic ruler.  Item recorded but discarded.
 191,B13-9239,8/12/13,1,Inner Shelf,35.65453697,Bight,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,2,Water bottle
@@ -70,7 +70,7 @@ objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,lon
 198,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bag,3,NA
 200,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,3,"groblock label, tobacco wrapper, green sewing grid"
 201,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Bight,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,42,"big white square, clear"
-203,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Glass,Glass bottles,Los Angeles County Sanitation Districts,Beer Bottle,1,NA
+203,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Glass,Recyclable,Los Angeles County Sanitation Districts,Beer Bottle,1,NA
 206,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Bight,33.76299,-118.45776,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,Piece of lens cap
 210,B13-9266,9/3/13,1,Mid Shelf,56.20926257,Bight,33.858467,-118.445183,No Debris Present,None,City of Los Angeles Environmental Monitoring Division,No Debris Present,-99,NA
 211,B13-9271,9/17/13,1,Mid Shelf,56.20926257,Bight,33.895217,-118.535467,Metal,Metal,City of Los Angeles Environmental Monitoring Division,Fishing Gear,1,piece of crab trap
@@ -83,26 +83,26 @@ objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,lon
 218,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Metal,Metal,City of Los Angeles Environmental Monitoring Division,Other Metal,1,"aluminum sheeting, possibly aircraft"
 220,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Bight,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,monofilament; several feet
 225,B13-9309,8/20/13,1,Upper Slope,98.50645161,Bight,33.97731,-118.877507,Plastic,Plastic,Vantuna Research Group,Bag,1,"""King Pop"" wrapper"
-234,B13-9321,7/22/13,1,MPA,7.72644587,Bight,33.999613,-118.81427,Glass,Glass bottles,Vantuna Research Group,Beer Bottle,1,small piece
+234,B13-9321,7/22/13,1,MPA,7.72644587,Bight,33.999613,-118.81427,Glass,Recyclable,Vantuna Research Group,Beer Bottle,1,small piece
 235,B13-9321,7/22/13,1,MPA,7.72644587,Bight,33.999613,-118.81427,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,tarp strap
 245,B13-9325,8/20/13,1,Outer Shelf,16.67756423,Bight,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Polypropylene Rope,1,NA
 246,B13-9325,8/20/13,1,Outer Shelf,16.67756423,Bight,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Other Plastic,2,cracker bags?
 254,B13-9336,8/29/13,1,Inner Shelf,35.65453697,Bight,34.019767,-118.743717,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Similar to Easter grass
-263,B13-9348,7/30/13,1,Upper Slope,98.50645161,Bight,34.03957,-119.19698,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Paper,1,NA
-268,B13-9354,7/30/13,1,Upper Slope,98.50645161,Bight,34.05092,-119.21821,Glass,Glass bottles,Los Angeles County Sanitation Districts,Glass Bottle/Jar -other,1,Hennessy Cognac - Green
+263,B13-9348,7/30/13,1,Upper Slope,98.50645161,Bight,34.03957,-119.19698,Misc. Items/Pieces,Miscellaneous,Los Angeles County Sanitation Districts,Paper,1,NA
+268,B13-9354,7/30/13,1,Upper Slope,98.50645161,Bight,34.05092,-119.21821,Glass,Recyclable,Los Angeles County Sanitation Districts,Glass Bottle/Jar -other,1,Hennessy Cognac - Green
 276,B13-9380,8/20/13,1,Outer Shelf,16.67756423,Bight,34.12374,-119.33325,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
 280,B13-9385,8/23/13,1,Outer Shelf,16.67756423,Bight,34.132872,-119.371883,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
 281,B13-9387,8/23/13,1,Upper Slope,98.50645161,Bight,34.143587,-120.177188,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
 282,B13-9388,7/26/13,1,Upper Slope,98.50645161,Bight,34.146005,-119.772347,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
 285,B13-9394,8/22/13,1,Upper Slope,98.50645161,Bight,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,stick
 286,B13-9394,8/22/13,1,Upper Slope,98.50645161,Bight,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,trash bag?
-288,B13-9396,7/26/13,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Misc. Items/Pieces,Other,Vantuna Research Group,Clothing,1,small swatch
+288,B13-9396,7/26/13,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Misc. Items/Pieces,Miscellaneous,Vantuna Research Group,Clothing,1,small swatch
 290,B13-9396,7/26/13,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,wrapper?
 291,B13-9396,7/26/13,3,Upper Slope,98.50645161,Bight,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,grommet from tarp
 293,B13-9397,8/20/13,1,Inner Shelf,35.65453697,Bight,34.18497,-119.35116,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
 302,B13-9403,8/22/13,1,Outer Shelf,16.67756423,Bight,34.206832,-119.635323,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
 303,B13-9407,8/22/13,1,Outer Shelf,16.67756423,Bight,34.216753,-119.605325,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
-304,B13-9409,8/20/13,1,Inner Shelf,35.65453697,Bight,34.22391,-119.29943,Misc. Items/Pieces,Other,Aquatic Bioassay Consultants,Paper,1,NA
+304,B13-9409,8/20/13,1,Inner Shelf,35.65453697,Bight,34.22391,-119.29943,Misc. Items/Pieces,Miscellaneous,Aquatic Bioassay Consultants,Paper,1,NA
 305,B13-9414,8/21/13,1,Outer Shelf,16.67756423,Bight,34.226393,-119.733735,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
 307,B13-9419,9/13/13,2,Outer Shelf,16.67756423,Bight,34.23285,-119.66165,Plastic,Plastic,Aquatic Bioassay Consultants,Plastic Piece,1,NA
 308,B13-9421,8/20/13,1,Inner Shelf,35.65453697,Bight,34.24567,-119.37254,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
@@ -115,4 +115,4 @@ objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,lon
 334,B13-9456,8/7/13,1,Mid Shelf,7.72644587,Bight,34.362338,-119.85358,No Debris Present,None,Aquatic Bioassay Consultants,No Debris Present,-99,NA
 335,B13-9457,7/24/13,1,Upper Slope,98.50645161,Bight,34.363057,-120.009978,No Debris Present,None,Vantuna Research Group,No Debris Present,-99,No Debris Present
 344,B13-9465,7/23/13,1,MPA,7.72644587,Bight,34.394734,-119.85726,Plastic,Plastic,Vantuna Research Group,Bottle,1,oil or coolant bottle
-350,B13-9470,9/11/13,1,Mid Shelf,56.20926257,Bight,34.40006,-119.8346,Misc. Items/Pieces,Other,Aquatic Bioassay Consultants,Fiberglass,1,large boat piece
+350,B13-9470,9/11/13,1,Mid Shelf,56.20926257,Bight,34.40006,-119.8346,Misc. Items/Pieces,Miscellaneous,Aquatic Bioassay Consultants,Fiberglass,1,large boat piece
