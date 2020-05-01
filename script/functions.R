@@ -184,11 +184,14 @@ tab3_pick_data <- function(year, type){
       filter(abandoned == "No") %>% 
       select(stationid, final_stratum, region, area_weight, debris_type, debriscount) %>% 
       set_colnames(new_names) %>% 
-      mutate(type = stringr::str_to_title(type))
+      mutate(type = stringr::str_to_title(type)) %>% 
+      mutate(count = ifelse(count < 0, 0, count))
     
   } else if (year == 2018 & type == "River") {
     read.csv("data/River/2018_river_debris_count.csv") %>% 
+      
       select(stationid, stratum, county, area_weight, debriscategory, total_count) %>% 
+      
       set_colnames(new_names) %>% 
       mutate(
         stratum = as.character(stratum),
@@ -196,19 +199,19 @@ tab3_pick_data <- function(year, type){
         type = stringr::str_to_title(type)
       ) %>% 
       select(new_names) %>% 
-      mutate(type = stringr::str_to_title(type))
+      mutate(type = stringr::str_to_title(type)) %>% 
+      mutate(count = ifelse(count < 0, 0, count))
     
   } else if (year == 2013 & type == "Ocean") {
     read.csv("data/Ocean/2013_ocean_debris_count.csv") %>% 
-      filter(count >= 0) %>% 
       select(stationid, stratum, region, areaweight, debriscategory, count) %>% 
       mutate(region = str_to_title(region)) %>% 
       set_colnames(new_names) %>% 
-      mutate(type = stringr::str_to_title(type))
+      mutate(type = stringr::str_to_title(type)) %>% 
+      mutate(count = ifelse(count < 0, 0, count))
     
   } else if (year == 2013 & type == "River") {
     read.csv("data/River/2013_river_debris_count.csv") %>% 
-      filter(totalcount >= 0) %>% 
       select(-c(sample_date,latitude,longitude,smcshed,location,totalcount)) %>% 
       melt(id.vars = c("stationid","stratum","area_weight","county"),
                      value.name = "count") %>% 
@@ -219,7 +222,8 @@ tab3_pick_data <- function(year, type){
         stratum = as.character(stratum),
         stratum = if_else(stratum == 'Ag', 'Agriculture', stratum),
         region = str_to_title(region),
-        type = stringr::str_to_title(type))
+        type = stringr::str_to_title(type)) %>% 
+      mutate(count = ifelse(count < 0, 0, count))
   } else {
     NULL
   } 
@@ -250,42 +254,81 @@ tab3_by_year_plotter <- function(year, type, groupBy, plot_tt_cnt){
   if (groupBy == "stratum"){
     tb = tab3_pick_data(year, type) %>% 
       group_by(stratum) %>%
-      summarise(
-        count = sum(count),
-        area_weight = mean(area_weight),
-        average_count = count/area_weight)
+      summarize(
+        total_count = sum(count),
+        mean = sum(count *area_weight, na.rm =T)/
+          sum(area_weight, na.rm = T),
+        sd = sqrt(sum(((count - mean)*area_weight)^2, na.rm = T)/
+                    (sum(area_weight, na.rm = T))^2),
+        CI_95 = 1.96*sd,
+        lb = max(0, mean - CI_95),
+        ub = mean + CI_95,
+        mean_debriscount = mean(count, na.rm = T),
+        sd_debriscount = sd(count, na.rm = T),
+        CI_95_debriscount = 1.96*sd_debriscount,
+        Min = min(na.omit(count)),
+        Max = max(na.omit(count)),
+        Median = median(na.omit(count)),
+        Pcnt_10 = quantile(na.omit(count), .1),
+        Pcnt_90 = quantile(na.omit(count), .9)
+      )
     if (plot_tt_cnt==T){
       plot = ggplot(tb) +
-        geom_col(aes(x = stratum, y = count)) +
+        geom_col(aes(x = stratum, y = total_count)) +
         theme_bw() +
-        theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-        labs(x = '', y = 'Total count', title = 'Total count of trash per stratum') 
+        theme(axis.text.x = element_text(angle = 45, hjust = 1),
+              legend.position = 'none') +
+        labs(x = '', y = 'Total count', 
+             title = 'Total count of trash per stratum') 
     } else {
       plot = ggplot(tb) +
-        geom_col(aes(x = stratum, y = average_count)) +
-        theme_bw() +
-        theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-        labs(x = '', y = 'Count per sq.km', title = 'Area weighted mean count per stratum')
+        geom_col(aes(x = stratum, y = mean, fill = stratum)) +
+        geom_errorbar(aes(ymin = lb, 
+                          ymax = ub, x = stratum),
+                      width = 0.2, alpha = 0.6, size = 1.5) +
+        theme_bw() + 
+        theme(axis.text.x = element_text(angle = 45, hjust = 1),
+              legend.position = 'none') +
+        labs(x = '', y = 'Count per sq.km', 
+             title = 'Area weighted mean count per stratum')
     }
   }
   if (groupBy == "county"){
     tb = tab3_pick_data(year, type) %>% 
       group_by(region) %>%
-      summarise(
-        count = sum(count),
-        area_weight = mean(area_weight),
-        average_count = count/area_weight)
+      summarize(
+        total_count = sum(count),
+        mean = sum(count *area_weight, na.rm =T)/
+          sum(area_weight, na.rm = T),
+        sd = sqrt(sum(((count - mean)*area_weight)^2, na.rm = T)/
+                    (sum(area_weight, na.rm = T))^2),
+        CI_95 = 1.96*sd,
+        lb = max(0, mean - CI_95),
+        ub = mean + CI_95,
+        mean_debriscount = mean(count, na.rm = T),
+        sd_debriscount = sd(count, na.rm = T),
+        CI_95_debriscount = 1.96*sd_debriscount,
+        Min = min(na.omit(count)),
+        Max = max(na.omit(count)),
+        Median = median(na.omit(count)),
+        Pcnt_10 = quantile(na.omit(count), .1),
+        Pcnt_90 = quantile(na.omit(count), .9)
+      )
     if (plot_tt_cnt==T){
       plot = ggplot(tb) +
-        geom_col(aes(x = region, y = count)) +
+        geom_col(aes(x = region, y = total_count, fill = region)) +
         theme_bw() +
-        theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+        theme(axis.text.x = element_text(angle = 45, hjust = 1),
+              legend.position = 'none') +
         labs(x = '', y = 'Total count', title = 'Total count of trash per county') 
     } else {
       plot = ggplot(tb) +
-        geom_col(aes(x = region, y = average_count)) +
+        geom_col(aes(x = region, y = mean, fill = region)) +
+        geom_errorbar(aes(ymin = lb, ymax = ub, x = region),
+                      width = 0.2, alpha = 0.6, size = 1.5) +
         theme_bw() +
-        theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+        theme(axis.text.x = element_text(angle = 45, hjust = 1),
+              legend.position = 'none') +
         labs(x = '', y = 'Count per sq.km', title = 'Area weighted mean count per county')
     }
   }
@@ -313,7 +356,6 @@ tab3_by_year_plotter <- function(year, type, groupBy, plot_tt_cnt){
   return(plot)
 } 
 
-
 tab3_relative_plotter <- function(year, type){
   plot = tab3_pick_data(year, type) %>% 
     filter(type != 'None') %>% 
@@ -339,6 +381,55 @@ tab3_relative_plotter <- function(year, type){
   return(plot)
 }
 
+calculate_area_wTrash = function(data){
+  percent_trash_area =
+    data %>% 
+    group_by(stationid, stratum) %>% 
+    summarise(
+      total_count = sum(count),
+      area = sum(area_weight)
+    ) %>% 
+    mutate(trash_present = ifelse(total_count == 0, 0, 1)) %>% 
+    group_by(stratum) %>% 
+    summarise(
+      total_area = sum(area), 
+      area_no_trash = sum(area[trash_present == 0]),
+      area_with_trash = sum(area[trash_present == 1])
+    ) 
+  p_area =
+    percent_trash_area %>% 
+    add_row(stratum = 'Bight', 
+            total_area = sum(percent_trash_area$total_area),
+            area_no_trash = sum(percent_trash_area$area_no_trash),
+            area_with_trash = sum(percent_trash_area$area_with_trash)
+    ) %>% 
+    mutate(
+      stratum = if_else(stratum == 'Bay', 'Bays', stratum),
+      p_area_trash = area_with_trash/total_area,
+      p_label = scales::percent(p_area_trash),
+      stratum = factor(stratum, levels = c('Bays', 'Inner Shelf', 'Mid Shelf', 
+                                           'Outer Shelf', 'Upper Slope', 'MPA', 'Bight')))
+  
+  return(p_area)
+}
+
+tab3_percent_wTrash_plotter <- function(year, type){
+  tab3_pick_data(year, type) %>% 
+    calculate_area_wTrash() %>% 
+    filter(stratum != 'MPA') %>% 
+    ggplot(aes(x = stratum, y = p_area_trash, fill = stratum)) +
+    geom_col() +
+    geom_text(aes(label = p_label), position = position_dodge(0.9), vjust = -1) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+    scale_y_continuous(labels = scales::percent, limits = c(0,1)) +
+    ggsci::scale_fill_jco() +
+    labs(
+      x = 'Stratum',
+      y = 'Relative %'
+    )    
+}
+
 tab3_compare_plotter <- function(type, groupBy){
   data_2013 = tab3_pick_data(2013, type) %>% filter(type != 'None' & stratum != "MPA")
   data_2018 = tab3_pick_data(2018, type) %>% filter(type != 'None' & stratum != "MPA")
@@ -347,20 +438,28 @@ tab3_compare_plotter <- function(type, groupBy){
     tb_2018 = group_by(data_2018, stratum) %>% summarise(count = sum(count), area_weight = mean(area_weight), average_count = count/area_weight)
     plot = 
       bind_rows(
-      tb_2013 %>% mutate(year = 2013),
-      tb_2018 %>% mutate(year = 2018)
-    ) %>% 
+        tb_2013 %>% mutate(year = 2013),
+        tb_2018 %>% mutate(year = 2018)
+       ) %>% 
       mutate(year = as.factor(year)) %>% 
       ggplot() + 
       geom_col(aes(x = stratum, y = count, group = year, fill = year), position = 'dodge') +
       theme_bw() +
       theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
       ggsci::scale_fill_jco() +
-      labs(x = '', y = 'Total count', title = 'Total count of trash per stratum') 
+      labs(x = '', y = 'Total count', title = 'Total count of trash per stratum', fill = "Year") 
   }
   if (groupBy == "county"){
-    tb_2013 = group_by(data_2013, region) %>% summarise(count = sum(count), area_weight = mean(area_weight), average_count = count/area_weight)
-    tb_2018 = group_by(data_2018, region) %>% summarise(count = sum(count), area_weight = mean(area_weight), average_count = count/area_weight)
+    tb_2013 = group_by(data_2013, region) %>% 
+      summarise(
+        count = sum(count), 
+        area_weight = mean(area_weight), 
+        average_count = count/area_weight)
+    tb_2018 = group_by(data_2018, region) %>% 
+      summarise(
+        count = sum(count), 
+        area_weight = mean(area_weight), 
+        average_count = count/area_weight)
     plot = 
       bind_rows(
         tb_2013 %>% filter(region %in% tb_2018$region) %>%mutate(year = 2013),
@@ -372,11 +471,13 @@ tab3_compare_plotter <- function(type, groupBy){
       theme_bw() +
       theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
       ggsci::scale_fill_jco() +
-      labs(x = '', y = 'Total count', title = 'Total count of trash per county') 
+      labs(x = '', y = 'Total count', title = 'Total count of trash per county', fill = "Year") 
   }
   if (groupBy == "trashType"){
-    tb_2013 = group_by(data_2013, type) %>% summarise(count = sum(count), area_weight = mean(area_weight), average_count = count/area_weight)
-    tb_2018 = group_by(data_2018, type) %>% summarise(count = sum(count), area_weight = mean(area_weight), average_count = count/area_weight)
+    tb_2013 = group_by(data_2013, type) %>% 
+      summarise(count = sum(count), area_weight = mean(area_weight), average_count = count/area_weight)
+    tb_2018 = group_by(data_2018, type) %>% 
+      summarise(count = sum(count), area_weight = mean(area_weight), average_count = count/area_weight)
     plot = 
       bind_rows(
         tb_2013 %>% mutate(year = 2013),
@@ -388,8 +489,31 @@ tab3_compare_plotter <- function(type, groupBy){
       theme_bw() +
       theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
       ggsci::scale_fill_jco() +
-      labs(x = '', y = 'Total count', title = 'Total count of trash per trash category') 
+      labs(x = '', y = 'Total count', title = 'Total count of trash per trash category', fill = "Year") 
   }
+  return(plot)
+}
+
+tab3_compare_area_wTrash_plotter <- function(type){
+  tb_2013 = tab3_pick_data(2013, type) %>% filter(stratum != "MPA") %>% calculate_area_wTrash()
+  tb_2018 = tab3_pick_data(2018, type) %>% filter(stratum != "MPA") %>% calculate_area_wTrash()
+  plot = 
+    bind_rows(
+    tb_2013 %>% mutate(year = 2013),
+    tb_2018 %>% mutate(year = 2018)
+  ) %>% 
+    mutate(year = as.factor(year)) %>% 
+    ggplot(aes(x = stratum, y = p_area_trash, fill = year, group = year)) +
+    geom_col(position = 'dodge') +
+    geom_text(aes(label = p_label), position = position_dodge(0.9), vjust = -1, size = 3) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+    scale_y_continuous(labels = scales::percent, limits = c(0,1)) +
+    ggsci::scale_fill_jco() +
+    labs(
+      x = 'Stratum',
+      y = 'Relative Percent Trash Area'
+    )
   return(plot)
 }
 

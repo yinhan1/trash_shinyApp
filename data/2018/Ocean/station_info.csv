@@ -1,0 +1,174 @@
+stationid,lat,lon,final_stratum,Type,abandoned,Replaces,area_weight,region
+B18-10000,33.75935,-118.16285,Bays,Revisit,No,,0.269230769,Los Angeles/Long Beach
+B18-10001,33.75286667,-118.1502833,Bays,New Site,No,,0.269230769,Los Angeles/Long Beach
+B18-10002,33.7442,-118.1687667,Bays,Revisit,No,,0.269230769,Los Angeles/Long Beach
+B18-10003,33.74438333,-118.1402667,Bays,New Site,No,,0.269230769,Los Angeles/Long Beach
+B18-10004,33.74301667,-118.1530333,Bays,Revisit,No,,0.269230769,Los Angeles/Long Beach
+B18-10005,33.7409,-118.1752667,Bays,New Site,No,,0.269230769,Los Angeles/Long Beach
+B18-10006,33.73966667,-118.1714833,Bays,Revisit,No,,0.269230769,Los Angeles/Long Beach
+B18-10007,33.73363333,-118.2111833,Bays,New Site,No,,0.269230769,Los Angeles/Long Beach
+B18-10008,33.73183333,-118.2044667,Bays,Revisit,No,,0.269230769,Los Angeles/Long Beach
+B18-10011,33.72425,-118.2235333,Bays,Revisit,No,,0.269230769,Los Angeles/Long Beach
+B18-10012,33.71331667,-118.2410833,Bays,Revisit,No,,0.269230769,Los Angeles/Long Beach
+B18-10411,33.73616667,-118.2172833,Bays,Overdraw,No,B18-10010,0.269230769,Los Angeles/Long Beach
+B18-10417,33.73116667,-118.1571833,Bays,Overdraw,No,B18-10009,0.269230769,Los Angeles/Long Beach
+B18-10016,32.78485,-117.24055,Bays,New Site,No,,0.269230769,Mission Bay
+B18-10017,32.78401,-117.2155,Bays,Revisit,No,,0.269230769,Mission Bay
+B18-10019,32.76793,-117.24142,Bays,Revisit,No,,0.269230769,Mission Bay
+B18-10022,32.72435424,-117.1829514,Bays,Revisit,No,,0.269230769,San Diego Bay
+B18-10023,32.71750433,-117.2155607,Bays,New Site,No,,0.269230769,San Diego Bay
+B18-10024,32.7148,-117.18302,Bays,Revisit,No,,0.269230769,San Diego Bay
+B18-10030,32.68800855,-117.2299528,Bays,New Site,No,,0.269230769,San Diego Bay
+B18-10034,32.66518062,-117.1499572,Bays,Revisit,No,,0.269230769,San Diego Bay
+B18-10036,32.65847001,-117.1447356,Bays,Revisit,No,,0.269230769,San Diego Bay
+B18-10037,32.64755,-117.11819,Bays,Revisit,No,,0.269230769,San Diego Bay
+B18-10038,32.64283,-117.12626,Bays,New Site,No,,0.269230769,San Diego Bay
+B18-10039,32.64157944,-117.139037,Bays,New Site,No,,0.269230769,San Diego Bay
+B18-10042,32.62567,-117.11086,Bays,New Site,No,,0.269230769,San Diego Bay
+B18-10205,34.40361,-119.81217,Inner Shelf,Revisit,No,,40.43039795,East Santa Barbara Channel
+B18-10207,34.3960926,-119.6623071,Inner Shelf,Revisit,No,,40.43039795,East Santa Barbara Channel
+B18-10208,34.33409,-119.43464,Inner Shelf,New Site,No,,40.43039795,East Santa Barbara Channel
+B18-10210,34.24353,-119.38537,Inner Shelf,New Site,No,,40.43039795,East Santa Barbara Channel
+B18-10211,34.22829,-119.35223,Inner Shelf,New Site,No,,40.43039795,East Santa Barbara Channel
+B18-10212,34.19941,-119.29601,Inner Shelf,New Site,No,,40.43039795,East Santa Barbara Channel
+B18-10213,34.17862,-119.34675,Inner Shelf,Revisit,No,,40.43039795,East Santa Barbara Channel
+B18-10842,34.32716,-119.41375,Inner Shelf,New Site,No,,40.43039795,East Santa Barbara Channel
+B18-10848,34.10945,-119.20938,Inner Shelf,New Site,No,,40.43039795,East Santa Barbara Channel
+B18-10214,34.12478,-119.19244,Inner Shelf,Revisit,No,,40.43039795,Hueneme to Dume
+B18-10215,34.10112,-119.1507,Inner Shelf,Revisit,No,,40.43039795,Hueneme to Dume
+B18-10221,34.07996,-119.0598,Inner Shelf,Revisit,No,,40.43039795,Hueneme to Dume
+B18-10231,33.30713,-117.5233,Inner Shelf,New Site,No,,40.43039795,North San Diego Shelf
+B18-10862,33.68928909,-118.1919327,Inner Shelf,Overdraw,No,B18-10230,40.43039795,Orange Shelf
+B18-10867,33.65991974,-118.0550537,Inner Shelf,New Site,No,,40.43039795,Orange Shelf
+B18-10224,33.6952,-118.29596,Inner Shelf,Revisit,No,,40.43039795,Palos Verdes Shelf
+B18-10875,33.1753,-117.4036,Inner Shelf,Overdraw,No,B18-10880,40.43039795,San Diego Shelf
+B18-10220,33.73345184,-118.1221237,Inner Shelf,Revisit,No,,40.43039795,San Pedro Shelf
+B18-10222,33.71036911,-118.2216797,Inner Shelf,New Site,No,,40.43039795,San Pedro Shelf
+B18-10223,33.70500946,-118.1920471,Inner Shelf,New Site,No,,40.43039795,San Pedro Shelf
+B18-10225,33.65961838,-118.1306763,Inner Shelf,Revisit,No,,40.43039795,San Pedro Shelf
+B18-10226,33.64360046,-118.0789719,Inner Shelf,Revisit,No,,40.43039795,San Pedro Shelf
+B18-10227,33.62779999,-117.9871292,Inner Shelf,Revisit,No,,40.43039795,San Pedro Shelf
+B18-10228,33.61865997,-118.0413437,Inner Shelf,New Site,No,,40.43039795,San Pedro Shelf
+B18-10218,34.02313333,-118.5934167,Inner Shelf,Revisit,No,,40.43039795,Santa Monica Bay
+B18-10219,33.96228333,-118.4767333,Inner Shelf,Revisit,No,,40.43039795,Santa Monica Bay
+B18-10237,32.65979,-117.1684,Inner Shelf,New Site,No,,40.43039795,South San Diego Shelf
+B18-10879,32.66821,-117.206,Inner Shelf,Overdraw,No,B18-10235,40.43039795,South San Diego Shelf
+B18-10838,34.4126,-119.89586,Inner Shelf,New Site,No,B18-10204,40.43039795,West Santa Barbara Channel
+B18-10068,33.45762911,-117.6913958,Marinas,New Site,No,,0,Dana Point Harbor
+B18-10071,33.20810109,-117.3969019,Marinas,New Site,No,,0,Oceanside Harbor
+B18-10243,34.40102,-119.83283,Mid Shelf,Revisit,No,,67.32610042,East Santa Barbara Channel
+B18-10244,34.3591,-119.82501,Mid Shelf,New Site,No,,67.32610042,East Santa Barbara Channel
+B18-10245,34.3576,-119.67377,Mid Shelf,New Site,No,,67.32610042,East Santa Barbara Channel
+B18-10246,34.3441,-119.56253,Mid Shelf,Revisit,No,,67.32610042,East Santa Barbara Channel
+B18-10247,34.31191,-119.54771,Mid Shelf,New Site,No,,67.32610042,East Santa Barbara Channel
+B18-10248,34.22984,-119.5182,Mid Shelf,New Site,No,,67.32610042,East Santa Barbara Channel
+B18-10249,34.19524,-119.39093,Mid Shelf,New Site,No,,67.32610042,East Santa Barbara Channel
+B18-10250,34.0528,-119.0490667,Mid Shelf,New Site,No,,67.32610042,Hueneme to Dume
+B18-10251,34.01583,-118.9119,Mid Shelf,New Site,No,,67.32610042,Hueneme to Dume
+B18-10265,33.26988,-117.565,Mid Shelf,Revisit,No,,67.32610042,North San Diego Shelf
+B18-10266,33.2656,-117.5334,Mid Shelf,Revisit,No,,67.32610042,North San Diego Shelf
+B18-10267,33.21766,-117.4805,Mid Shelf,New Site,No,,67.32610042,North San Diego Shelf
+B18-10269,33.08783,-117.3509,Mid Shelf,Revisit,No,,67.32610042,North San Diego Shelf
+B18-10925,33.24229,-117.5077,Mid Shelf,Overdraw,No,B18-10268,67.32610042,North San Diego Shelf
+B18-10258,33.64812088,-118.1490936,Mid Shelf,Revisit,No,,67.32610042,San Pedro Shelf
+B18-10260,33.60198975,-118.0563965,Mid Shelf,Revisit,No,,67.32610042,San Pedro Shelf
+B18-10262,33.59503174,-118.1944809,Mid Shelf,New Site,No,,67.32610042,San Pedro Shelf
+B18-10913,33.63544846,-118.199852,Mid Shelf,Overdraw,No,B18-10261,67.32610042,San Pedro Shelf
+B18-10914,33.61119843,-118.2223816,Mid Shelf,New Site,No,,67.32610042,San Pedro Shelf
+B18-10253,33.94395,-118.5197333,Mid Shelf,Revisit,No,,67.32610042,Santa Monica Bay
+B18-10254,33.93495,-118.5395,Mid Shelf,Revisit,No,,67.32610042,Santa Monica Bay
+B18-10255,33.86583333,-118.5281,Mid Shelf,New Site,No,,67.32610042,Santa Monica Bay
+B18-10905,33.99113333,-118.5358833,Mid Shelf,Overdraw,No,B18-10252,67.32610042,Santa Monica Bay
+B18-10911,33.7777,-118.47395,Mid Shelf,Overdraw,No,B18-10906,67.32610042,Santa Monica Bay
+B18-10277,32.58963,-117.2643,Mid Shelf,Revisit,No,,67.32610042,South San Diego Shelf
+B18-10278,32.55149,-117.1994,Mid Shelf,Revisit,No,,67.32610042,South San Diego Shelf
+B18-10930,32.70749,-117.3365,Mid Shelf,Overdraw,No,B18-10274,67.32610042,South San Diego Shelf
+B18-10241,34.43576,-120.23716,Mid Shelf,New Site,No,,67.32610042,West Santa Barbara Channel
+B18-10242,34.42325,-120.05743,Mid Shelf,New Site,No,,67.32610042,West Santa Barbara Channel
+B18-10310,33.76748,-118.45901,Mid Shelf,Revisit,No,,67.32610042,Santa Monica Bay
+B18-10915,33.6009903,-118.0717926,Outer Shelf,Overdraw,No,B18-10263,23.28776249,San Pedro Shelf
+B18-10283,34.27778,-119.71841,Outer Shelf,Revisit,No,,23.28776249,East Santa Barbara Channel
+B18-10284,34.27256,-119.65716,Outer Shelf,New Site,No,,23.28776249,East Santa Barbara Channel
+B18-10286,34.24393,-119.70575,Outer Shelf,New Site,No,,23.28776249,East Santa Barbara Channel
+B18-10290,34.2068,-119.56755,Outer Shelf,Revisit,No,,23.28776249,East Santa Barbara Channel
+B18-10291,34.19691,-119.57135,Outer Shelf,New Site,No,,23.28776249,East Santa Barbara Channel
+B18-10294,34.13289,-119.37902,Outer Shelf,Revisit,No,,23.28776249,East Santa Barbara Channel
+B18-10295,34.13272,-119.36348,Outer Shelf,New Site,No,,23.28776249,East Santa Barbara Channel
+B18-10296,34.13269,-119.36993,Outer Shelf,Revisit,No,,23.28776249,East Santa Barbara Channel
+B18-10297,34.12282,-119.3313,Outer Shelf,Revisit,No,,23.28776249,East Santa Barbara Channel
+B18-10299,34.10704,-119.31886,Outer Shelf,Revisit,No,,23.28776249,East Santa Barbara Channel
+B18-10300,34.08896,-119.27475,Outer Shelf,New Site,No,,23.28776249,East Santa Barbara Channel
+B18-10303,34.04463333,-119.05545,Outer Shelf,Revisit,No,,23.28776249,Hueneme to Dume
+B18-10304,34.03365,-119.0301167,Outer Shelf,New Site,No,,23.28776249,Hueneme to Dume
+B18-10949,34.247,-119.68242,Outer Shelf,Overdraw,No,B18-10305,23.28776249,Hueneme to Dume
+B18-10953,34.16299,-119.46716,Outer Shelf,Overdraw,No,B18-10302,23.28776249,Hueneme to Dume
+B18-10968,33.92333333,-118.5675667,Outer Shelf,Overdraw,No,B18-10306,23.28776249,Hueneme to Dume
+B18-10992,32.59962,-117.3434,Outer Shelf,Overdraw,No,B18-10317,23.28776249,North San Diego Shelf
+B18-10989,32.74153,-117.36,Outer Shelf,Overdraw,No,B18-10316,23.28776249,San Diego Slope
+B18-10313,33.56816864,-118.024353,Outer Shelf,New Site,No,,23.28776249,San Pedro Channel
+B18-10973,33.59194183,-118.0795212,Outer Shelf,Overdraw,No,B18-10312,23.28776249,San Pedro Channel
+B18-10307,33.95713,-118.59299,Outer Shelf,Revisit,No,,23.28776249,Santa Monica Bay
+B18-10308,33.91223333,-118.5884667,Outer Shelf,New Site,No,,23.28776249,Santa Monica Bay
+B18-10309,33.81898333,-118.5258833,Outer Shelf,New Site,No,,23.28776249,Santa Monica Bay
+B18-10311,33.76651667,-118.4604333,Outer Shelf,Revisit,No,,23.28776249,Santa Monica Bay
+B18-10320,32.58576,-117.3406,Outer Shelf,Revisit,No,,23.28776249,South San Diego Shelf
+B18-10292,34.19563,-119.63735,Upper Slope,New Site,No,,125.2249344,East Santa Barbara Channel
+B18-10314,33.54776001,-117.8522797,Upper Slope,Revisit,No,,125.2249344,Orange Shelf
+B18-10325,34.26184,-119.80546,Upper Slope,New Site,No,,125.2249344,East Santa Barbara Channel
+B18-10328,34.2521,-119.83736,Upper Slope,New Site,No,,125.2249344,East Santa Barbara Channel
+B18-10332,34.17079,-119.79362,Upper Slope,New Site,No,,125.2249344,East Santa Barbara Channel
+B18-10333,34.15832,-119.82782,Upper Slope,Revisit,No,,125.2249344,East Santa Barbara Channel
+B18-10335,34.14567,-119.76996,Upper Slope,Revisit,No,,125.2249344,East Santa Barbara Channel
+B18-10338,34.11827,-119.62886,Upper Slope,Revisit,No,,125.2249344,East Santa Barbara Channel
+B18-10339,34.04155,-119.19747,Upper Slope,Revisit,No,,125.2249344,Hueneme to Dume
+B18-10340,34.03852,-119.12566,Upper Slope,New Site,No,,125.2249344,Hueneme to Dume
+B18-11000,34.22874,-119.81929,Upper Slope,Overdraw,No,B18-10337,125.2249344,Hueneme to Dume
+B18-10344,33.55598831,-118.0215988,Upper Slope,Revisit,No,,125.2249344,Orange Slope
+B18-10345,33.55551147,-118.1147308,Upper Slope,New Site,No,,125.2249344,Orange Slope
+B18-10346,33.53673172,-117.847847,Upper Slope,Revisit,No,,125.2249344,Orange Slope
+B18-10343,33.69417,-118.34703,Upper Slope,Revisit,No,,125.2249344,Palos Verdes Shelf
+B18-10348,33.09386,-117.417,Upper Slope,Revisit,No,,125.2249344,San Diego Slope
+B18-10349,33.05062,-117.3895,Upper Slope,New Site,No,,125.2249344,San Diego Slope
+B18-10350,32.70487,-117.3537,Upper Slope,New Site,No,,125.2249344,San Diego Slope
+B18-10351,32.69303,-117.3948,Upper Slope,Revisit,No,,125.2249344,San Diego Slope
+B18-11032,33.13011,-117.4396,Upper Slope,Overdraw,No,B18-10347,125.2249344,San Diego Slope
+B18-10341,33.9582,-118.6487,Upper Slope,New Site,No,,125.2249344,Santa Monica Bay
+B18-10342,33.90613,-118.66631,Upper Slope,New Site,No,,125.2249344,Santa Monica Bay
+B18-10322,34.3446,-120.3675,Upper Slope,Revisit,No,,125.2249344,West Santa Barbara Channel
+B18-10327,34.25798,-120.2615,Upper Slope,New Site,No,,125.2249344,West Santa Barbara Channel
+B18-10334,34.14988,-120.12125,Upper Slope,New Site,No,,125.2249344,West Santa Barbara Channel
+B18-10009,33.72918333,-118.1576667,Bays,Revisit,Yes,B18-10417,,
+B18-10010,33.72888333,-118.1764333,Bays,New Site,Yes,B18-10411,,
+B18-10402,33.75008333,-118.1413,Bays,Overdraw,Yes,N/A,,
+B18-10204,34.42631,-119.91756,Inner Shelf,New Site,Yes,B18-10838,,
+B18-10230,33.43032074,-117.6580734,Inner Shelf,New Site,Yes,B18-10862,,
+B18-10235,-88,-88,Inner Shelf,New Site,Yes,B18-10879,,
+B18-10873,33.33786,-117.5199,Inner Shelf,Overdraw,Yes,N/A,,
+B18-10880,32.65316,-117.2149,Inner Shelf,New Site,Yes,B18-10875,,
+B18-10881,-88,-88,Inner Shelf,Overdraw,Yes,N/A,,
+B18-10252,33.98651667,-118.62185,Mid Shelf,New Site,Yes,B18-10905,,
+B18-10256,33.86013333,-118.4477833,Mid Shelf,Revisit,Yes,Rejected pre survey,,
+B18-10261,0,0,Mid Shelf,Revisit,Yes,B18-10913,,
+B18-10263,0,0,Mid Shelf,New Site,Yes,B18-10915,,
+B18-10268,33.10549,-117.3623,Mid Shelf,Revisit,Yes,B18-10925,,
+B18-10274,-88,-88,Mid Shelf,New Site,Yes,B18-10930,,
+B18-10906,33.92685,-118.5548167,Mid Shelf,New Site,Yes,B18-10911,,
+B18-10908,33.85683333,-118.5950833,Mid Shelf,Overdraw,Yes,N/A,,
+B18-10909,33.84874759,-118.4869051,Mid Shelf,Overdraw,Yes,N/A,,
+B18-10279,34.41861,-120.21385,Outer Shelf,New Site,Yes,no replacement,,
+B18-10280,34.39784,-120.08755,Outer Shelf,New Site,Yes,no replacement,,
+B18-10302,34.04925,-119.06542,Outer Shelf,Revisit,Yes,B18-10953,,
+B18-10305,34.00243,-118.91798,Outer Shelf,Revisit,Yes,B18-10949,,
+B18-10306,33.99731667,-119.0242167,Outer Shelf,New Site,Yes,B18-10968,,
+B18-10312,33.57556152,-118.1253281,Outer Shelf,New Site,Yes,B18-10973,,
+B18-10316,33.30332,-117.6091,Outer Shelf,New Site,Yes,B18-10989,,
+B18-10317,33.22083,-117.5114,Outer Shelf,Revisit,Yes,B18-10992,,
+B18-10964,34.00166667,-119.0347667,Outer Shelf,Overdraw,Yes,N/A,,
+B18-10983,33.3432,-117.6434,Outer Shelf,Overdraw,Yes,N/A,,
+B18-10321,34.36301,-120.01353,Upper Slope,Revisit,Yes,no replacement,,
+B18-10329,34.2118,-120.54269,Upper Slope,New Site,Yes,no replacement,,
+B18-10330,34.19786,-120.36254,Upper Slope,New Site,Yes,no replacement,,
+B18-10331,-88,-88,Upper Slope,Revisit,Yes,no replacement,,
+B18-10336,34.14399,-120.17798,Upper Slope,Revisit,Yes,no replacement,,
+B18-10337,34.12792,-119.3999,Upper Slope,New Site,Yes,B18-11000,,
+B18-10347,33.18062,-117.4781,Upper Slope,New Site,Yes,B18-11032,,

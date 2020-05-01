@@ -55,7 +55,6 @@ shinyServer(function(input, output) {
     output$tab3_title2 <- renderText(paste("Trend of ", input$tab3_Type, " Data Over 2013 to 2018"))
     
     # single year 
-    
     ## by stratum
     output$tab3_ttl_count_by_stratum_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "stratum", plot_tt_cnt = T))
     output$tab3_area_count_by_stratum_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "stratum", plot_tt_cnt = F))
@@ -65,15 +64,17 @@ shinyServer(function(input, output) {
     ## by trash types
     output$tab3_ttl_count_by_trashType_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "trashType", plot_tt_cnt = T))
     output$tab3_area_count_by_trashType_plot <- renderPlot(tab3_by_year_plotter(input$tab3_Year, input$tab3_Type, "trashType", plot_tt_cnt = F))
-    
     # relative percent 
     output$tab3_relative_by_stratum_plot <- renderPlot(tab3_relative_plotter(input$tab3_Year, input$tab3_Type))
+    # percet with trash
+    output$tab3_percent_with_trash_plot <- renderPlot(tab3_percent_wTrash_plotter(input$tab3_Year, input$tab3_Type))
+    
     
     # compare 
     output$tab3_compare_stratum_plot <- renderPlot(tab3_compare_plotter(input$tab3_Type, "stratum"))
-    output$tab3_compare_county_plot <- renderPlot(tab3_compare_plotter(input$tab3_Type, "county"))
+    # output$tab3_compare_county_plot <- renderPlot(tab3_compare_plotter(input$tab3_Type, "county"))
     output$tab3_compare_trashType_plot <- renderPlot(tab3_compare_plotter(input$tab3_Type, "trashType"))
-    
+    output$tab3_percent_with_trash <- renderPlot(tab3_compare_area_wTrash_plotter(input$tab3_Type))
     
     #### tab 4 output: distance to nearest road ####
     

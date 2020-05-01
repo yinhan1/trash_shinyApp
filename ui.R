@@ -110,7 +110,8 @@ shinyUI(fluidPage(
                                  checkboxInput("tab3_count_by_stratum", "Count by Stratum", value = T),
                                  checkboxInput("tab3_count_by_region", "Count by Region", value = T),
                                  checkboxInput("tab3_count_by_trashType", "Count by Trash Type", value = T),
-                                 checkboxInput("tab3_relative", "Relative Percentage", value = T),
+                                 checkboxInput("tab3_relative", "Relative by County", value = T),
+                                 checkboxInput("tab3_percent_with_trash", "Percent of Area with Trash", value = T),
                                  style = "font-size: 12px !important; text-align:left;"
                                )
                              )
@@ -134,7 +135,7 @@ shinyUI(fluidPage(
                                        'input.tab3_count_by_stratum',
                                        box(
                                          width = 12,
-                                         title = "Count by stratum",
+                                         title = "Count by Stratum",
                                          column(6, plotOutput("tab3_ttl_count_by_stratum_plot", height = 300)),
                                          column(6, plotOutput("tab3_area_count_by_stratum_plot", height = 300))
                                        )
@@ -146,7 +147,7 @@ shinyUI(fluidPage(
                                        'input.tab3_count_by_region',
                                        box(
                                          width = 12,
-                                         title = "Count by county",
+                                         title = "Count by County",
                                          column(6, plotOutput("tab3_ttl_count_by_county_plot", height = 300)),
                                          column(6, plotOutput("tab3_area_count_by_county_plot", height = 300))
                                        )
@@ -158,7 +159,7 @@ shinyUI(fluidPage(
                                        'input.tab3_count_by_trashType',
                                        box(
                                          width = 12,
-                                         title = "Count by trash type",
+                                         title = "Count by Trash Type",
                                          column(6,plotOutput("tab3_ttl_count_by_trashType_plot", height = 300)),
                                          column(6,plotOutput("tab3_area_count_by_trashType_plot", height = 300))
                                        )
@@ -172,6 +173,17 @@ shinyUI(fluidPage(
                                          width = 12, 
                                          title = "Relative by County",
                                          plotOutput("tab3_relative_by_stratum_plot", height = 400)
+                                       )
+                                     )
+                                   ),
+                                   fluidRow(
+                                     width = 12,
+                                     conditionalPanel(
+                                       'input.tab3_percent_with_trash',
+                                       box(
+                                         width = 12, 
+                                         title = "Percent of Area with Trash",
+                                         plotOutput("tab3_percent_with_trash_plot", height = 400)
                                        )
                                      )
                                    )
@@ -193,20 +205,8 @@ shinyUI(fluidPage(
                                        'input.tab3_count_by_stratum',
                                        box(
                                          width = 12,
-                                         title = "County by stratum",
+                                         title = "Count by Stratum",
                                          plotOutput("tab3_compare_stratum_plot", height = 400)
-                                       )
-                                     )
-                                   ),
-                                   fluidRow(
-                                     width = 12,
-                                     conditionalPanel(
-                                       width = 12,
-                                       'input.tab3_count_by_county',
-                                       box(
-                                         width = 12,
-                                         title = "County by county",
-                                         plotOutput("tab3_compare_county_plot", height = 400)
                                        )
                                      )
                                    ),
@@ -217,8 +217,20 @@ shinyUI(fluidPage(
                                        'input.tab3_count_by_trashType',
                                        box(
                                          width = 12,
-                                         title = "County by trash type",
+                                         title = "Count by Trash Type",
                                          plotOutput("tab3_compare_trashType_plot", height = 400)
+                                       )
+                                     )
+                                   ),
+                                   fluidRow(
+                                     width = 12,
+                                     conditionalPanel(
+                                       width = 12,
+                                       'input.tab3_percent_with_trash',
+                                       box(
+                                         width = 12,
+                                         title = "Percent of Area with Trash",
+                                         plotOutput("tab3_percent_with_trash", height = 400)
                                        )
                                      )
                                    )
