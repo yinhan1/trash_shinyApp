@@ -26,10 +26,12 @@ This study aimed to create southern California’s first regionalized assessment
 - Does the extent and magnitude of trash and marine debris vary over time?
 
 
-
 ## Study Approach 
 
-The Bight’13 debris survey examined trash and marine debris in three main habitat types across the land- ocean interface: (1) trash in streams, (2) marine macro-debris on the seafloor, and (3) marine micro- plastic debris in seafloor sediment. Data were collected in all three habitats utilizing a probability-based stratified-random design (Stevens 1997) that allows unbiased estimates of extent (i.e., % of stream-miles or % of seafloor with debris) and magnitude (i.e., average abundance of debris).
+The Bight debris survey examined trash and marine debris in three main habitat types across the land- ocean interface: (1) trash in streams, (2) marine macro-debris on the seafloor, and (3) marine micro- plastic debris in seafloor sediment. Data were collected in all three habitats utilizing a probability-based stratified-random design (Stevens 1997) that allows unbiased estimates of extent (i.e., % of stream-miles or % of seafloor with debris) and magnitude (i.e., average abundance of debris).
+
+#### Data structure    
+
 
 
 
