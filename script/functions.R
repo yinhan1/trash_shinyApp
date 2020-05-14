@@ -92,162 +92,25 @@ tab2_site_count_plotter <- function(){
 
 
 
-#### functions for tab 3 ---------------------------- ####
-
-tab3_call_river_2013 <- function() {
-    read.csv(
-      "./data/2013/River/Bight_2013_Regional_Survey__Trash_and_Debris_in_Rivers.csv"
-    ) %>%
-      mutate(
-        sampledate = as.Date(sampledate),
-        stratum = if_else(
-          as.character(stratum) == 'Ag',
-          'Agriculture',
-          as.character(stratum)
-        )
-      )
-  }
-
-
-# area_w_stratum <- trash_df %>% 
-#   group_by(stratum) %>% 
-#   summarise(
-#     areaweight = sum(areaweight),
-#     count = sum(totalcount)
-#   ) %>% 
-#   ggplot() +
-#   geom_col(aes(x = stratum, y = areaweight, fill = stratum)) +
-#   # facet_grid(.~county) +
-#   theme_bw() +
-#   theme(axis.text.x = element_text(angle = 45, hjust = 1))
-# 
-# total_count_area <- trash_df %>% 
-#   group_by(county, stratum) %>% 
-#   summarise(
-#     `Total Area` = sum(areaweight),
-#     `Total Count` = sum(totalcount)
-#   ) %>% 
-#   pivot_longer(
-#     cols = c(`Total Count`, `Total Area`)
-#   ) %>% 
-#   mutate_at('name', factor, levels = c('Total Count', 'Total Area')) %>% 
-#   ggplot() +
-#   geom_col(aes(x = stratum, y = value, group = county, fill = stratum)) +
-#   facet_grid(name ~ county, scales = 'free_y') +
-#   theme_bw() +
-#   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
-#   labs(
-#     x = '',
-#     y = ''
-#   ) 
-
-
-# trash_w_stratum <- trash_weight_stratum %>%
-#   pivot_longer(
-#     cols = -c(stratum)
-#   ) %>% 
-#   filter(name != 'plastic') %>% 
-#   ggplot(aes(x = stratum, y = value, group = stratum, fill = stratum)) +
-#   geom_col(position = "dodge") +
-#   theme_bw() +
-#   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
-#   # facet_grid(.~ county) +
-#   labs(
-#     x = '',
-#     y = 'Area Weighted Mean Counts'
-#   )
-# 
-# trash_w_county <- trash_weight_county %>%
-#   pivot_longer(
-#     cols = -c(county)
-#   ) %>% 
-#   filter(name != 'plastic') %>% 
-#   ggplot(aes(x = county, y = value, group = county, fill = county)) +
-#   geom_col(position = "dodge") +
-#   theme_bw() +
-#   theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = 'none') +
-#   # facet_grid(.~ county) +
-#   labs(
-#     x = '',
-#     y = 'Area Weighted Mean Counts'
-#   )
-
 
 #### function for tab 3.5: magnititude and trend ---------- ####
 
 tab3_pick_data <- function(year, type){
   
-  new_names = c("stationid","stratum","region","area_weight","type","count")
+  cols_to_keep = c("stationid","stratum","region","areaweight","type","count")
   
   if (year == 2018 & type == "Ocean"){
-    read.csv("data/Ocean/2018_debris_counts_in_details.csv") %>%
-      filter(abandoned == "No") %>% 
-      select(stationid, final_stratum, region, area_weight, debris_type, debriscount) %>% 
-      set_colnames(new_names) %>% 
-      mutate(type = stringr::str_to_title(type)) %>% 
-      mutate(count = ifelse(count < 0, 0, count))
-    
+    read.csv("data/ocean_2018.csv") %>% select(cols_to_keep) 
   } else if (year == 2018 & type == "River") {
-    read.csv("data/River/2018_river_debris_count.csv") %>% 
-      
-      select(stationid, stratum, county, area_weight, debriscategory, total_count) %>% 
-      
-      set_colnames(new_names) %>% 
-      mutate(
-        stratum = as.character(stratum),
-        stratum = ifelse(stratum == 'Ag', 'Agriculture', stratum),
-        type = stringr::str_to_title(type)
-      ) %>% 
-      select(new_names) %>% 
-      mutate(type = stringr::str_to_title(type)) %>% 
-      mutate(count = ifelse(count < 0, 0, count))
-    
+    read.csv("data/river_2018.csv") %>% select(cols_to_keep)
   } else if (year == 2013 & type == "Ocean") {
-    read.csv("data/Ocean/2013_ocean_debris_count.csv") %>% 
-      select(stationid, stratum, region, areaweight, debriscategory, count) %>% 
-      mutate(region = str_to_title(region)) %>% 
-      set_colnames(new_names) %>% 
-      mutate(type = stringr::str_to_title(type)) %>% 
-      mutate(count = ifelse(count < 0, 0, count))
-    
+    read.csv("data/ocean_2013.csv") %>% select(cols_to_keep) 
   } else if (year == 2013 & type == "River") {
-    read.csv("data/River/2013_river_debris_count.csv") %>% 
-      select(-c(sample_date,latitude,longitude,smcshed,location,totalcount)) %>% 
-      melt(id.vars = c("stationid","stratum","area_weight","county"),
-                     value.name = "count") %>% 
-      mutate(type = str_remove(variable, "total"),
-             region = county) %>%
-      select(new_names) %>% 
-      mutate(
-        stratum = as.character(stratum),
-        stratum = if_else(stratum == 'Ag', 'Agriculture', stratum),
-        region = str_to_title(region),
-        type = stringr::str_to_title(type)) %>% 
-      mutate(count = ifelse(count < 0, 0, count))
+    read.csv("data/river_2013.csv") %>% select(cols_to_keep) 
   } else {
     NULL
   } 
 }
-
-# debristype = case_when(
-#   debristype %in% c("Bag","Bottle","Cap/Lid","Cup", "Fishing Line/Net",
-#                     "Plastic Piece (unid.)","Tire", "Polypropylene Rope",
-#                     "Other Plastic (comment req.)") ~ 'Plastic',
-#   debristype %in% c("Beer Bottle","Glass Bottle/Jar -other",
-#                     "Can - other", "Drink Can") ~ 'Recyclable',
-#   debristype %in% c("Fishing Gear", "Food Bag/Wrapper",
-#                     "Other Misc. (comment req.)") ~ 'Trash',
-#   debristype %in% c("Clothing","Rag/Cloth") ~ 'Fabric_Cloth',
-#   debristype %in% c("Other Metal (comment req.)") ~ 'Metal',
-#   debristype %in% c("Lumber","Paper","Stick/Branch/Driftwood",
-#                     "Leaves/Seed Pod") ~ 'Biodegradable',
-#   debristype %in% c("Other Terrestrial (comment req.)","Rock") ~ 'Rock',
-#   debristype %in% c("Foliose Algae - not kelp","Gorgonian Sea Fan (dead)",
-#                     "Kelp Holdfast", "Kelp Stipe/Blade","Seagrass",
-#                     "Other Foliose Algae", "Other Marine (comment req.)") ~ 'Marine_Debris',
-#   TRUE ~ 'Dunno'
-# )
-
 
 
 tab3_by_year_plotter <- function(year, type, groupBy, plot_tt_cnt){

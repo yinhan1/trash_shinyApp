@@ -62,23 +62,7 @@ shinyUI(fluidPage(
              )),
     
 
-    #### tab 3: area weight mean count ####
-    # tabPanel("Area Weighted Mean Count",
-    #          sidebarLayout(position = "left",
-    #                        sidebarPanel("sidebar panel",
-    #                                     checkboxInput("donum1", "Count by Stratum", value = F),
-    #                                     checkboxInput("donum2", "Count by Region", value = F),
-    #                                     checkboxInput("donum3", "Count by Land Use", value = F),
-    #                                     checkboxInput("donum4", "Relative Count by Watershed", value = T)
-    #                                     # sliderInput("wt1","Weight 1",min=1,max=10,value=1),
-    #                                     # sliderInput("wt2","Weight 2",min=1,max=10,value=1),
-    #                                     # sliderInput("wt3","Weight 3",min=1,max=10,value=1)
-    #                        ),
-    #          mainPanel("main panel",
-    #            column(1, plotOutput(outputId="plotgraph", width="500px",height="400px"))
-    #          )
-    #       )
-    # ),
+
     
     # #### tab 3.5: magnitude and Trend ####
     tabPanel("Magnitude and Trend",

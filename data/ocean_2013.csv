@@ -1,0 +1,92 @@
+objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,longitude,type,debriscategory,agency,debristype,count,comments,trash_present
+20,B13-8315,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,Peroxide,1
+22,B13-8315,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Blue shopping cart basket,1
+29,B13-8325,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,"Amber color, stiff, thin",1
+32,B13-8335,9/24/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Miscellaneous,Other,City of Los Angeles Environmental Monitoring Division,Other Misc.,2,"2 pieces twine, possibly from mop",1
+38,B13-8350,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Metal,Cans,Los Angeles County Sanitation Districts,Drink Can,1,Michelob Ultra Superior Light Beer,1
+45,B13-8388,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Plastic,Plastic,MBC Applied Environmental Sciences,Food Bag / Wrapper,1,NA,1
+46,B13-8388,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Metal,Cans,MBC Applied Environmental Sciences,Can - other,1,King Cobra Beer,1
+58,B13-9012,7/24/13,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Plastic Piece,1,small black shard,1
+59,B13-9012,7/24/13,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Polypropylene Rope,1,Partial metal debris,1
+60,B13-9012,7/24/13,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Metal,Metal debris,City of San Diego,Metal Piece,1,part of trap with nylon cord,1
+66,B13-9014,8/6/13,1,Outer Shelf,16.67756423,South San Diego Shelf,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Cup,1,Metridium attached,1
+67,B13-9014,8/6/13,1,Outer Shelf,16.67756423,South San Diego Shelf,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Plastic Piece,1,"1"" x 3"" opaque",1
+69,B13-9023,8/1/13,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Miscellaneous,Other,City of San Diego,Rag/Cloth,1,"5"" x 5"" burlap",1
+70,B13-9023,8/1/13,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament old and brittle,1
+71,B13-9023,8/1/13,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,"Says ""crackers""",1
+72,B13-9026,8/1/13,1,Upper Slope,98.50645161,North San Diego Shelf,32.69393,-117.39587,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament,1
+86,B13-9056,8/8/13,1,Outer Shelf,16.67756423,San Diego Slope,32.83104,-117.35956,Plastic,Plastic,City of San Diego,Other Plastic,1,Boat thingy,1
+91,B13-9073,8/7/13,1,Outer Shelf,16.67756423,South San Diego Shelf,32.90917,-117.29504,Plastic,Plastic,City of San Diego,Bottle,1,H2O bottle,1
+93,B13-9092,8/12/13,1,MPA,4.35019692,South San Diego Shelf,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Other Plastic,1,Popsicle maker,1
+95,B13-9092,8/12/13,1,MPA,4.35019692,South San Diego Shelf,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,Thin plastic,1
+106,B13-9107,8/13/13,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Miscellaneous,Other,City of San Diego,Tape,1,2 ft long piece,1
+107,B13-9107,8/13/13,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Plastic Piece,1,Piece of plastic wrapper,1
+108,B13-9107,8/13/13,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Bottle,1,Spout of 5 gallon jug,1
+109,B13-9107,8/13/13,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Miscellaneous,Other,City of San Diego,Other Misc.,1,Tar piece,1
+111,B13-9121,8/13/13,1,Inner Shelf,35.65453697,North San Diego Shelf,33.17427,-117.38129,Metal,Cans,City of San Diego,Drink Can,1,Beer can,1
+115,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,lots of clear plastic,1
+116,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Cap/Lid,1,Plastic Bottle Cap,1
+117,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Metal,Cans,Orange County Sanitation Districts,Drink Can,2,1 can Budweiser - 1 can Diet Coke,1
+118,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Miscellaneous,Other,Orange County Sanitation Districts,Paper,1,article,1
+119,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Miscellaneous,Other,Orange County Sanitation Districts,Other Misc.,1,spoon,1
+126,B13-9161,9/4/13,1,MPA,2.7940155,Orange Slope,33.503284,-117.771859,Metal,Metal debris,Orange County Sanitation Districts,Can Pull-tab,1,16 oz. Budweiser Can Pull-tab,1
+129,B13-9166,8/20/13,1,Mid Shelf,2.7940155,Orange Slope,33.50885,-117.769678,Miscellaneous,Other,Orange County Sanitation Districts,Rag/Cloth,1,Rag/Cloth.  Photo taken,1
+132,B13-9168,8/20/13,1,MPA,7.72644587,Orange Slope,33.511385,-117.777799,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Bottom,1
+136,B13-9173,9/5/13,1,MPA,7.72644587,Orange Slope,33.522648,-117.794141,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Clear,1
+137,B13-9174,8/21/13,1,Upper Slope,98.50645161,Orange Slope,33.535885,-117.846826,Metal,Cans,Orange County Sanitation Districts,Drink Can,2,Photo taken - 1 can Coors Light - 1 partial can Diet Coke,1
+139,B13-9177,8/20/13,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Photo taken,1
+140,B13-9177,8/20/13,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Metal,Metal debris,Orange County Sanitation Districts,Other Metal,1,Photo taken - remains of a crab trap,1
+145,B13-9179,8/15/13,1,Upper Slope,98.50645161,San Pedro Channel,33.554635,-118.016943,Metal,Cans,Orange County Sanitation Districts,Drink Can,1,Miller MGD can,1
+146,B13-9185,8/15/13,1,Outer Shelf,16.67756423,San Pedro Channel,33.564518,-118.017204,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Oil,1
+152,B13-9192,8/21/13,1,MPA,4.07437995,Orange Shelf,33.579032,-117.865544,Miscellaneous,Other,Orange County Sanitation Districts,Other Misc.,1,Estimate = M,1
+153,B13-9192,8/21/13,1,MPA,4.07437995,Orange Shelf,33.579032,-117.865544,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,2,1 piece green - 1 piece clear,1
+155,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label,1
+157,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Black,1
+158,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label,1
+159,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Balloon (mylar/latex)/Ribbon,1,Long thin ribbon,1
+160,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Metal,Metal debris,Orange County Sanitation Districts,Other Metal,1,Aluminum foil,1
+173,B13-9223,8/16/13,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,7-up,1
+177,B13-9223,8/16/13,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Metal,Cans,Los Angeles County Sanitation Districts,Can - other,1,part of one can,1
+178,B13-9228,8/14/13,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Miscellaneous,Other,Los Angeles County Sanitation Districts,Other Misc.,4,clinkers,1
+179,B13-9228,8/14/13,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Lid to pepper can,1
+180,B13-9228,8/14/13,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Miscellaneous,Lumber,Los Angeles County Sanitation Districts,Lumber,1,"6"" small piece",1
+182,B13-9228,8/14/13,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Miscellaneous,Other,Los Angeles County Sanitation Districts,Boat/Ship/Engine part,1,blob of caulk,1
+185,B13-9235,8/14/13,1,MPA,7.10222287,Palos Verdes Shelf,33.70392,-118.39901,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,2,"clear, thin",1
+187,B13-9237,8/16/13,1,MPA,7.10222287,Santa Monica Bay,33.7201,-118.4144,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,maybe plastic ruler.  Item recorded but discarded.,1
+191,B13-9239,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,2,Water bottle,1
+192,B13-9239,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Fishing Line/Net,1,Line,1
+193,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Food Bag / Wrapper,11,"ziploc snack size, mickey mouse candy, snickers, reeses, Bon sola sol, Tamarind candy",1
+194,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,7,"Water w/ sports lid, soda w/ red lid, water w/ clear lid",1
+195,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Cup,2,"Red party cup, clear",1
+196,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Metal,Cans,Los Angeles County Sanitation Districts,Drink Can,3,"Red Bull, Modelo especial, Bud light chelada",1
+198,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bag,3,NA,1
+200,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,3,"groblock label, tobacco wrapper, green sewing grid",1
+201,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,42,"big white square, clear",1
+203,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Santa Monica Bay,33.76299,-118.45776,Glass,Glass bottles,Los Angeles County Sanitation Districts,Beer Bottle,1,NA,1
+206,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Santa Monica Bay,33.76299,-118.45776,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,Piece of lens cap,1
+211,B13-9271,9/17/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.895217,-118.535467,Metal,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Gear,1,piece of crab trap,1
+212,B13-9286,9/17/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.9317,-118.538383,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,5 inches of monofilament,1
+214,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Piece of bag or plastic sheet,1
+215,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Bottle,1,NA,1
+216,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Other Plastic,1,Auto or boat part; possibly side mirror or bumber piece,1
+217,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Bottle,1,"Beverage, clear",1
+218,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Metal,Metal debris,City of Los Angeles Environmental Monitoring Division,Other Metal,1,"aluminum sheeting, possibly aircraft",1
+220,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,monofilament; several feet,1
+225,B13-9309,8/20/13,1,Upper Slope,98.50645161,Hueneme to Dume,33.97731,-118.877507,Plastic,Plastic,Vantuna Research Group,Bag,1,"""King Pop"" wrapper",1
+234,B13-9321,7/22/13,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Glass,Glass bottles,Vantuna Research Group,Beer Bottle,1,small piece,1
+235,B13-9321,7/22/13,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,tarp strap,1
+245,B13-9325,8/20/13,1,Outer Shelf,16.67756423,Hueneme to Dume,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Polypropylene Rope,1,NA,1
+246,B13-9325,8/20/13,1,Outer Shelf,16.67756423,Hueneme to Dume,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Other Plastic,2,cracker bags?,1
+254,B13-9336,8/29/13,1,Inner Shelf,35.65453697,Hueneme to Dume,34.019767,-118.743717,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Similar to Easter grass,1
+263,B13-9348,7/30/13,1,Upper Slope,98.50645161,Hueneme to Dume,34.03957,-119.19698,Miscellaneous,Other,Los Angeles County Sanitation Districts,Paper,1,NA,1
+268,B13-9354,7/30/13,1,Upper Slope,98.50645161,Hueneme to Dume,34.05092,-119.21821,Glass,Glass bottles,Los Angeles County Sanitation Districts,Glass Bottle/Jar -other,1,Hennessy Cognac - Green,1
+285,B13-9394,8/22/13,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,stick,1
+286,B13-9394,8/22/13,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,trash bag?,1
+288,B13-9396,7/26/13,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Miscellaneous,Other,Vantuna Research Group,Clothing,1,small swatch,1
+290,B13-9396,7/26/13,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,wrapper?,1
+291,B13-9396,7/26/13,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,grommet from tarp,1
+304,B13-9409,8/20/13,1,Inner Shelf,35.65453697,Hueneme to Dume,34.22391,-119.29943,Miscellaneous,Other,Aquatic Bioassay Consultants,Paper,1,NA,1
+307,B13-9419,9/13/13,2,Outer Shelf,16.67756423,East Santa Barbara Channel,34.23285,-119.66165,Plastic,Plastic,Aquatic Bioassay Consultants,Plastic Piece,1,NA,1
+332,B13-9455,7/23/13,1,Outer Shelf,4.35019692,East Santa Barbara Channel,34.362304,-119.895231,Plastic,Plastic,Vantuna Research Group,Food Bag / Wrapper,1,NA,1
+344,B13-9465,7/23/13,1,MPA,7.72644587,East Santa Barbara Channel,34.394734,-119.85726,Plastic,Plastic,Vantuna Research Group,Bottle,1,oil or coolant bottle,1
+350,B13-9470,9/11/13,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.40006,-119.8346,Miscellaneous,Other,Aquatic Bioassay Consultants,Fiberglass,1,large boat piece,1

@@ -20,36 +20,6 @@ shinyServer(function(input, output) {
     output$tab2_site_count_bar <- renderPlot(tab2_site_count_plotter())
     
     
-    #### tab 3 output: area weight mean count ####
-    pt1 <- reactive({
-        if (!input$donum1) return(NULL)
-      count_by_stratum
-    })
-    pt2 <- reactive({
-        if (!input$donum2) return(NULL)
-      count_by_region
-        
-    })
-    pt3 <- reactive({
-        if (!input$donum3) return(NULL)
-      count_by_land
-    })
-    pt4 <- reactive({
-        if (!input$donum4) return(NULL)
-      relative_count
-    })
-    output$plotgraph = renderPlot({
-        ptlist <- list(pt1(),pt2(),pt3(),pt4())
-        # wtlist <- c(input$wt1,input$wt2,input$wt3)
-        # remove the null plots from ptlist and wtlist
-        to_delete <- !sapply(ptlist,is.null)
-        ptlist <- ptlist[to_delete] 
-        # wtlist <- wtlist[to_delete]
-        if (length(ptlist)==0) return(NULL)
-        
-        grid.arrange(grobs=ptlist,nrow=length(ptlist))
-    })
-    
     #### tab 3.5: magnitude and frequency ####
     
     output$tab3_title1 <- renderText(paste(input$tab3_Type, " Data Collected in ", input$tab3_Year))
@@ -82,10 +52,8 @@ shinyServer(function(input, output) {
   
     
     #### tab 5 output: data ####
-    output$tab5 <- renderDataTable(
-      datatable(tab3_pick_data(input$tab5_Year, input$tab5_Type), options = list("pageLength" = 15))
-      )
-    
+    tb5 <- reactive(tab3_pick_data(input$tab5_Year, input$tab5_Type))
+    output$tab5 <- renderDataTable(datatable(tb5(), options = list("pageLength" = 15)))
     
     
     #### tab 6 output: summary ####
