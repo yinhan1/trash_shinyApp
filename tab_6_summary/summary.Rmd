@@ -13,22 +13,35 @@ output:
 
 ## Results 
 
-The integrated findings of the (Bight’13,...) trash and marine debris study are as follows:
+Throughout the study, the raw count of debris in the SCB for 2018 compared to 2013 has decreased significantly, especially over the regions closer to land such as the inner shelf. This is an indicator that the actions taken to protect and clean the environment have had positive results. However, even with the huge decrease in overall abundance, the extent of marine debris in the Bight still remained relatively high. On land, the raw counts of trash found in streams and rivers also showed a big decline from 2013 to 2018; yet, the percentage area covered with trash for most counties actually increases according to our calculation. Ventura county saw  the biggest  jump in the percentage, going from 20% to 90%. Overall, we can conclude that the magnitude of trash and marine debris has decreased over the years but more work needs to be done in order to control/reduce the extent of trash in the region. 
 
-- Result 1
+Another feature was that plastic stood out in both rivers and oceans for both years. The plastic bag ban of California went into effect July 1, 2015 and although plastic trash has decreased from 2013 to 2018 promising a positive effect on the environment, there remains  a high abundance of plastic trash. This is an indicator that further work can be done to reduce the amount of plastic trash found in rivers and oceans. 
 
-- Result 2
-
+Lastly, the results from kernel density estimation displayed a shift in trash abundance from the northern regions down to the San Diego regions. Though the cause for this shift remains unknown, the following section provides some recommendations to go about this study.
 
 
 
 ## Recommendations 
 
-- Recommendation 1
+After analyzing the data and running the kernel density, the following recommendations are proposed as follow-ups to the study. It was found that from 2013 to 2018, there was a decrease in the amount of plastic trash found in both rivers and oceans. Though the discovery of less plastic in these bodies of water are promising, it raises the question: where did this plastic go? Depending on the materials used to create these plastic items, it takes about 10 to 400+ years to decompose plastic. It would be ideal to investigate the whereabouts of this plastic, to see if these items have been picked up by sanitation crews or migrated to different areas of water, in an attempt to help that part of the environment. 
 
-- Recommendation 2
+Other factors not discussed in the study can be explored to note their significance on the magnitude of trash. In the case of rivers, open or unused land had the greatest magnitude of trash in 2018 (Figure 2).  The feature “distance to nearest road” and “road type” were part of the original data that would have indicated the nearest road to a sampled site and whether that road was a dirt road or had bicycle routes. These features had to be dropped since the amount of missing information would have produced meaningless results. Using the coordinates of these open stratums, the distance to the nearest road can be found to determine if their accessibility to the public has led to an increase of trash in open land. For oceans, the magnitude of debris is highest in the outer shelf for 2018 (Figure 6). The sites with this stratum can be further analyzed to determine if there is a common feature that may have led to the increase in trash from 2013 to 2018.  
+
+Lastly, with kernel density, it was found that from 2013 to 2018, the magnitude of plastic trash shifted from Los Angeles to San Diego. Exploring plastic ban policies in both areas may lead to improvements though it is not limited to this idea. San Diego is known as America’s Finest City due to its beaches, weather, and fun attractions. This can lead to an increase in tourist attraction which can lead to an increase in trash. Current flow can also be examined for each year to determine if it is possible that the trash migrated from Baja California to San Diego. In the study, it was found that San Diego had several agricultural regions with plastic accounting for more than 75% of the trash found in those areas. In order to conclude if the trash abundance is due to the vast areas of agricultural land found in the San Diego region and be able to reduce it, this along with the other suggestions could be further investigated to determine the root cause of the problem.
+
 
 
 ## References
 
+Habbema, J. D.F., Hermans, J., Van Der Broek, K. 1974. A Stepwise Discrimination Analysis Program Using Density Estimation. G. Bruckmann ed. Compstat: Proceedings in Computational Statistics, pp. 101–110. 
+
+Hofer, T. N. 2008. Marine pollution: New research. Nova Publishers.
+
+Moore, S.L., M. Sutula, T.V. Bitner, G. Lattin, K.C. Schiff. 2016. Southern California Bight 2013 Regional Monitoring Program: Volume III. Trash and Marine Debris. Technical Report 928. Southern California Coastal Water Research Project Authority. Costa Mesa, CA.
+
+Moore, S., et. al. 2018. Draft Bight ’18 Trash Workplan.  Bight '18 Trash Committee. Southern California Coastal Water Research Project
+
+“Potential Well Water Contaminants and Their Impacts.” EPA, Environmental Protection Agency, 8 Aug. 2019, www.epa.gov/privatewells/potential-well-water-contaminants-and-their-impacts.
+
+Silverman, B. W. 1986. Density Estimation for Statistics and Data Analysis. London: Chapman & Hall. 
 

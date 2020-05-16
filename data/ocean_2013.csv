@@ -1,92 +1,361 @@
-objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,longitude,type,debriscategory,agency,debristype,count,comments,trash_present
-20,B13-8315,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,Peroxide,1
-22,B13-8315,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Blue shopping cart basket,1
-29,B13-8325,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,"Amber color, stiff, thin",1
-32,B13-8335,9/24/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Miscellaneous,Other,City of Los Angeles Environmental Monitoring Division,Other Misc.,2,"2 pieces twine, possibly from mop",1
-38,B13-8350,8/12/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Metal,Cans,Los Angeles County Sanitation Districts,Drink Can,1,Michelob Ultra Superior Light Beer,1
-45,B13-8388,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Plastic,Plastic,MBC Applied Environmental Sciences,Food Bag / Wrapper,1,NA,1
-46,B13-8388,9/11/13,1,Bay,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Metal,Cans,MBC Applied Environmental Sciences,Can - other,1,King Cobra Beer,1
-58,B13-9012,7/24/13,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Plastic Piece,1,small black shard,1
-59,B13-9012,7/24/13,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Polypropylene Rope,1,Partial metal debris,1
-60,B13-9012,7/24/13,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Metal,Metal debris,City of San Diego,Metal Piece,1,part of trap with nylon cord,1
-66,B13-9014,8/6/13,1,Outer Shelf,16.67756423,South San Diego Shelf,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Cup,1,Metridium attached,1
-67,B13-9014,8/6/13,1,Outer Shelf,16.67756423,South San Diego Shelf,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Plastic Piece,1,"1"" x 3"" opaque",1
-69,B13-9023,8/1/13,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Miscellaneous,Other,City of San Diego,Rag/Cloth,1,"5"" x 5"" burlap",1
-70,B13-9023,8/1/13,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament old and brittle,1
-71,B13-9023,8/1/13,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,"Says ""crackers""",1
-72,B13-9026,8/1/13,1,Upper Slope,98.50645161,North San Diego Shelf,32.69393,-117.39587,Plastic,Plastic,City of San Diego,Fishing Line/Net,1,Monofilament,1
-86,B13-9056,8/8/13,1,Outer Shelf,16.67756423,San Diego Slope,32.83104,-117.35956,Plastic,Plastic,City of San Diego,Other Plastic,1,Boat thingy,1
-91,B13-9073,8/7/13,1,Outer Shelf,16.67756423,South San Diego Shelf,32.90917,-117.29504,Plastic,Plastic,City of San Diego,Bottle,1,H2O bottle,1
-93,B13-9092,8/12/13,1,MPA,4.35019692,South San Diego Shelf,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Other Plastic,1,Popsicle maker,1
-95,B13-9092,8/12/13,1,MPA,4.35019692,South San Diego Shelf,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Food Bag / Wrapper,1,Thin plastic,1
-106,B13-9107,8/13/13,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Miscellaneous,Other,City of San Diego,Tape,1,2 ft long piece,1
-107,B13-9107,8/13/13,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Plastic Piece,1,Piece of plastic wrapper,1
-108,B13-9107,8/13/13,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Bottle,1,Spout of 5 gallon jug,1
-109,B13-9107,8/13/13,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Miscellaneous,Other,City of San Diego,Other Misc.,1,Tar piece,1
-111,B13-9121,8/13/13,1,Inner Shelf,35.65453697,North San Diego Shelf,33.17427,-117.38129,Metal,Cans,City of San Diego,Drink Can,1,Beer can,1
-115,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,lots of clear plastic,1
-116,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Cap/Lid,1,Plastic Bottle Cap,1
-117,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Metal,Cans,Orange County Sanitation Districts,Drink Can,2,1 can Budweiser - 1 can Diet Coke,1
-118,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Miscellaneous,Other,Orange County Sanitation Districts,Paper,1,article,1
-119,B13-9125,8/29/13,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Miscellaneous,Other,Orange County Sanitation Districts,Other Misc.,1,spoon,1
-126,B13-9161,9/4/13,1,MPA,2.7940155,Orange Slope,33.503284,-117.771859,Metal,Metal debris,Orange County Sanitation Districts,Can Pull-tab,1,16 oz. Budweiser Can Pull-tab,1
-129,B13-9166,8/20/13,1,Mid Shelf,2.7940155,Orange Slope,33.50885,-117.769678,Miscellaneous,Other,Orange County Sanitation Districts,Rag/Cloth,1,Rag/Cloth.  Photo taken,1
-132,B13-9168,8/20/13,1,MPA,7.72644587,Orange Slope,33.511385,-117.777799,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Bottom,1
-136,B13-9173,9/5/13,1,MPA,7.72644587,Orange Slope,33.522648,-117.794141,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Clear,1
-137,B13-9174,8/21/13,1,Upper Slope,98.50645161,Orange Slope,33.535885,-117.846826,Metal,Cans,Orange County Sanitation Districts,Drink Can,2,Photo taken - 1 can Coors Light - 1 partial can Diet Coke,1
-139,B13-9177,8/20/13,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Photo taken,1
-140,B13-9177,8/20/13,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Metal,Metal debris,Orange County Sanitation Districts,Other Metal,1,Photo taken - remains of a crab trap,1
-145,B13-9179,8/15/13,1,Upper Slope,98.50645161,San Pedro Channel,33.554635,-118.016943,Metal,Cans,Orange County Sanitation Districts,Drink Can,1,Miller MGD can,1
-146,B13-9185,8/15/13,1,Outer Shelf,16.67756423,San Pedro Channel,33.564518,-118.017204,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Oil,1
-152,B13-9192,8/21/13,1,MPA,4.07437995,Orange Shelf,33.579032,-117.865544,Miscellaneous,Other,Orange County Sanitation Districts,Other Misc.,1,Estimate = M,1
-153,B13-9192,8/21/13,1,MPA,4.07437995,Orange Shelf,33.579032,-117.865544,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,2,1 piece green - 1 piece clear,1
-155,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label,1
-157,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Other Plastic,1,Black,1
-158,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Beer Bottle,1,No label,1
-159,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Balloon (mylar/latex)/Ribbon,1,Long thin ribbon,1
-160,B13-9194,8/13/13,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Metal,Metal debris,Orange County Sanitation Districts,Other Metal,1,Aluminum foil,1
-173,B13-9223,8/16/13,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,1,7-up,1
-177,B13-9223,8/16/13,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Metal,Cans,Los Angeles County Sanitation Districts,Can - other,1,part of one can,1
-178,B13-9228,8/14/13,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Miscellaneous,Other,Los Angeles County Sanitation Districts,Other Misc.,4,clinkers,1
-179,B13-9228,8/14/13,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,1,Lid to pepper can,1
-180,B13-9228,8/14/13,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Miscellaneous,Lumber,Los Angeles County Sanitation Districts,Lumber,1,"6"" small piece",1
-182,B13-9228,8/14/13,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Miscellaneous,Other,Los Angeles County Sanitation Districts,Boat/Ship/Engine part,1,blob of caulk,1
-185,B13-9235,8/14/13,1,MPA,7.10222287,Palos Verdes Shelf,33.70392,-118.39901,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,2,"clear, thin",1
-187,B13-9237,8/16/13,1,MPA,7.10222287,Santa Monica Bay,33.7201,-118.4144,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,maybe plastic ruler.  Item recorded but discarded.,1
-191,B13-9239,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,2,Water bottle,1
-192,B13-9239,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Fishing Line/Net,1,Line,1
-193,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Food Bag / Wrapper,11,"ziploc snack size, mickey mouse candy, snickers, reeses, Bon sola sol, Tamarind candy",1
-194,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bottle,7,"Water w/ sports lid, soda w/ red lid, water w/ clear lid",1
-195,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Cup,2,"Red party cup, clear",1
-196,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Metal,Cans,Los Angeles County Sanitation Districts,Drink Can,3,"Red Bull, Modelo especial, Bud light chelada",1
-198,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Bag,3,NA,1
-200,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Other Plastic,3,"groblock label, tobacco wrapper, green sewing grid",1
-201,B13-9245,8/12/13,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,42,"big white square, clear",1
-203,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Santa Monica Bay,33.76299,-118.45776,Glass,Glass bottles,Los Angeles County Sanitation Districts,Beer Bottle,1,NA,1
-206,B13-9251,8/14/13,1,Outer Shelf,16.67756423,Santa Monica Bay,33.76299,-118.45776,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic Piece,1,Piece of lens cap,1
-211,B13-9271,9/17/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.895217,-118.535467,Metal,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Gear,1,piece of crab trap,1
-212,B13-9286,9/17/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.9317,-118.538383,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,5 inches of monofilament,1
-214,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Piece of bag or plastic sheet,1
-215,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Bottle,1,NA,1
-216,B13-9292,8/21/13,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Other Plastic,1,Auto or boat part; possibly side mirror or bumber piece,1
-217,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Bottle,1,"Beverage, clear",1
-218,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Metal,Metal debris,City of Los Angeles Environmental Monitoring Division,Other Metal,1,"aluminum sheeting, possibly aircraft",1
-220,B13-9300,9/4/13,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Fishing Line/Net,1,monofilament; several feet,1
-225,B13-9309,8/20/13,1,Upper Slope,98.50645161,Hueneme to Dume,33.97731,-118.877507,Plastic,Plastic,Vantuna Research Group,Bag,1,"""King Pop"" wrapper",1
-234,B13-9321,7/22/13,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Glass,Glass bottles,Vantuna Research Group,Beer Bottle,1,small piece,1
-235,B13-9321,7/22/13,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,tarp strap,1
-245,B13-9325,8/20/13,1,Outer Shelf,16.67756423,Hueneme to Dume,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Polypropylene Rope,1,NA,1
-246,B13-9325,8/20/13,1,Outer Shelf,16.67756423,Hueneme to Dume,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Other Plastic,2,cracker bags?,1
-254,B13-9336,8/29/13,1,Inner Shelf,35.65453697,Hueneme to Dume,34.019767,-118.743717,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic Piece,1,Similar to Easter grass,1
-263,B13-9348,7/30/13,1,Upper Slope,98.50645161,Hueneme to Dume,34.03957,-119.19698,Miscellaneous,Other,Los Angeles County Sanitation Districts,Paper,1,NA,1
-268,B13-9354,7/30/13,1,Upper Slope,98.50645161,Hueneme to Dume,34.05092,-119.21821,Glass,Glass bottles,Los Angeles County Sanitation Districts,Glass Bottle/Jar -other,1,Hennessy Cognac - Green,1
-285,B13-9394,8/22/13,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,stick,1
-286,B13-9394,8/22/13,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,trash bag?,1
-288,B13-9396,7/26/13,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Miscellaneous,Other,Vantuna Research Group,Clothing,1,small swatch,1
-290,B13-9396,7/26/13,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Plastic Piece,1,wrapper?,1
-291,B13-9396,7/26/13,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Other Plastic,1,grommet from tarp,1
-304,B13-9409,8/20/13,1,Inner Shelf,35.65453697,Hueneme to Dume,34.22391,-119.29943,Miscellaneous,Other,Aquatic Bioassay Consultants,Paper,1,NA,1
-307,B13-9419,9/13/13,2,Outer Shelf,16.67756423,East Santa Barbara Channel,34.23285,-119.66165,Plastic,Plastic,Aquatic Bioassay Consultants,Plastic Piece,1,NA,1
-332,B13-9455,7/23/13,1,Outer Shelf,4.35019692,East Santa Barbara Channel,34.362304,-119.895231,Plastic,Plastic,Vantuna Research Group,Food Bag / Wrapper,1,NA,1
-344,B13-9465,7/23/13,1,MPA,7.72644587,East Santa Barbara Channel,34.394734,-119.85726,Plastic,Plastic,Vantuna Research Group,Bottle,1,oil or coolant bottle,1
-350,B13-9470,9/11/13,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.40006,-119.8346,Miscellaneous,Other,Aquatic Bioassay Consultants,Fiberglass,1,large boat piece,1
+objectid,stationid,sampledate,trawlnumber,stratum,areaweight,region,latitude,longitude,debriscategorybroad,debriscategory,agency,type,count,comments,trash_present,county
+1,B13-8017,0009-06-20,1,Bays,3.85972347,San Diego Bay,32.629511,-117.129983,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Red Algae - Unknown individual weight. Total combined weight of both debris types = 4.41 kg,0,unknown
+2,B13-8017,0009-06-20,1,Bays,3.85972347,San Diego Bay,32.629511,-117.129983,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - Unknown individual weight. Total combined weight of both debris types = 4.41 kg,0,unknown
+3,B13-8020,0009-05-20,1,Bays,3.85972347,San Diego Bay,32.641114,-117.13285,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - 17.55 kg,0,unknown
+4,B13-8029,0009-05-20,1,Bays,0.20086571,San Diego Bay,32.646418,-117.120747,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - Unknown individual weight. Total combined weight of both debris types = 49.43 kg,0,unknown
+5,B13-8029,0009-05-20,1,Bays,0.20086571,San Diego Bay,32.646418,-117.120747,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Red Algae - Unknown individual weight. Total combined weight of both debris types = 49.43 kg,0,unknown
+6,B13-8052,0009-05-20,1,Bays,3.85972347,San Diego Bay,32.658322,-117.145958,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - 2.03 kg,0,unknown
+7,B13-8058,0009-04-20,1,Bays,3.85972347,San Diego Bay,32.662371,-117.144215,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - 3.33 kg,0,unknown
+8,B13-8058,0009-04-20,1,Bays,3.85972347,San Diego Bay,32.662371,-117.144215,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Red Algae - 0.217 kg,0,unknown
+9,B13-8060,0009-04-20,1,Bays,3.85972347,San Diego Bay,32.666203,-117.15078,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - 7.990 kg,0,unknown
+10,B13-8060,0009-04-20,1,Bays,3.85972347,San Diego Bay,32.666203,-117.15078,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Ulva Lactuca - 0.031 kg,0,unknown
+11,B13-8078,0009-04-20,1,Bays,3.61530392,San Diego Bay,32.687333,-117.149056,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - 2.430 kg,0,unknown
+12,B13-8078,0009-04-20,1,Bays,3.61530392,San Diego Bay,32.687333,-117.149056,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Ulva Lactuca - 0.037 kg,0,unknown
+13,B13-8109,0009-03-20,1,Bays,3.61530392,San Diego Bay,32.716287,-117.184571,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - 0.031 kg,0,unknown
+14,B13-8118,0009-03-20,2,Bays,3.61530392,San Diego Bay,32.719619,-117.177377,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Zoobotryon - 0.525 kg,0,unknown
+15,B13-8122,0009-03-20,1,Bays,3.61530392,San Diego Bay,32.72462,-117.181506,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Red Algae - 0.060 kg,0,unknown
+16,B13-8159,0008-08-20,1,Bays,6.48937512,Mission Bay,32.784714,-117.214572,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Bryozoan. Zoobotryon. Verticillatum. - Unknown individual weights. Total combined weight of all debris types = 22.6 kg,0,unknown
+17,B13-8159,0008-08-20,1,Bays,6.48937512,Mission Bay,32.784714,-117.214572,Marine Origin,Marine Vegetation,AMEC Foster Wheeler,Marine_Origniated,0,Red Algae,0,unknown
+18,B13-8304,NA,1,Bays,1.76746223,Los Angeles/Long Beach,33.713467,-118.240567,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,0.25 kg,0,unknown
+19,B13-8304,NA,1,Bays,1.76746223,Los Angeles/Long Beach,33.713467,-118.240567,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,1,small Egregia sp.,0,unknown
+20,B13-8315,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,1,Peroxide,1,unknown
+21,B13-8315,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,"Egregia, Macrocystis",0,unknown
+22,B13-8315,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,1,Blue shopping cart basket,1,unknown
+23,B13-8315,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.72482,-118.15007,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,1,green-Ulva,0,unknown
+24,B13-8318,NA,2,Bays,1.76746223,Los Angeles/Long Beach,33.724583,-118.2242,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+25,B13-8318,NA,2,Bays,1.76746223,Los Angeles/Long Beach,33.724583,-118.2242,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+26,B13-8319,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.72512,-118.13491,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Macrocystis,0,unknown
+27,B13-8322,NA,1,Bays,1.76746223,Los Angeles/Long Beach,33.72805,-118.211833,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,2,NA,0,unknown
+28,B13-8323,NA,1,Bays,1.76746223,Los Angeles/Long Beach,33.728083,-118.20625,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,red algae,0,unknown
+29,B13-8325,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,1,"Amber color, stiff, thin",1,unknown
+30,B13-8325,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Stipes & blades,0,unknown
+31,B13-8325,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.72843,-118.15888,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,1,Leaf,0,unknown
+32,B13-8335,NA,1,Bays,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Misc. Items/Pieces,Other,City of Los Angeles Environmental Monitoring Division,Miscellaneous,2,"2 pieces twine, possibly from mop",1,unknown
+33,B13-8335,NA,1,Bays,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,2,2 partial pieces of blade,0,unknown
+34,B13-8335,NA,1,Bays,1.76746223,Los Angeles/Long Beach,33.731133,-118.202667,Terrestrial Vegetation,Terrestrial Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,1,pine needles,0,unknown
+35,B13-8346,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.73877,-118.14476,No Debris Present,None,MBC Applied Environmental Sciences,Miscellaneous,0,NA,0,unknown
+36,B13-8350,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Blade,0,unknown
+37,B13-8350,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,1,NA,0,unknown
+38,B13-8350,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Metal,Cans,Los Angeles County Sanitation Districts,Recyclable,1,Michelob Ultra Superior Light Beer,1,unknown
+39,B13-8350,0008-12-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.74035,-118.17345,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,1,Leaf,0,unknown
+40,B13-8351,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.74017,-118.15825,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Marine_Origniated,1,NA,0,unknown
+41,B13-8355,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.74225,-118.15333,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Marine_Origniated,0,NA,0,unknown
+42,B13-8358,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.74418,-118.16955,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Marine_Origniated,0,NA,0,unknown
+43,B13-8375,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.75239,-118.17693,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Marine_Origniated,0,NA,0,unknown
+44,B13-8388,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Terrestrial Vegetation,Terrestrial Vegetation,MBC Applied Environmental Sciences,Biodegradable,3,NA,0,unknown
+45,B13-8388,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Plastic,Plastic,MBC Applied Environmental Sciences,Miscellaneous,1,NA,1,unknown
+46,B13-8388,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Metal,Cans,MBC Applied Environmental Sciences,Recyclable,1,King Cobra Beer,1,unknown
+47,B13-8388,0009-11-20,1,Bays,1.76746223,Los Angeles/Long Beach,33.75956,-118.16387,Marine Origin,Marine Vegetation,MBC Applied Environmental Sciences,Marine_Origniated,0,NA,0,unknown
+48,B13-9005,NA,1,Inner Shelf,35.65453697,San Diego Bay,32.53497,-117.1535,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Red algae pieces,0,unknown
+49,B13-9005,NA,1,Inner Shelf,35.65453697,San Diego Bay,32.53497,-117.1535,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,1 blade,0,unknown
+50,B13-9005,NA,1,Inner Shelf,35.65453697,San Diego Bay,32.53497,-117.1535,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Green algae pieces,0,unknown
+51,B13-9006,NA,1,MPA,4.07437995,San Diego Bay,32.5487,-117.14034,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,1 clump 3 blades,0,unknown
+52,B13-9006,NA,1,MPA,4.07437995,San Diego Bay,32.5487,-117.14034,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Red algae pieces,0,unknown
+53,B13-9006,NA,1,MPA,4.07437995,San Diego Bay,32.5487,-117.14034,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,2,Single blades,0,unknown
+54,B13-9006,NA,1,MPA,4.07437995,San Diego Bay,32.5487,-117.14034,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,NA,0,unknown
+55,B13-9007,NA,1,Mid Shelf,56.20926257,South San Diego Shelf,32.54949,-117.1991,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,"3/4 of a 5gal bucket, one juvenile Pelagophycus, ~12' long, one 5gal bucket (holdfast, stipe, blades)",0,unknown
+56,B13-9008,NA,1,MPA,4.07437995,San Diego Bay,32.55008,-117.1494,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,1/4 of a 5gal bucket,0,unknown
+57,B13-9011,NA,1,Outer Shelf,16.67756423,South San Diego Shelf,32.58434,-117.33803,No Debris Present,None,City of San Diego,Miscellaneous,0,NA,0,unknown
+58,B13-9012,NA,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Plastic,1,small black shard,1,unknown
+59,B13-9012,NA,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Plastic,Plastic,City of San Diego,Plastic,1,Partial metal debris,1,unknown
+60,B13-9012,NA,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Metal,Metal debris,City of San Diego,Metal,1,part of trap with nylon cord,1,unknown
+61,B13-9012,NA,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,NA,0,unknown
+62,B13-9012,NA,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Very small frags,0,unknown
+63,B13-9012,NA,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Red,0,unknown
+64,B13-9012,NA,1,Mid Shelf,56.20926257,South San Diego Shelf,32.58634,-117.26284,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,One leaf,0,unknown
+65,B13-9013,NA,1,Outer Shelf,16.67756423,North San Diego Shelf,32.59408,-117.34748,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Small pieces,0,unknown
+66,B13-9014,0008-06-20,1,Outer Shelf,16.67756423,South San Diego Shelf,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Plastic,1,Metridium attached,1,unknown
+67,B13-9014,0008-06-20,1,Outer Shelf,16.67756423,South San Diego Shelf,32.59538,-117.32856,Plastic,Plastic,City of San Diego,Plastic,1,"1"" x 3"" opaque",1,unknown
+68,B13-9014,0008-06-20,1,Outer Shelf,16.67756423,South San Diego Shelf,32.59538,-117.32856,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,2,NA,0,unknown
+69,B13-9023,0008-01-20,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Misc. Items/Pieces,Other,City of San Diego,Fabric Cloth,1,"5"" x 5"" burlap",1,unknown
+70,B13-9023,0008-01-20,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Plastic,1,Monofilament old and brittle,1,unknown
+71,B13-9023,0008-01-20,1,Upper Slope,98.50645161,North San Diego Shelf,32.66833,-117.41972,Plastic,Plastic,City of San Diego,Miscellaneous,1,"Says ""crackers""",1,unknown
+72,B13-9026,0008-01-20,1,Upper Slope,98.50645161,North San Diego Shelf,32.69393,-117.39587,Plastic,Plastic,City of San Diego,Plastic,1,Monofilament,1,unknown
+73,B13-9034,0008-06-20,1,Mid Shelf,56.20926257,South San Diego Shelf,32.73907,-117.31494,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,3,Blade pieces,0,unknown
+74,B13-9035,0008-06-20,1,Upper Slope,98.50645161,San Diego Slope,32.73972,-117.42619,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,NA,0,unknown
+75,B13-9035,0008-06-20,1,Upper Slope,98.50645161,San Diego Slope,32.73972,-117.42619,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,Twig,0,unknown
+76,B13-9035,0008-06-20,1,Upper Slope,98.50645161,San Diego Slope,32.73972,-117.42619,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,Blade,0,unknown
+77,B13-9037,0008-02-20,1,Mid Shelf,56.20926257,South San Diego Shelf,32.76238,-117.31976,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Small piece,0,unknown
+78,B13-9037,0008-02-20,1,Mid Shelf,56.20926257,South San Diego Shelf,32.76238,-117.31976,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Blade fragments,0,unknown
+79,B13-9040,0008-08-20,1,Inner Shelf,35.65453697,South San Diego Shelf,32.78069,-117.26913,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,NA,0,unknown
+80,B13-9040,0008-08-20,1,Inner Shelf,35.65453697,South San Diego Shelf,32.78069,-117.26913,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,NA,0,unknown
+81,B13-9040,0008-08-20,1,Inner Shelf,35.65453697,South San Diego Shelf,32.78069,-117.26913,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,NA,0,unknown
+82,B13-9051,0008-07-20,1,Upper Slope,98.50645161,San Diego Slope,32.81732,-117.3695,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Small piece,0,unknown
+83,B13-9052,0008-08-20,1,MPA,2.7940155,San Diego Slope,32.82126,-117.34166,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,One strand red algae,0,unknown
+84,B13-9052,0008-08-20,1,MPA,2.7940155,San Diego Slope,32.82126,-117.34166,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Several blades,0,unknown
+85,B13-9053,0008-08-20,1,Outer Shelf,16.67756423,North San Diego Shelf,32.82313,-117.36676,No Debris Present,None,City of San Diego,Miscellaneous,0,NA,0,unknown
+86,B13-9056,0008-08-20,1,Outer Shelf,16.67756423,San Diego Slope,32.83104,-117.35956,Plastic,Plastic,City of San Diego,Plastic,1,Boat thingy,1,unknown
+87,B13-9056,0008-08-20,1,Outer Shelf,16.67756423,San Diego Slope,32.83104,-117.35956,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,Bone (dolphin?),0,unknown
+88,B13-9056,0008-08-20,1,Outer Shelf,16.67756423,San Diego Slope,32.83104,-117.35956,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,2,NA,0,unknown
+89,B13-9073,0008-07-20,1,Outer Shelf,16.67756423,South San Diego Shelf,32.90917,-117.29504,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Small,0,unknown
+90,B13-9073,0008-07-20,1,Outer Shelf,16.67756423,South San Diego Shelf,32.90917,-117.29504,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Small,0,unknown
+91,B13-9073,0008-07-20,1,Outer Shelf,16.67756423,South San Diego Shelf,32.90917,-117.29504,Plastic,Plastic,City of San Diego,Plastic,1,H2O bottle,1,unknown
+92,B13-9091,0008-12-20,2,MPA,7.10222287,South San Diego Shelf,33.01512,-117.33945,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,NA,0,unknown
+93,B13-9092,0008-12-20,1,MPA,4.35019692,South San Diego Shelf,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Plastic,1,Popsicle maker,1,unknown
+94,B13-9092,0008-12-20,1,MPA,4.35019692,South San Diego Shelf,33.02296,-117.3342,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,1,One blade,0,unknown
+95,B13-9092,0008-12-20,1,MPA,4.35019692,South San Diego Shelf,33.02296,-117.3342,Plastic,Plastic,City of San Diego,Miscellaneous,1,Thin plastic,1,unknown
+96,B13-9092,0008-12-20,1,MPA,4.35019692,South San Diego Shelf,33.02296,-117.3342,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,3,Red algae pieces,0,unknown
+97,B13-9094,0008-12-20,1,MPA,7.72644587,South San Diego Shelf,33.03266,-117.3167,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,NA,0,unknown
+98,B13-9094,0008-12-20,1,MPA,7.72644587,South San Diego Shelf,33.03266,-117.3167,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Red algae pieces,0,unknown
+99,B13-9094,0008-12-20,1,MPA,7.72644587,South San Diego Shelf,33.03266,-117.3167,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,NA,0,unknown
+100,B13-9100,NA,1,Outer Shelf,16.67756423,North San Diego Shelf,33.06689,-117.36712,No Debris Present,None,City of San Diego,Miscellaneous,0,NA,0,unknown
+101,B13-9104,0008-12-20,1,Mid Shelf,56.20926257,San Diego Slope,33.08075,-117.34234,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Red algae pieces,0,unknown
+102,B13-9104,0008-12-20,1,Mid Shelf,56.20926257,San Diego Slope,33.08075,-117.34234,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Lots of kelp pieces,0,unknown
+103,B13-9104,0008-12-20,1,Mid Shelf,56.20926257,San Diego Slope,33.08075,-117.34234,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,NA,0,unknown
+104,B13-9105,NA,1,Mid Shelf,56.20926257,San Diego Slope,33.08887,-117.35115,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,One small piece (blade),0,unknown
+105,B13-9107,NA,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Terrestrial Vegetation,Terrestrial Vegetation,City of San Diego,Biodegradable,4,Small pieces wood,0,unknown
+106,B13-9107,NA,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Misc. Items/Pieces,Other,City of San Diego,Miscellaneous,1,2 ft long piece,1,unknown
+107,B13-9107,NA,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Plastic,1,Piece of plastic wrapper,1,unknown
+108,B13-9107,NA,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Plastic,Plastic,City of San Diego,Plastic,1,Spout of 5 gallon jug,1,unknown
+109,B13-9107,NA,1,Upper Slope,98.50645161,San Diego Slope,33.09295,-117.41689,Misc. Items/Pieces,Other,City of San Diego,Miscellaneous,1,Tar piece,1,unknown
+110,B13-9111,NA,1,Mid Shelf,56.20926257,San Diego Slope,33.10467,-117.36168,No Debris Present,None,City of San Diego,Miscellaneous,0,NA,0,unknown
+111,B13-9121,NA,1,Inner Shelf,35.65453697,North San Diego Shelf,33.17427,-117.38129,Metal,Cans,City of San Diego,Recyclable,1,Beer can,1,unknown
+112,B13-9121,NA,1,Inner Shelf,35.65453697,North San Diego Shelf,33.17427,-117.38129,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,Gracilariopsis (red alga),0,unknown
+113,B13-9121,NA,1,Inner Shelf,35.65453697,North San Diego Shelf,33.17427,-117.38129,Marine Origin,Marine Vegetation,City of San Diego,Marine_Origniated,0,"Several blades, Macrocystis and Desmarestia",0,unknown
+114,B13-9125,NA,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,20,Kelp Stipe/Blade - all single blades,0,unknown
+115,B13-9125,NA,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Plastic,1,lots of clear plastic,1,unknown
+116,B13-9125,NA,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Plastic,Plastic,Orange County Sanitation Districts,Plastic,1,Plastic Bottle Cap,1,unknown
+117,B13-9125,NA,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Metal,Cans,Orange County Sanitation Districts,Recyclable,2,1 can Budweiser - 1 can Diet Coke,1,unknown
+118,B13-9125,NA,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Biodegradable,1,article,1,unknown
+119,B13-9125,NA,1,Outer Shelf,16.67756423,North San Diego Shelf,33.219417,-117.510954,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Miscellaneous,1,spoon,1,unknown
+120,B13-9129,NA,1,Mid Shelf,56.20926257,North San Diego Shelf,33.263798,-117.531543,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,3,Kelp Stipe/Blade,0,unknown
+121,B13-9131,NA,1,Mid Shelf,56.20926257,North San Diego Shelf,33.267749,-117.561686,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,0,Gorgonian Sea Fan - Red,0,unknown
+122,B13-9152,NA,1,MPA,4.07437995,Dana Point Harbor,33.471932,-117.735612,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,3,Kelp Holdfast,0,unknown
+123,B13-9152,NA,1,MPA,4.07437995,Dana Point Harbor,33.471932,-117.735612,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,20,Kelp Stipe/Blade - all single blades,0,unknown
+124,B13-9159,NA,1,MPA,4.07437995,North San Diego Shelf,33.497982,-117.751709,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,4,Kelp Holdfast - small to medium size - Photo taken,0,unknown
+125,B13-9159,NA,1,MPA,4.07437995,North San Diego Shelf,33.497982,-117.751709,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,0,Kelp Stipe/Blade - all single blades,0,unknown
+126,B13-9161,0009-04-20,1,MPA,2.7940155,Orange Slope,33.503284,-117.771859,Metal,Metal debris,Orange County Sanitation Districts,Recyclable,1,16 oz. Budweiser Can Pull-tab,1,unknown
+127,B13-9161,0009-04-20,1,MPA,2.7940155,Orange Slope,33.503284,-117.771859,Terrestrial Vegetation,Terrestrial Vegetation,Orange County Sanitation Districts,Biodegradable,1,NA,0,unknown
+128,B13-9166,NA,1,Mid Shelf,2.7940155,Orange Slope,33.50885,-117.769678,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,3,Kelp Holdfast. Bullwhip,0,unknown
+129,B13-9166,NA,1,Mid Shelf,2.7940155,Orange Slope,33.50885,-117.769678,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Fabric Cloth,1,Rag/Cloth.  Photo taken,1,unknown
+130,B13-9168,NA,1,MPA,7.72644587,Orange Slope,33.511385,-117.777799,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Seagrass,0,unknown
+131,B13-9168,NA,1,MPA,7.72644587,Orange Slope,33.511385,-117.777799,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Kelp Holdfast,0,unknown
+132,B13-9168,NA,1,MPA,7.72644587,Orange Slope,33.511385,-117.777799,Plastic,Plastic,Orange County Sanitation Districts,Plastic,1,Bottom,1,unknown
+133,B13-9171,NA,1,Inner Shelf,6.35969097,Dana Point Harbor,33.519332,-117.768245,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,0,Kelp Stipe/Blade.  Lots of individual blades,0,unknown
+134,B13-9171,NA,1,Inner Shelf,6.35969097,Dana Point Harbor,33.519332,-117.768245,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,0,Seagrass.  Holdfast clump,0,unknown
+135,B13-9171,NA,1,Inner Shelf,6.35969097,Dana Point Harbor,33.519332,-117.768245,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,4,Kelp Holdfast,0,unknown
+136,B13-9173,0009-05-20,1,MPA,7.72644587,Orange Slope,33.522648,-117.794141,Plastic,Plastic,Orange County Sanitation Districts,Plastic,1,Clear,1,unknown
+137,B13-9174,NA,1,Upper Slope,98.50645161,Orange Slope,33.535885,-117.846826,Metal,Cans,Orange County Sanitation Districts,Recyclable,2,Photo taken - 1 can Coors Light - 1 partial can Diet Coke,1,unknown
+138,B13-9177,NA,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Terrestrial Vegetation,Terrestrial Vegetation,Orange County Sanitation Districts,Biodegradable,1,NA,0,unknown
+139,B13-9177,NA,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Plastic,Plastic,Orange County Sanitation Districts,Plastic,1,Photo taken,1,unknown
+140,B13-9177,NA,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Metal,Metal debris,Orange County Sanitation Districts,Metal,1,Photo taken - remains of a crab trap,1,unknown
+141,B13-9177,NA,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Seagrass,0,unknown
+142,B13-9177,NA,1,MPA,2.7940155,Orange Slope,33.546366,-117.822363,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,38,Kelp holdfasts of various sizes,0,unknown
+143,B13-9179,NA,1,Upper Slope,98.50645161,San Pedro Channel,33.554635,-118.016943,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Kelp Stipe/Blade,0,unknown
+144,B13-9179,NA,1,Upper Slope,98.50645161,San Pedro Channel,33.554635,-118.016943,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Kelp Holdfast,0,unknown
+145,B13-9179,NA,1,Upper Slope,98.50645161,San Pedro Channel,33.554635,-118.016943,Metal,Cans,Orange County Sanitation Districts,Recyclable,1,Miller MGD can,1,unknown
+146,B13-9185,NA,1,Outer Shelf,16.67756423,San Pedro Channel,33.564518,-118.017204,Plastic,Plastic,Orange County Sanitation Districts,Plastic,1,Oil,1,unknown
+147,B13-9185,NA,1,Outer Shelf,16.67756423,San Pedro Channel,33.564518,-118.017204,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Gorgonian Sea Fan - Red,0,unknown
+148,B13-9187,NA,1,MPA,2.7940155,Orange Slope,33.567318,-117.853792,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,9,Kelp Holdfast,0,unknown
+149,B13-9187,NA,1,MPA,2.7940155,Orange Slope,33.567318,-117.853792,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Kelp Stipe/Blade Weight = 11.8 kg,0,unknown
+150,B13-9187,NA,1,MPA,2.7940155,Orange Slope,33.567318,-117.853792,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Seagrass,0,unknown
+151,B13-9187,NA,1,MPA,2.7940155,Orange Slope,33.567318,-117.853792,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Gorgonian Sea Fan,0,unknown
+152,B13-9192,NA,1,MPA,4.07437995,Orange Shelf,33.579032,-117.865544,Misc. Items/Pieces,Other,Orange County Sanitation Districts,Miscellaneous,1,Estimate = M,1,unknown
+153,B13-9192,NA,1,MPA,4.07437995,Orange Shelf,33.579032,-117.865544,Plastic,Plastic,Orange County Sanitation Districts,Plastic,2,1 piece green - 1 piece clear,1,unknown
+154,B13-9192,NA,1,MPA,4.07437995,Orange Shelf,33.579032,-117.865544,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Seagrass,0,unknown
+155,B13-9194,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Recyclable,1,No label,1,unknown
+156,B13-9194,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Terrestrial Vegetation,Terrestrial Vegetation,Orange County Sanitation Districts,Biodegradable,2,NA,0,unknown
+157,B13-9194,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Plastic,1,Black,1,unknown
+158,B13-9194,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Glass,Glass bottles,Orange County Sanitation Districts,Recyclable,1,No label,1,unknown
+159,B13-9194,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Plastic,Plastic,Orange County Sanitation Districts,Plastic,1,Long thin ribbon,1,unknown
+160,B13-9194,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.589217,-117.892025,Metal,Metal debris,Orange County Sanitation Districts,Metal,1,Aluminum foil,1,unknown
+161,B13-9199,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.600452,-118.054199,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Marine Vegetation,0,unknown
+162,B13-9199,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.600452,-118.054199,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Kelp Stipe/Blade,0,unknown
+163,B13-9200,NA,1,Mid Shelf,56.20926257,Orange Shelf,33.60313,-118.09835,No Debris Present,None,Los Angeles County Sanitation Districts,Miscellaneous,0,NA,0,unknown
+164,B13-9204,NA,1,Inner Shelf,35.65453697,San Pedro Shelf,33.625651,-117.984603,Marine Origin,Marine Vegetation,Orange County Sanitation Districts,Marine_Origniated,1,Kelp Stipe/Blade.  Weight = 1100 grams,0,unknown
+165,B13-9214,NA,1,Inner Shelf,35.65453697,San Pedro Channel,33.643449,-118.081022,No Debris Present,None,Orange County Sanitation Districts,Miscellaneous,0,NA,0,unknown
+166,B13-9217,NA,1,Mid Shelf,56.20926257,Los Angeles/Long Beach,33.64763,-118.1538,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,"Macrocystis, Pteragophera, Laminarians",0,unknown
+167,B13-9217,NA,1,Mid Shelf,56.20926257,Los Angeles/Long Beach,33.64763,-118.1538,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,3,Laminaria,0,unknown
+168,B13-9217,NA,1,Mid Shelf,56.20926257,Los Angeles/Long Beach,33.64763,-118.1538,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Various red spp.,0,unknown
+169,B13-9219,NA,1,Inner Shelf,35.65453697,Orange Shelf,33.656299,-118.059782,No Debris Present,None,Orange County Sanitation Districts,Miscellaneous,0,NA,0,unknown
+170,B13-9221,NA,1,Inner Shelf,35.65453697,San Pedro Shelf,33.6603,-118.13449,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,1,small macrocystis,0,unknown
+171,B13-9221,NA,1,Inner Shelf,35.65453697,San Pedro Shelf,33.6603,-118.13449,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Macrocystis,0,unknown
+172,B13-9221,NA,1,Inner Shelf,35.65453697,San Pedro Shelf,33.6603,-118.13449,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Reds,0,unknown
+173,B13-9223,NA,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,1,7-up,1,unknown
+174,B13-9223,NA,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,3,NA,0,unknown
+175,B13-9223,NA,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,3,small,0,unknown
+176,B13-9223,NA,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,2,NA,0,unknown
+177,B13-9223,NA,2,Upper Slope,98.50645161,Palos Verdes Shelf,33.67607,-118.33359,Metal,Cans,Los Angeles County Sanitation Districts,Recyclable,1,part of one can,1,unknown
+178,B13-9228,NA,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Miscellaneous,4,clinkers,1,unknown
+179,B13-9228,NA,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,1,Lid to pepper can,1,unknown
+180,B13-9228,NA,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Misc. Items/Pieces,Lumber,Los Angeles County Sanitation Districts,Biodegradable,1,"6"" small piece",1,unknown
+181,B13-9228,NA,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,1,Egregia,0,unknown
+182,B13-9228,NA,1,Upper Slope,98.50645161,Palos Verdes Shelf,33.69252,-118.34422,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Miscellaneous,1,blob of caulk,1,unknown
+183,B13-9229,NA,1,Inner Shelf,35.65453697,Palos Verdes Shelf,33.69511,-118.29172,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Macrocystis,0,unknown
+184,B13-9229,NA,1,Inner Shelf,35.65453697,Palos Verdes Shelf,33.69511,-118.29172,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,4,NA,0,unknown
+185,B13-9235,NA,1,MPA,7.10222287,Palos Verdes Shelf,33.70392,-118.39901,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,2,"clear, thin",1,unknown
+186,B13-9235,NA,1,MPA,7.10222287,Palos Verdes Shelf,33.70392,-118.39901,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,2,"<4"" long",0,unknown
+187,B13-9237,NA,1,MPA,7.10222287,Santa Monica Bay,33.7201,-118.4144,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,1,maybe plastic ruler.  Item recorded but discarded.,1,unknown
+188,B13-9239,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,1,Red - Muricea californica,0,unknown
+189,B13-9239,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,"Egregia, Macrocystis",0,unknown
+190,B13-9239,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Tree roots & shoots,0,unknown
+191,B13-9239,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,2,Water bottle,1,unknown
+192,B13-9239,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.7213,-118.15279,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,1,Line,1,unknown
+193,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Miscellaneous,11,"ziploc snack size, mickey mouse candy, snickers, reeses, Bon sola sol, Tamarind candy",1,unknown
+194,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,7,"Water w/ sports lid, soda w/ red lid, water w/ clear lid",1,unknown
+195,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,2,"Red party cup, clear",1,unknown
+196,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Metal,Cans,Los Angeles County Sanitation Districts,Recyclable,3,"Red Bull, Modelo especial, Bud light chelada",1,unknown
+197,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,"Red filamentous, foliose",0,unknown
+198,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,3,NA,1,unknown
+199,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,1,Leaf,0,unknown
+200,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,3,"groblock label, tobacco wrapper, green sewing grid",1,unknown
+201,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,42,"big white square, clear",1,unknown
+202,B13-9245,0008-12-20,1,Inner Shelf,35.65453697,Orange Shelf,33.73163,-118.11825,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,0,Macrocystis,0,unknown
+203,B13-9251,NA,1,Outer Shelf,16.67756423,Santa Monica Bay,33.76299,-118.45776,Glass,Glass bottles,Los Angeles County Sanitation Districts,Recyclable,1,NA,1,unknown
+204,B13-9251,NA,1,Outer Shelf,16.67756423,Santa Monica Bay,33.76299,-118.45776,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,1,"small piece of driftwood  ~4""",0,unknown
+205,B13-9251,NA,1,Outer Shelf,16.67756423,Santa Monica Bay,33.76299,-118.45776,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,1,Egregia?,0,unknown
+206,B13-9251,NA,1,Outer Shelf,16.67756423,Santa Monica Bay,33.76299,-118.45776,Plastic,Plastic,Los Angeles County Sanitation Districts,Plastic,1,Piece of lens cap,1,unknown
+207,B13-9257,NA,1,Inner Shelf,35.65453697,Santa Monica Bay,33.8306,-118.400067,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+208,B13-9257,NA,1,Inner Shelf,35.65453697,Santa Monica Bay,33.8306,-118.400067,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+209,B13-9257,NA,1,Inner Shelf,35.65453697,Santa Monica Bay,33.8306,-118.400067,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+210,B13-9266,0009-03-20,1,Mid Shelf,56.20926257,Santa Monica Bay,33.858467,-118.445183,No Debris Present,None,City of Los Angeles Environmental Monitoring Division,Miscellaneous,0,NA,0,unknown
+211,B13-9271,NA,1,Mid Shelf,56.20926257,Hueneme to Dume,33.895217,-118.535467,Metal,Plastic,City of Los Angeles Environmental Monitoring Division,Metal,1,piece of crab trap,1,unknown
+212,B13-9286,NA,1,Mid Shelf,56.20926257,Hueneme to Dume,33.9317,-118.538383,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic,1,5 inches of monofilament,1,unknown
+213,B13-9287,0009-04-20,1,Outer Shelf,16.67756423,Hueneme to Dume,33.93395,-118.590517,No Debris Present,None,City of Los Angeles Environmental Monitoring Division,Miscellaneous,0,NA,0,unknown
+214,B13-9292,NA,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic,1,Piece of bag or plastic sheet,1,unknown
+215,B13-9292,NA,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic,1,NA,1,unknown
+216,B13-9292,NA,1,Mid Shelf,56.20926257,Hueneme to Dume,33.943233,-118.515633,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic,1,Auto or boat part; possibly side mirror or bumber piece,1,unknown
+217,B13-9300,0009-04-20,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic,1,"Beverage, clear",1,unknown
+218,B13-9300,0009-04-20,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Metal,Metal debris,City of Los Angeles Environmental Monitoring Division,Metal,1,"aluminum sheeting, possibly aircraft",1,unknown
+219,B13-9300,0009-04-20,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,1,1 ft,0,unknown
+220,B13-9300,0009-04-20,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic,1,monofilament; several feet,1,unknown
+221,B13-9300,0009-04-20,1,Outer Shelf,16.67756423,Hueneme to Dume,33.953883,-118.59055,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,1,NA,0,unknown
+222,B13-9303,0009-09-20,2,Inner Shelf,35.65453697,Santa Monica Bay,33.962,-118.475433,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+223,B13-9303,0009-09-20,2,Inner Shelf,35.65453697,Santa Monica Bay,33.962,-118.475433,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,various species,0,unknown
+224,B13-9309,NA,1,Upper Slope,98.50645161,Hueneme to Dume,33.97731,-118.877507,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,2,small sticks,0,unknown
+225,B13-9309,NA,1,Upper Slope,98.50645161,Hueneme to Dume,33.97731,-118.877507,Plastic,Plastic,Vantuna Research Group,Plastic,1,"""King Pop"" wrapper",1,unknown
+226,B13-9309,NA,1,Upper Slope,98.50645161,Hueneme to Dume,33.97731,-118.877507,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,small,0,unknown
+227,B13-9314,NA,2,MPA,4.35019692,Hueneme to Dume,33.99337,-118.86241,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+228,B13-9314,NA,2,MPA,4.35019692,Hueneme to Dume,33.99337,-118.86241,Terrestrial Vegetation,Terrestrial Vegetation,Aquatic Bioassay Consultants,Biodegradable,0,NA,0,unknown
+229,B13-9316,0009-04-20,1,Mid Shelf,56.20926257,Santa Monica Bay,33.994867,-118.6274,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,4,"small pieces, blade",0,unknown
+230,B13-9316,0009-04-20,1,Mid Shelf,56.20926257,Santa Monica Bay,33.994867,-118.6274,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,5,NA,0,unknown
+231,B13-9319,0009-10-20,1,Inner Shelf,35.65453697,Santa Monica Bay,33.997033,-118.49135,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+232,B13-9319,0009-10-20,1,Inner Shelf,35.65453697,Santa Monica Bay,33.997033,-118.49135,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,6.15 kg,0,unknown
+233,B13-9320,NA,1,MPA,7.72644587,Hueneme to Dume,34.00077,-118.87336,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+234,B13-9321,NA,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Glass,Glass bottles,Vantuna Research Group,Recyclable,1,small piece,1,unknown
+235,B13-9321,NA,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Plastic,Plastic,Vantuna Research Group,Plastic,1,tarp strap,1,unknown
+236,B13-9321,NA,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,2,NA,0,unknown
+237,B13-9321,NA,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,6,~2 kg each,0,unknown
+238,B13-9321,NA,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,0,NA,0,unknown
+239,B13-9321,NA,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+240,B13-9321,NA,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+241,B13-9321,NA,1,MPA,7.72644587,Hueneme to Dume,33.999613,-118.81427,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,13,NA,0,unknown
+242,B13-9323,NA,1,MPA,7.72644587,Hueneme to Dume,34.000304,-118.822712,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+243,B13-9323,NA,1,MPA,7.72644587,Hueneme to Dume,34.000304,-118.822712,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,NA,0,unknown
+244,B13-9323,NA,1,MPA,7.72644587,Hueneme to Dume,34.000304,-118.822712,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+245,B13-9325,NA,1,Outer Shelf,16.67756423,Hueneme to Dume,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Plastic,1,NA,1,unknown
+246,B13-9325,NA,1,Outer Shelf,16.67756423,Hueneme to Dume,34.006252,-119.054103,Plastic,Plastic,Vantuna Research Group,Plastic,2,cracker bags?,1,unknown
+247,B13-9326,NA,1,Mid Shelf,56.20926257,Santa Monica Bay,34.0037,-118.76935,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+248,B13-9326,NA,1,Mid Shelf,56.20926257,Santa Monica Bay,34.0037,-118.76935,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,1,NA,0,unknown
+249,B13-9331,NA,1,Mid Shelf,56.20926257,Santa Monica Bay,34.0133,-118.66725,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+250,B13-9331,NA,1,Mid Shelf,56.20926257,Santa Monica Bay,34.0133,-118.66725,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+251,B13-9331,NA,1,Mid Shelf,56.20926257,Santa Monica Bay,34.0133,-118.66725,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+252,B13-9336,NA,1,Inner Shelf,35.65453697,Hueneme to Dume,34.019767,-118.743717,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,small pieces,0,unknown
+253,B13-9336,NA,1,Inner Shelf,35.65453697,Hueneme to Dume,34.019767,-118.743717,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,small pieces,0,unknown
+254,B13-9336,NA,1,Inner Shelf,35.65453697,Hueneme to Dume,34.019767,-118.743717,Plastic,Plastic,City of Los Angeles Environmental Monitoring Division,Plastic,1,Similar to Easter grass,1,unknown
+255,B13-9336,NA,1,Inner Shelf,35.65453697,Hueneme to Dume,34.019767,-118.743717,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,NA,0,unknown
+256,B13-9339,NA,1,MPA,7.72644587,Hueneme to Dume,34.02242,-118.87612,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,2,NA,0,unknown
+257,B13-9341,0009-10-20,1,Inner Shelf,35.65453697,Santa Monica Bay,34.02265,-118.590817,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,1,<0.05 kg,0,unknown
+258,B13-9341,0009-10-20,1,Inner Shelf,35.65453697,Santa Monica Bay,34.02265,-118.590817,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,2,<0.05 kg,0,unknown
+259,B13-9341,0009-10-20,1,Inner Shelf,35.65453697,Santa Monica Bay,34.02265,-118.590817,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,0,various small pieces,0,unknown
+260,B13-9342,0009-10-20,1,Inner Shelf,35.65453697,Hueneme to Dume,34.0262,-118.568983,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,2,2 blades,0,unknown
+261,B13-9342,0009-10-20,1,Inner Shelf,35.65453697,Hueneme to Dume,34.0262,-118.568983,Marine Origin,Marine Vegetation,City of Los Angeles Environmental Monitoring Division,Marine_Origniated,1,small piece,0,unknown
+262,B13-9348,NA,1,Upper Slope,98.50645161,Hueneme to Dume,34.03957,-119.19698,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,1,NA,0,unknown
+263,B13-9348,NA,1,Upper Slope,98.50645161,Hueneme to Dume,34.03957,-119.19698,Misc. Items/Pieces,Other,Los Angeles County Sanitation Districts,Biodegradable,1,NA,1,unknown
+264,B13-9348,NA,1,Upper Slope,98.50645161,Hueneme to Dume,34.03957,-119.19698,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,2,NA,0,unknown
+265,B13-9350,NA,1,Outer Shelf,16.67756423,Hueneme to Dume,34.04374,-119.058,Marine Origin,Marine Vegetation,Los Angeles County Sanitation Districts,Marine_Origniated,2,small,0,unknown
+266,B13-9350,NA,1,Outer Shelf,16.67756423,Hueneme to Dume,34.04374,-119.058,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,2,small branch & wood block,0,unknown
+267,B13-9354,NA,1,Upper Slope,98.50645161,Hueneme to Dume,34.05092,-119.21821,Terrestrial Vegetation,Terrestrial Vegetation,Los Angeles County Sanitation Districts,Biodegradable,1,small wood stick,0,unknown
+268,B13-9354,NA,1,Upper Slope,98.50645161,Hueneme to Dume,34.05092,-119.21821,Glass,Glass bottles,Los Angeles County Sanitation Districts,Recyclable,1,Hennessy Cognac - Green,1,unknown
+269,B13-9356,0009-06-20,1,Outer Shelf,16.67756423,Hueneme to Dume,34.05389,-119.15568,Terrestrial Vegetation,Terrestrial Vegetation,Aquatic Bioassay Consultants,Biodegradable,1,NA,0,unknown
+270,B13-9356,0009-06-20,1,Outer Shelf,16.67756423,Hueneme to Dume,34.05389,-119.15568,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,4,NA,0,unknown
+271,B13-9372,NA,1,Inner Shelf,35.65453697,Hueneme to Dume,34.10179,-119.15284,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+272,B13-9372,NA,1,Inner Shelf,35.65453697,Hueneme to Dume,34.10179,-119.15284,Terrestrial Vegetation,Terrestrial Vegetation,Aquatic Bioassay Consultants,Biodegradable,1,NA,0,unknown
+273,B13-9374,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.106938,-119.321987,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,eelgrass,0,unknown
+274,B13-9377,NA,1,Inner Shelf,35.65453697,Hueneme to Dume,34.11387,-119.18192,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+275,B13-9379,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.118608,-119.630503,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,shark/ray parts,0,unknown
+276,B13-9380,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.12374,-119.33325,No Debris Present,None,Aquatic Bioassay Consultants,Miscellaneous,0,NA,0,unknown
+277,B13-9382,NA,1,Inner Shelf,35.65453697,East Santa Barbara Channel,34.125287,-119.261288,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,all blades,0,unknown
+278,B13-9382,NA,1,Inner Shelf,35.65453697,East Santa Barbara Channel,34.125287,-119.261288,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,1,2 kg log,0,unknown
+279,B13-9383,0009-06-20,1,Inner Shelf,35.65453697,Hueneme to Dume,34.1262,-119.19485,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+280,B13-9385,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.132872,-119.371883,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+281,B13-9387,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.143587,-120.177188,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+282,B13-9388,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.146005,-119.772347,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+283,B13-9391,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.158032,-119.8281,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,small part of holdfast,0,unknown
+284,B13-9391,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.158032,-119.8281,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,mixed eelgrass and surfgrass,0,unknown
+285,B13-9394,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Plastic,1,stick,1,unknown
+286,B13-9394,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.169003,-119.54198,Plastic,Plastic,Vantuna Research Group,Plastic,1,trash bag?,1,unknown
+287,B13-9396,NA,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,emulsified oil (?) all over net,0,unknown
+288,B13-9396,NA,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Misc. Items/Pieces,Other,Vantuna Research Group,Fabric Cloth,1,small swatch,1,unknown
+289,B13-9396,NA,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+290,B13-9396,NA,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Plastic,1,wrapper?,1,unknown
+291,B13-9396,NA,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Plastic,Plastic,Vantuna Research Group,Plastic,1,grommet from tarp,1,unknown
+292,B13-9396,NA,3,Upper Slope,98.50645161,East Santa Barbara Channel,34.171304,-119.87626,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,NA,0,unknown
+293,B13-9397,NA,1,Inner Shelf,35.65453697,East Santa Barbara Channel,34.18497,-119.35116,No Debris Present,None,Aquatic Bioassay Consultants,Miscellaneous,0,NA,0,unknown
+294,B13-9398,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.179395,-119.612567,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,NA,0,unknown
+295,B13-9398,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.179395,-119.612567,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,ball of surfgrass,0,unknown
+296,B13-9398,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.179395,-119.612567,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,1,NA,0,unknown
+297,B13-9399,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.182183,-120.40688,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,1,NA,0,unknown
+298,B13-9399,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.182183,-120.40688,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+299,B13-9399,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.182183,-120.40688,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+300,B13-9400,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.184059,-120.35593,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,1,NA,0,unknown
+301,B13-9400,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.184059,-120.35593,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+302,B13-9403,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.206832,-119.635323,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+303,B13-9407,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.216753,-119.605325,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+304,B13-9409,NA,1,Inner Shelf,35.65453697,Hueneme to Dume,34.22391,-119.29943,Misc. Items/Pieces,Other,Aquatic Bioassay Consultants,Biodegradable,1,NA,1,unknown
+305,B13-9414,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.226393,-119.733735,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+306,B13-9419,NA,2,Outer Shelf,16.67756423,East Santa Barbara Channel,34.23285,-119.66165,Terrestrial Vegetation,Terrestrial Vegetation,Aquatic Bioassay Consultants,Biodegradable,2,NA,0,unknown
+307,B13-9419,NA,2,Outer Shelf,16.67756423,East Santa Barbara Channel,34.23285,-119.66165,Plastic,Plastic,Aquatic Bioassay Consultants,Plastic,1,NA,1,unknown
+308,B13-9421,NA,1,Inner Shelf,35.65453697,East Santa Barbara Channel,34.24567,-119.37254,No Debris Present,None,Aquatic Bioassay Consultants,Miscellaneous,0,NA,0,unknown
+309,B13-9424,0009-12-20,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.26338,-119.48072,No Debris Present,None,Aquatic Bioassay Consultants,Miscellaneous,0,NA,0,unknown
+310,B13-9426,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.258198,-119.809933,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,NA,0,unknown
+311,B13-9427,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.260202,-120.282198,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,1,NA,0,unknown
+312,B13-9427,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.260202,-120.282198,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,mixed eelgrass and surfgrass,0,unknown
+313,B13-9427,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.260202,-120.282198,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,Pterygophora californica,0,unknown
+314,B13-9431,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.28286,-119.6646,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+315,B13-9432,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.277462,-119.717675,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,eelgrass,0,unknown
+316,B13-9433,0009-11-20,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.27897,-119.5848,No Debris Present,None,Aquatic Bioassay Consultants,Miscellaneous,0,NA,0,unknown
+317,B13-9435,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.285222,-120.42729,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,surfgrass,0,unknown
+318,B13-9435,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.285222,-120.42729,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,large stipe,0,unknown
+319,B13-9436,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.288591,-120.459736,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,mixed eelgrass and surfgrass,0,unknown
+320,B13-9441,NA,1,Upper Slope,98.50645161,East Santa Barbara Channel,34.314902,-119.88686,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+321,B13-9444,NA,1,Outer Shelf,16.67756423,East Santa Barbara Channel,34.320107,-119.750878,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+322,B13-9447,0009-12-20,1,Inner Shelf,35.65453697,Hueneme to Dume,34.34453,-119.46177,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,1,NA,0,unknown
+323,B13-9447,0009-12-20,1,Inner Shelf,35.65453697,Hueneme to Dume,34.34453,-119.46177,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+324,B13-9448,0008-06-20,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.346364,-119.779392,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+325,B13-9449,NA,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.344263,-119.562572,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,3,Cephaloscyllium ventriosum egg cases,0,unknown
+326,B13-9449,NA,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.344263,-119.562572,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,small,0,unknown
+327,B13-9450,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.34458,-120.370385,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,2,NA,0,unknown
+328,B13-9450,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.34458,-120.370385,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+329,B13-9450,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.34458,-120.370385,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,3,NA,0,unknown
+330,B13-9450,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.34458,-120.370385,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,Egregia menziesii,0,unknown
+331,B13-9454,0008-07-20,1,MPA,7.72644587,East Santa Barbara Channel,34.360922,-119.854586,No Debris Present,None,Aquatic Bioassay Consultants,Miscellaneous,0,NA,0,unknown
+332,B13-9455,NA,1,Outer Shelf,4.35019692,East Santa Barbara Channel,34.362304,-119.895231,Plastic,Plastic,Vantuna Research Group,Miscellaneous,1,NA,1,unknown
+333,B13-9455,NA,1,Outer Shelf,4.35019692,East Santa Barbara Channel,34.362304,-119.895231,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,mixed eelgrass and surfgrass,0,unknown
+334,B13-9456,0008-07-20,1,Mid Shelf,7.72644587,East Santa Barbara Channel,34.362338,-119.85358,No Debris Present,None,Aquatic Bioassay Consultants,Miscellaneous,0,NA,0,unknown
+335,B13-9457,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.363057,-120.009978,No Debris Present,None,Vantuna Research Group,Miscellaneous,0,No Debris Present,0,unknown
+336,B13-9458,0009-11-20,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.36851,-119.54238,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,1,NA,0,unknown
+337,B13-9458,0009-11-20,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.36851,-119.54238,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+338,B13-9459,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.368948,-120.116513,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,mixed eelgrass and surfgrass,0,unknown
+339,B13-9459,NA,1,Upper Slope,98.50645161,West Santa Barbara Channel,34.368948,-120.116513,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,Egregia menziesii,0,unknown
+340,B13-9465,NA,1,MPA,7.72644587,East Santa Barbara Channel,34.394734,-119.85726,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,Gracilaria and Desmarestia,0,unknown
+341,B13-9465,NA,1,MPA,7.72644587,East Santa Barbara Channel,34.394734,-119.85726,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,2,NA,0,unknown
+342,B13-9465,NA,1,MPA,7.72644587,East Santa Barbara Channel,34.394734,-119.85726,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+343,B13-9465,NA,1,MPA,7.72644587,East Santa Barbara Channel,34.394734,-119.85726,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,2,NA,0,unknown
+344,B13-9465,NA,1,MPA,7.72644587,East Santa Barbara Channel,34.394734,-119.85726,Plastic,Plastic,Vantuna Research Group,Plastic,1,oil or coolant bottle,1,unknown
+345,B13-9466,0008-06-20,1,Inner Shelf,35.65453697,East Santa Barbara Channel,34.393408,-119.668002,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+346,B13-9467,0009-11-20,1,Inner Shelf,6.35969097,East Santa Barbara Channel,34.3996,-119.86724,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+347,B13-9468,0009-11-20,1,MPA,6.35969097,East Santa Barbara Channel,34.40112,-119.8791,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+348,B13-9470,0009-11-20,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.40006,-119.8346,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+349,B13-9470,0009-11-20,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.40006,-119.8346,Marine Origin,Marine Vegetation,Aquatic Bioassay Consultants,Marine_Origniated,0,NA,0,unknown
+350,B13-9470,0009-11-20,1,Mid Shelf,56.20926257,East Santa Barbara Channel,34.40006,-119.8346,Misc. Items/Pieces,Other,Aquatic Bioassay Consultants,Miscellaneous,1,large boat piece,1,unknown
+351,B13-9471,NA,2,Inner Shelf,35.65453697,East Santa Barbara Channel,34.403698,-119.812175,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,Gracilaria,0,unknown
+352,B13-9471,NA,2,Inner Shelf,35.65453697,East Santa Barbara Channel,34.403698,-119.812175,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+353,B13-9471,NA,2,Inner Shelf,35.65453697,East Santa Barbara Channel,34.403698,-119.812175,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,mixed eelgrass and surfgrass,0,unknown
+354,B13-9476,NA,1,Outer Shelf,16.67756423,West Santa Barbara Channel,34.420267,-120.268282,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+355,B13-9476,NA,1,Outer Shelf,16.67756423,West Santa Barbara Channel,34.420267,-120.268282,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,Laminaria,0,unknown
+356,B13-9476,NA,1,Outer Shelf,16.67756423,West Santa Barbara Channel,34.420267,-120.268282,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,NA,0,unknown
+357,B13-9482,NA,1,Mid Shelf,56.20926257,West Santa Barbara Channel,34.443547,-120.285017,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,1,3 kg,0,unknown
+358,B13-9482,NA,1,Mid Shelf,56.20926257,West Santa Barbara Channel,34.443547,-120.285017,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,Laminaria and Pterygophora,0,unknown
+359,B13-9487,NA,1,Inner Shelf,35.65453697,West Santa Barbara Channel,34.464803,-120.177835,Marine Origin,Marine Vegetation,Vantuna Research Group,Marine_Origniated,0,NA,0,unknown
+360,B13-9487,NA,1,Inner Shelf,35.65453697,West Santa Barbara Channel,34.464803,-120.177835,Terrestrial Vegetation,Terrestrial Vegetation,Vantuna Research Group,Biodegradable,0,NA,0,unknown
